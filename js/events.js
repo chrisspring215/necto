@@ -45,6 +45,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Nov 15, 2019 21:00:00"),
+        "eventName"    : "KWEEN Presents Isaac Escalante",
+        "eventArtist"  : "Isaac Escalante",
+        "eventDesc"    : "DJ Isaac Escalante is our next Circuit Party DJ! Necto is happy to host the Circuit Festival Miami Kickoff Party",
+        "eventDescLong"    : "DJ Isaac Escalante is our next Circuit Party DJ! Necto is happy to host the Circuit Festival Miami Kickoff Party!<br><br>Featuring DJ Jace & Maxi Chanel<br>DJ Isaac Escalante, renowned Mexican Dj and Producer, has taken over the musical scene of Mexico City, Sao Paulo , Rio, Florianopolis, Bogota, Montreal,New York, Miami, Tel Aviv, Hawaii, Rome , Lisbon , Amsterdam, Toronto , Atlanta, Los Angeles, Madrid, Barcelona and many other cities since his first gigs at 16, where he mixed at private parties and fashion shows.<br><br>DJ Isaac Escalante´s House, Tribal and Electro House mixes capture the dance floor of Mexico´s #1 DJ Club, Club Living, every weekend, where thousands of music fans enjoy his talent and craft.<br><br>For Isaac Escalante the musical experience goes beyond the dance floor, being responsible for the production of such tracks as: Cheater (2005), Latin Army (2005), Leroy (2006), Took My Heart (2006) Laguna (2006). Monaco (2007), Fresh (2008) , Zambomba(2008) Galaxy (2009) Love me (2010) and remixd tracks for artists like Ronen Mizrahi, Bruno Renno, Edson Pride , Fc Nond, Altar,Mickey Fridman , Dan De Leon, Avri Levy and more.<br><br><br>Isaac has conquered the world market. In less than a year he has become one of the most important international Djs in Latin America. He is one of a very few International Dj´s that obtained a residence at the best and biggest club of south America, “The Week”.<br><br>Talent, wit, experience and an incredible talent for music, has been Isaac Escalante´s trademark for many years.<br><br>VIP Information - VIP@necto.com",
+        "eventCover"   : "$5 for 21+ and $10 for 18-20",
+        "eventLink"    : "special-events/" + "isaac-escalante-at-necto-nightclub-ann-arbor-michigan-nov-15-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/442735246599129/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "isaac-escalante-at-necto-nightclub-ann-arbor-michigan-nov-15-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Nov 8, 2019 21:00:00"),
         "eventName"    : "NINA WEST (RuPaul's Drag Race S11 Miss Congeniality)",
         "eventArtist"  : "NINA WEST",
