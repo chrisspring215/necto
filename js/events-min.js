@@ -5,7 +5,7 @@ var eventsJSON = [
  "eventArtist" : "SoDown",
  "eventDesc" : "To be SoDown is to seize every opportunity, explore new grounds, try new things and ultimately live the most epic life possible. This universe is far too beautiful and life is simply too short to not do what makes you happy. Unconditional love is the most powerful force in the world and Bass Music is my way of expressing it.",
  "eventDescLong" : "To be SoDown is to seize every opportunity, explore new grounds, try new things and ultimately live the most epic life possible. This universe is far too beautiful and life is simply too short to not do what makes you happy. Unconditional love is the most powerful force in the world and Bass Music is my way of expressing it.<br><br>VIP services available. Contact: VIP@necto.com",
- "eventCover" : "Pre-sale tickets: General Admission $10 - $18 | DOS $20 ",
+ "eventCover" : "Pre-sale tickets: General Admission $10 - $18 | DOS $20",
  "eventLink" : "special-events/" + "sodown-at-necto-nightclub-ann-arbor-michigan-jan-9-2020.html",
  "eventSocial" : "https://www.facebook.com/events/722230451585236/",
  "eventTix" : "https://sodown_necto.eventbrite.com",
