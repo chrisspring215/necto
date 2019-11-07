@@ -60,6 +60,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Nov 25, 2019 21:00:00"),
+        "eventName"    : "Factory Fall Formal",
+        "eventArtist"  : "Factory Fall formal",
+        "eventDesc"    : "Dress fancy dress to impress get your picture taken with your Factory family.",
+        "eventDescLong"    : "Dress fancy dress to impress get your picture taken with your Factory family.<br><br>• Cover $3 (special event no free passes)<br><br>• MUSIC. Dj DarksChoir and DJ’s Graphite & Misanthropia Narcissus spinning Goth Industrial, SynthPop, EBM, & more on the main floor. Down in the Red Room, Sub:Merge with DJ KnowLedge playing Old school, forgotten classics, remixes, mash-ups and newest hits<br><br>• VISUALS. Remnant will be providing the villainous visuals on the main floor<br><br>• Pictures by Nick Vernier<br><br>• DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night, with $3 craft beers and $2 Long Islands til 11!  (special drink item to be featured)<br><br>• VIP services available. Contact VIP@necto.com, 734-994-5436, or book via necto.com",
+        "eventCover"   : "$3 cover. no free passes",
+        "eventLink"    : "special-events/" + "factory-fall-formal-at-necto-nightclub-ann-arbor-michigan-nov-25-2019.html",
+        "eventSocial"  : "https://business.facebook.com/events/1388085804684693/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-fall-formal-at-necto-nightclub-ann-arbor-michigan-nov-25-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Nov 15, 2019 21:00:00"),
         "eventName"    : "KWEEN Presents Isaac Escalante",
         "eventArtist"  : "Isaac Escalante",
@@ -86,6 +101,21 @@ var eventsJSON = [
         "eventTix"     : "https://ninawest_necto.eventbrite.com",
         "eventImgWide" : "img/event-images/" + "nina-west-at-necto-nightclub-ann-arbor-michigan-nov-8-2019.jpg",
         "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Nov 7, 2019 21:00:00"),
+        "eventName"    : "ATLiens : Ghost Planet Tour",
+        "eventArtist"  : "ATLiens",
+        "eventDesc"    : "Hailing from Atlanta, GA, the masked menace DJ/producer duo known as ATLiens has unleashed a steady stream of dark, trance-inducing, bass-driven music – hurtling these young guns towards the top of the trap & bass music scene nation-wide and to countries far and wide.",
+        "eventDescLong"    : "with opening sets by<br><br> Huxley Anne<br>NickyBoom<br>Dash Riot<br><br>Hailing from Atlanta, GA, the masked menace DJ/producer duo known as ATLiens has unleashed a steady stream of dark, trance-inducing, bass-driven music – hurtling these young guns towards the top of the trap & bass music scene nation-wide and to countries far and wide.<br><br>VIP services available. Contact: VIP@necto.com",
+        "eventCover"   : "Pre-sale tickets: General Admission $10 - $18 | DOS $20 ",
+        "eventLink"    : "special-events/" + "atliens-at-necto-nightclub-ann-arbor-michigan-nov-7-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/489565011886045/",
+        "eventTix"     : "https://atliens_necto.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "atliens-at-necto-nightclub-ann-arbor-michigan-nov-7-2019.jpg",
+        "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
