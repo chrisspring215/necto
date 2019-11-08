@@ -45,6 +45,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Dec 6, 2019 21:00:00"),
+ "eventName" : "Dragster presents... DERRICK BARRY (RuPaul's Drag Race S8)",
+ "eventArtist" : "DERRICK BARRY",
+ "eventDesc" : "It's Derrick bitch! Derrick Barry is a drag queen and Britney Spears impersonator, who is also a contestant in Season 8 of RuPaul's Drag Race. She is remembered for being the 100th queen to enter the Werk Room. In Episode 8 of RuPaul's Drag Race, she was eliminated and finished in 5th place.",
+ "eventDescLong" : "Doors at 9pm | 1st show at 9:45PM | Encore at 12AM<br><br>It's Derrick bitch! Derrick Barry is a drag queen and Britney Spears impersonator, who is also a contestant in Season 8 of RuPaul's Drag Race. She is remembered for being the 100th queen to enter the Werk Room. In Episode 8 of RuPaul's Drag Race, she was eliminated and finished in 5th place.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $25",
+ "eventLink" : "special-events/" + "derrick-barry-at-necto-nightclub-ann-arbor-michigan-dec-6-2019.html",
+ "eventSocial" : "https://www.facebook.com/events/2535270830041158/",
+ "eventTix" : "https://derrickbarry_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "derrick-barry-at-necto-nightclub-ann-arbor-michigan-dec-6-2019.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Dec 5, 2019 21:00:00"),
  "eventName" : "LOST KINGS : Lost Angeles Tour",
  "eventArtist" : "LOST KINGS",
