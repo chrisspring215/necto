@@ -30,6 +30,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Dec 13, 2019 21:00:00"),
+ "eventName" : "KWEEN presents DJ Dani Brasil",
+ "eventArtist" : "DJ Dani Brasil",
+ "eventDesc" : "Dani Brasil began his career as a DJ in early 2017 by starting up as a resident DJ in Brazil’s most soughtout nighclub, The Week in São Paulo and Rio de Janeiro. That gave him a kick off to be present at major events that led him to play in over 12 countries and more than 30 international dates so far.",
+ "eventDescLong" : "DJ Dani Brasil is our next KWEEN DJ at Necto!<br><br>Featuring DJ Jace & Maxi Chanel<br><br>Dani Brasil began his career as a DJ in early 2017 by starting up as a resident DJ in Brazil’s most soughtout nighclub, The Week in São Paulo and Rio de Janeiro. That gave him a kick off to be present at major events that led him to play in over 12 countries and more than 30 international dates so far.<br><br>Growing up in New York City and currently living in Brazil, he has always been involved in the nightlife scene and close to renowned djs such as Peter Rauhofer, Tony Moran and Hector Fonseca. With these influences, he developed a unique playing style with high energy tribal house vocal sets with some Brazilian roots that have him constantly connected to the crowd.<br><br>His creative skills are not only noticed in his live sets but also on the musical productions that he does. Exclusive versions of songs that he has put together became instant hits and immediate successes, which served as inspirations for remixes by other famous djs.",
+ "eventCover" : "$5 for 21+ // $10 for 18-20 ",
+ "eventLink" : "special-events/" + "dani-brasil-at-necto-nightclub-ann-arbor-michigan-dec-13-2019.html",
+ "eventSocial" : "https://business.facebook.com/events/1290296487824274/",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "dani-brasil-at-necto-nightclub-ann-arbor-michigan-dec-13-2019.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Dec 12, 2019 21:00:00"),
  "eventName" : "Necto & Ignyte Events present... DIRT MONKEY : Primatology World Tour",
  "eventArtist" : "DIRT MONKEY",
