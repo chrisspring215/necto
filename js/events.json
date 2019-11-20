@@ -1,5 +1,20 @@
 { "events" : [
     {
+        "eventDate"    : "Feb 20, 2020 21:00:00",
+        "eventName"    : "Necto, Music Matters & React present... Elephante : Diamond Days Tour",
+        "eventArtist"  : "Elephante",
+        "eventDesc"    : "Hailing from Ann Arbor, Michigan, Tim Wu began his musical career as a classically-trained pianist and singer-songwriter, playing in bands in high school and college. Graduating from Harvard University, soon after taking his first desk job Wu realized that the corporate lifestyle was not for him, as he spent every waking hour producing music to keep himself sane. Finally embracing the ‘Elephant in the room’ that was his desire to break free from the monotonous 9-5 routine, Wu set his sights on the dance music sphere and Elephante was born - quite literally giving up his day job in order to hone his craft and make his mark as one of the most innovative dance music producers around today.",
+        "eventDescLong"    : "Hailing from Ann Arbor, Michigan, Tim Wu began his musical career as a classically-trained pianist and singer-songwriter, playing in bands in high school and college. Graduating from Harvard University, soon after taking his first desk job Wu realized that the corporate lifestyle was not for him, as he spent every waking hour producing music to keep himself sane. Finally embracing the ‘Elephant in the room’ that was his desire to break free from the monotonous 9-5 routine, Wu set his sights on the dance music sphere and Elephante was born - quite literally giving up his day job in order to hone his craft and make his mark as one of the most innovative dance music producers around today.",
+        "eventCover"   : "Pre-sale tickets: General Admission $15 - $17.50 | DOS $20 | DOORS $25",
+        "eventLink"    : "special-events/elephante -at-necto-nightclub-ann-arbor-michigan-feb-20-2020.html",
+        "eventSocial"  : "https:www.facebook.com/events/423157768623061/",
+        "eventTix"     : "https:wl.seetickets.us/event/Elephante/397919?afflky=REACTPRESENTS",
+        "eventImgWide" : "img/event-images/elephante -at-necto-nightclub-ann-arbor-michigan-feb-20-2020.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Jan 30, 2020 21:00:00",
         "eventName"    : "Necto & Ignyte Events present...<br>Moody Good presents The Sunny Side Up Tour",
         "eventArtist"  : "Moody Good",
