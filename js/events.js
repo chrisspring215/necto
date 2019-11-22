@@ -30,6 +30,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Jan 26, 2020 18:00:00"),
+        "eventName"    : "Miss Necto 2020 : Professional/Amateur Drag Queen Pageant",
+        "eventArtist"  : "Miss Necto 2020 Pageant",
+        "eventDesc"    : "Registration at 4pm | Doors at 6pm | Show at 7pm<br><br>Join us for a night of amazing talent & fun! Necto's 5th annual Miss Necto Professional/ Amateur Drag Queen Pageant! This year's theme is NEON NIGHTS!",
+        "eventDescLong"    : "Join us for a night of amazing talent & fun! Necto's 5th annual Miss Necto Professional/ Amateur Drag Queen Pageant! This year's theme is NEON NIGHTS!<br><br> Hosted by <br>Chanel Hunter & Maxi Chanel<br><br>Honoring...<br></br> The Reigning Miss Necto Professional 2019<br>London De'Vil<br></br>and Miss Necto Amateur 2019<br>Pixie Mae Barnes</br></br>Miss Necto Professional winner will receive</br>• $500 cash prize</br>• The Beautiful Miss Necto Crown </br> • Lovely Miss Necto 2020 Sash</br>• At least 1 paid booking at Necto in 2020</br></br> Miss Necto Amateur winner will receive</br> • $150 cash prize</br> • The Awesome Miss Necto Amateur Crown </br> • Lovely Miss Necto Amateur 2020 Sash</br>• At least 1 paid booking at Necto in 2020</br></br> For more information or a contestant application, please contact info@necto.com<br><br>Registration at 4pm | Doors at 6pm | Show at 7pm",
+        "eventCover"   : "Presale tickets - $10 | at doors - $15",
+        "eventLink"    : "special-events/" + "miss-necto-2020-pageant-at-necto-nightclub-ann-arbor-michigan-jan-26-2020.html",
+        "eventSocial"  : "https://www.facebook.com/events/1274300549409526/",
+        "eventTix"     : "https://missnecto_2020.eventbrite.com",
+        "eventImgWide" : "img/event-images/" + "miss-necto-2020-pageant-at-necto-nightclub-ann-arbor-michigan-jan-26-2020.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jan 9, 2020 21:00:00"),
         "eventName"    : "Necto & Ignyte Events present... SoDown: The Trilogy Winter Tour",
         "eventArtist"  : "SoDown",
