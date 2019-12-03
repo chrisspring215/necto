@@ -75,6 +75,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Dec 23, 2019 21:00:00",
+        "eventName"    : "Factory Dark Noel 2019",
+        "eventArtist"  : "Factory Dark Noel",
+        "eventDesc"    : "Get your picture taken with naughty Santa's models LotusFirefox, Spincanity & Guapoh",
+        "eventDescLong"    : "Get your picture taken with naughty Santa's models LotusFirefox, Spincanity & Guapoh</br></br>presented to you by Blue Crow Talent!</br></br>Get your last-minute holiday gifts from local vendors set up on the mezzanine!</br></br>• PICTURES. Get yours with naughty Santas on the mezzanine - by Nick Vernier</br></br>• DJ Misanthropia Narcissus & Dj Graphite spinning Goth Industrial, SynthPop, EBM, & more on main floor. Visuals by Remnant.  DJ KnowLedge down in the Red Room, Sub:Merge playing Old school, forgotten classics, emo sing along, remixes, mash-ups and newest hits! </br></br>• DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night. $3 import & craft beers and $2 Long Islands until 11</br></br> • VIP services available. Contact VIP@necto.com</br></br>Come hang out with the Necto Factory crew & let's Drink / Dance / F@#! / Repeat until this holiday is over",
+        "eventCover"   : "COVER $3.  (special event no free passes)",
+        "eventLink"    : "special-events/factory-dark-noel-at-necto-nightclub-ann-arbor-michigan-dec-23-2019.html",
+        "eventSocial"  : "https:business.facebook.com/events/453504768644009/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/factory-dark-noel-at-necto-nightclub-ann-arbor-michigan-dec-23-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Dec 13, 2019 21:00:00",
         "eventName"    : "KWEEN presents DJ Dani Brasil",
         "eventArtist"  : "DJ Dani Brasil",
