@@ -61,8 +61,8 @@ var eventsJSON = [
  },
  {
  "eventDate" : new Date("Dec 31, 2019 21:00:00"),
- "eventName" : "KWEEN presents DJ Dani Brasil",
- "eventArtist" : "DJ Dani Brasil",
+ "eventName" : "New Year's Eve 2020",
+ "eventArtist" : "New Year's Eve 2020",
  "eventDesc" : "Ring in the New Year with your favorite Southeast Michigan Nightclub at the Necto!!<br><br>Join DJ Skoob E in the Main Room spinning Top 40, Hip Hop, Dance & EDM. DJ Knowledge in the Red Room playing oldschool, forgotten classics, remixes, mash-ups & the newest hits.",
  "eventDescLong" : "Ring in the New Year with your favorite Southeast Michigan Nightclub at the Necto!!<br><br>Join DJ Skoob E in the Main Room spinning Top 40, Hip Hop, Dance & EDM. DJ Knowledge in the Red Room playing oldschool, forgotten classics, remixes, mash-ups & the newest hits.</br></br> DETAILS: Doors open at 9pm. 18 & over are welcome with proper ID. Open until 3am. General admission tickets include entry, balloon drop at midnight, including catering by Cottage Inn. Gluten Free & Vegetarian Options</br></br>TICKETS: Limited pre-sale, couple, and 4-pack discounts available now!! “Insert eventbrite ticket link here”. Tickets at doors $30 for 21+ & $50 for 18-20.</br></br>***IF TICKETS SOLD OUT ONLINE: There are a limited amount of tickets held in reserve that will be available at the door. They will be first come, first serve. We recommend arriving early to ensure entry. Pricing above.</br></br>VIP: Packages are available for 21 & over only. VIP packages include express entry with line skip, seating, bottle service & champagne. For more info or to book a VIP table, please contact VIP@necto.com.</br></br>QUESTIONS: Visit our website for our FAQ, email: info@necto.com, message us on social media, or call our office: 734-994-5835, 1-4 PM, M-F.</br></br><a href=''>https://www.facebook.com/NectoNightclub/</a></br><a href='https://twitter.com/Necto'>https://twitter.com/Necto</a></br><a href='https://www.instagram.com/nectonightclub/'></a>",
  "eventCover" : "Tickets at doors $30 for 21+ & $50 for 18-20",
