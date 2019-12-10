@@ -6,10 +6,10 @@ var eventsJSON = [
         "eventDesc"    : "Hailing from Ann Arbor, Michigan, Tim Wu began his musical career as a classically-trained pianist and singer-songwriter, playing in bands in high school and college. Graduating from Harvard University, soon after taking his first desk job Wu realized that the corporate lifestyle was not for him, as he spent every waking hour producing music to keep himself sane. Finally embracing the ‘Elephant in the room’ that was his desire to break free from the monotonous 9-5 routine, Wu set his sights on the dance music sphere and Elephante was born - quite literally giving up his day job in order to hone his craft and make his mark as one of the most innovative dance music producers around today.",
         "eventDescLong"    : "Hailing from Ann Arbor, Michigan, Tim Wu began his musical career as a classically-trained pianist and singer-songwriter, playing in bands in high school and college. Graduating from Harvard University, soon after taking his first desk job Wu realized that the corporate lifestyle was not for him, as he spent every waking hour producing music to keep himself sane. Finally embracing the ‘Elephant in the room’ that was his desire to break free from the monotonous 9-5 routine, Wu set his sights on the dance music sphere and Elephante was born - quite literally giving up his day job in order to hone his craft and make his mark as one of the most innovative dance music producers around today.",
         "eventCover"   : "Pre-sale tickets: General Admission $15 - $17.50 | DOS $20 | DOORS $25",
-        "eventLink"    : "special-events/" + "elephante -at-necto-nightclub-ann-arbor-michigan-feb-20-2020.html",
+        "eventLink"    : "special-events/" + "elephante-at-necto-nightclub-ann-arbor-michigan-feb-20-2020.html",
         "eventSocial"  : "https://www.facebook.com/events/423157768623061/",
         "eventTix"     : "https://wl.seetickets.us/event/Elephante/397919?afflky=REACTPRESENTS",
-        "eventImgWide" : "img/event-images/" + "elephante -at-necto-nightclub-ann-arbor-michigan-feb-20-2020.jpg",
+        "eventImgWide" : "img/event-images/" + "elephante-at-necto-nightclub-ann-arbor-michigan-feb-20-2020.jpg",
         "eventWklOvrd" : false,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
@@ -89,6 +89,36 @@ var eventsJSON = [
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
     },
+    {
+        "eventDate"    : new Date("Dec 21, 2019 21:00:00"),
+        "eventName"    : "Plastic Passion",
+        "eventArtist"  : "Plastic Passion Holiday Reunion!",
+        "eventDesc"    : "LET THE COLD OUTSIDE BRING US TOGETHER ONCE AGAIN TO STEAM UP THE DANCEFLOOR!<br></br>SATURDAY, DECEMBER 21 - PLASTIC PASSION - RETURNS for a RARE REUNION dance party!",
+        "eventDescLong"    : "LET THE COLD OUTSIDE BRING US TOGETHER ONCE AGAIN TO STEAM UP THE DANCEFLOOR!<br></br>SATURDAY, DECEMBER 21 - PLASTIC PASSION - RETURNS for a RARE REUNION dance party!</br></br>Resident DJ JOSH BURGE brings the passion back to the RED ROOM: retro mix of 80s/90s alternative dance, new wave, post-punk, brit-pop, electro-funk, industrial, EBM, and modern synthicide! DOC COLONY also returns to splash hot colors on the telescreens. HALF-OFF ALL DRINKS before 11pm!</br></br> NECTO RED ROOM, 516 E. Liberty, Downtown Ann Arbor.</br></br>9:00pm - 2:00am</br> $5 cover 21+ ($10 cover if 18-20)</br>IMPORTANT: When arriving, be sure to tell the fine Necto door staff that you're there for PLASTIC PASSION in the RED ROOM. Follow the steps down on the right for Red Room Fun.",
+        "eventCover"   : "$5 cover 21+ ($10 cover if 18-20)",
+        "eventLink"    : "special-events/" + "plastic-passion-holiday-reunion-at-necto-nightclub-ann-arbor-michigan-dec-21-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/465910484279896/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "plastic-passion-holiday-reunion-at-necto-nightclub-ann-arbor-michigan-dec-21-2019.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Dec 20, 2019 21:00:00"),
+        "eventName"    : "Pride Noel 2019",
+        "eventArtist"  : "Pride Noel 2019",
+        "eventDesc"    : "With DJ Edward Alan. Get pics with Sandy Klaws & her Sexy Santas this Pride Noel and stay for the Ugly Christmas Sweater Contest.",
+        "eventDescLong"    : "With DJ Edward Alan<br><br>This will be an UGLY sweater party. The ugliest sweater will be given a prize!<br><br> Get pics with Sandy Klaws & her Sexy Santas this Pride Noel and stay for the Ugly Christmas Sweater Contest.</br><br>Hosted by Maxi Chanel. Music by DJ Jace in the Main Room & DJ DigiMark in the Red Room. Photos by Bruno Postigo",
+        "eventCover"   : "$5 for 21+ & $10 for 18-20",
+        "eventLink"    : "special-events/" + "pride-noel-2019-at-necto-nightclub-ann-arbor-michigan-dec-20-2019.html",
+        "eventSocial"  : "https://www.facebook.com/events/816437592149095/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-noel-2019-at-necto-nightclub-ann-arbor-michigan-dec-20-2019.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },  
     {
         "eventDate"    : new Date("Dec 13, 2019 21:00:00"),
         "eventName"    : "KWEEN presents DJ Dani Brasil",
