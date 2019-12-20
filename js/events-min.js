@@ -1,5 +1,20 @@
 var eventsJSON = [
+
  {
+ "eventDate" : new Date("Apr 9, 2020 21:00:00"),
+ "eventName" : "Necto, Music Matters & React present... Elephante : Diamond Days Tour",
+ "eventArtist" : "Liquid Stranger",
+ "eventDesc" : "Guayakí Yerba Mate, Ignyte Events & Necto present...<br><br>Liquid Stranger : Ascension Tour",
+ "eventDescLong" : "Guayakí Yerba Mate, Ignyte Events & Necto present...<br><br>Liquid Stranger : Ascension Tour<br><br>Liquid Stranger's omnifarious approach to music has led him to stand out amongst a pack of artists desperately trying conform to a commercial demand. Proven to be a timeless staple to the world of electronic dance music by bridging the gap between mellow and heavy, what's next can not be foreseen for this contrastive musician.<br><br>VIP services available. Contact: VIP@necto.com",
+ "eventCover" : "Pre-sale tickets: General Admission $40 - $45",
+ "eventLink" : "special-events/" + "liquid-stranger-ascension-tour-at-necto-nightclub-ann-arbor-michigan-apr-9-2020.html",
+ "eventSocial" : "https://www.facebook.com/events/3430085490366411",
+ "eventTix" : "https://liquidstranger_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "liquid-stranger-ascension-tour-at-necto-nightclub-ann-arbor-michigan-apr-9-2020.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ }, {
  "eventDate" : new Date("Feb 20, 2020 21:00:00"),
  "eventName" : "Necto, Music Matters & React present... Elephante : Diamond Days Tour",
  "eventArtist" : "Elephante",
