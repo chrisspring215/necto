@@ -60,6 +60,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Jan 17, 2020 21:00:00"),
+        "eventName"    : "Kween & Necto present... Alex Acosta",
+        "eventArtist"  : "Alex Acosta",
+        "eventDesc"    : "Mexican Sensation DJ and Producer Alex Acosta has taken over the world with his fresh, upbeat and very energetic sound, playing at the hottest Music Festivals and Clubs around the globe. On top of that, he is a chart topping producer, whose work is supported by several DJs and thousands of Fans worldwide.",
+        "eventDescLong"    : "Mexican Sensation DJ and Producer Alex Acosta has taken over the world with his fresh, upbeat and very energetic sound, playing at the hottest Music Festivals and Clubs around the globe. On top of that, he is a chart topping producer, whose work is supported by several DJs and thousands of Fans worldwide.<br><br>Alex Acosta has become one of the most important Latin American DJs. With over 20 years in the DJ Industry he has played at the hottest clubs and music festivals around the world. Mexico City, Playa del Carmen, New York, Miami, Atlanta, Los Angeles, San Francisco, São Paulo, Madrid, Barcelona, Mykonos, Taipei, Tokyo, Shanghai, Bangkok, Seoul are some of the cities he has played. Among the parties he has headlined are Jeffrey Sanker’s White Party Palm Springs, 1Life Festival (Los Angeles), Folsom St Fair (San Francisco), Carnival Week & Circuit Week (Provincetown), One Magical Weekend (Orlando), XLSior Festival (Mykonos), NVRLAND (Chicago), PAPA Party (Playa del Carmen), Masterbeat (Los Angeles), Karmabeat/GayDate/Feel Alive (Mexico City), GAYMAD (Madrid), gCircuit’s Song Kran (Bangkok), Heaven (Shanghai), G5 (Taipei), PAPA (Guangzhou), Le Queen (Seoul), Arena & Paradiso (Playa del Carmen), Vallarta Fever & Latin Fever (Puerto Vallarta), Vancouver Gay Pride (Vancouver) and Market Days (Chicago). Further more, he has become a regular guest and established DJ residencies at the hottest clubs around the world: ASIA: Icon (Shanghai), Glamorous (Tokyo), Luxy (Taipei). AMERICA: VIVA Saturdays (NY), Jungle/Heretic/XION (Atlanta), Score (Miami), Hydrate/Metro (Chicago), Gus Presents/1015/The End Up/Beatbox (San Francisco), Momentum/Reload/Circus Disco/The Factory/Eleven (Los Angeles), Living/Rage/VD+ (Mexico City), Babel (Guadalajara), Rouge (Monterrey), LOL (Madrid), SaturGays (Barcelona), Criminal Candy (Naples), among many more.<br><br>VIP services available. Contact: VIP@necto.com",
+        "eventCover"   : "General Admission $5 for 21+ and $10 for 18-20",
+        "eventLink"    : "special-events/" + "alex-acosta-at-necto-nightclub-ann-arbor-michigan-jan-17-2020.html",
+        "eventSocial"  : "https://www.facebook.com/events/2463312607266553/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "alex-acosta-at-necto-nightclub-ann-arbor-michigan-jan-17-2020.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jan 9, 2020 21:00:00"),
         "eventName"    : "Necto & Ignyte Events present... SoDown: The Trilogy Winter Tour",
         "eventArtist"  : "SoDown",
