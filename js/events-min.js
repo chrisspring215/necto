@@ -16,7 +16,7 @@ var eventsJSON = [
  },
  {
  "eventDate" : new Date("Apr 9, 2020 21:00:00"),
- "eventName" : "Necto, Music Matters & React present... Elephante : Diamond Days Tour",
+ "eventName" : "LIQUID STRANGER : Ascension Tour",
  "eventArtist" : "Liquid Stranger",
  "eventDesc" : "Guayakí Yerba Mate, Ignyte Events & Necto present...<br><br>Liquid Stranger : Ascension Tour",
  "eventDescLong" : "Guayakí Yerba Mate, Ignyte Events & Necto present...<br><br>Liquid Stranger : Ascension Tour<br><br>Liquid Stranger's omnifarious approach to music has led him to stand out amongst a pack of artists desperately trying conform to a commercial demand. Proven to be a timeless staple to the world of electronic dance music by bridging the gap between mellow and heavy, what's next can not be foreseen for this contrastive musician.<br><br>VIP services available. Contact: VIP@necto.com",
@@ -30,6 +30,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Feb 14, 2020 21:00:00"),
+ "eventName" : "BLAIR ST CLAIR (Rupaul's Drag Race S10)",
+ "eventArtist" : "BLAIR ST CLAIR",
+ "eventDesc" : "Blair St. Clair, whose 2018 debut album Call My Life made history by reaching No. 1 on Billboard's Dance/Electronic Albums chart while the title track broke into the top 10 on the Dance Club songs ranking. While many drag queens record music, it's rare to see any of it perform well commercially, and St. Clair has managed to do what so many dream of in that world. ",
+ "eventDescLong" : "Doors at 9:00 PM, 1st show at 9:45PM | Encore at 12AM<br><br>Blair St. Clair, whose 2018 debut album Call My Life made history by reaching No. 1 on Billboard's Dance/Electronic Albums chart while the title track broke into the top 10 on the Dance Club songs ranking. While many drag queens record music, it's rare to see any of it perform well commercially, and St. Clair has managed to do what so many dream of in that world.",
+ "eventCover" : "$5 for 21+ | $10 for 18-20 all night. Meet & greet tix $35",
+ "eventLink" : "special-events/" + "blair-st-clair-at-necto-nightclub-ann-arbor-michigan-feb-14-2020.html",
+ "eventSocial" : "https://www.facebook.com/events/529897744546984/",
+ "eventTix" : "https://blairstclair_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "blair-st-clair-at-necto-nightclub-ann-arbor-michigan-feb-14-2020.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Feb 10, 2020 21:00:00"),
  "eventName" : "Factory Vampires Ball",
  "eventArtist" : "Factory Vampires Ball",
@@ -37,7 +52,7 @@ var eventsJSON = [
  "eventDescLong" : "Creatures of the Night for our second event of 2020 we are celebrating BLOOD! Love. Eternal, Immortal LOVE<br><br>Join your Factory Monday DJs as we indulge our darkest desires. Are you ready to Love the Darkness?<br><br>Ball Fashion/Vampire Couture encouraged!!!<br><br>• MUSIC. Special Guest DJ Wraith and DJ’s Graphite & Misanthropia Narcissus spinning Goth Industrial, SynthPop, EBM, & more on the main floor. Down in the Red Room, Sub:Merge with DJ KnowLedge playing Old school, forgotten classics, remixes, mash-ups and newest hits<br>• VISUALS:. Remnant will be providing the villainous visuals on the main floor<br> Pictures by Nick Vernier<br>• DRINK SPECIALS. $2 well drinks and $2.50 domestic beers all night, with $3 craft beers and $2 Long Islands til 11! (special drink item to be featured)<br>• VIP services available. Contact VIP@necto.com, 734-994-5436, or book via necto.com",
  "eventCover" : "Cover $3 (special event no free passes)",
  "eventLink" : "special-events/" + "factory-vampires-ball-at-necto-nightclub-ann-arbor-michigan-feb-10-2020.html",
- "eventSocial" : "https://www.facebook.com/events/438162817060432/",
+ "eventSocial" : "https://www.facebook.com/events/482472886035480/",
  "eventTix" : "none",
  "eventImgWide" : "img/event-images/" + "factory-vampires-ball-at-necto-nightclub-ann-arbor-michigan-feb-10-2020.jpg",
  "eventWklOvrd" : 1,
@@ -85,6 +100,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/1274300549409526/",
  "eventTix" : "https://missnecto_2020.eventbrite.com",
  "eventImgWide" : "img/event-images/" + "miss-necto-2020-pageant-at-necto-nightclub-ann-arbor-michigan-jan-26-2020.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Jan 21, 2020 21:00:00"),
+ "eventName" : "Doctor P & Cookie Monsta",
+ "eventArtist" : "Doctor P & Cookie Monsta",
+ "eventDesc" : "Doctor P bio:<br><br>Doctor P is the stage name of the English dubstep producer and DJ, Shaun Brockhurst (born 9 April 1986). Shaun has also produced drum and bass under the aliases Sounds Destructive (with Zachary Kemp, currently known as Trolley Snatcha), Slum Dogz (with DJ Swan-E and Krafty MC) and DJ Picto (or simply Picto). Some of his songs, including 'Sweet Shop', 'Tetris', 'Big Boss', 'Watch Out' and the remixes of Example's 'Last Ones Standing' and Plan B's 'Love Goes Down' have all received more than 5 million views on YouTube. He is the co-founder of Circus Records, along with Flux Pavilion, DJ Swan-E and Earl Falconer.<br><br>***********************************************<br><br Cookie Monsta bio:<br><br>Cookie Monsta aka Tony Cook is a producer and DJ from Nottingham, UK who represents the loud and grimy side of dubstep. 'If you crave the downright nasty dubstep then Cookie Monsta’s your guy. Packing a recipe of face-slapping snares, ground shaking bass and eye gougingly dirty synths … his sound resembles that of a demonic bass-saw that easily lacerates the ear drums of all it encounters.'<br><br>VIP services available. Contact: VIP@necto.com<br><br>18 + welcome with proper ID",
+ "eventDescLong" : "Doctor P bio:<br><br>Doctor P is the stage name of the English dubstep producer and DJ, Shaun Brockhurst (born 9 April 1986). Shaun has also produced drum and bass under the aliases Sounds Destructive (with Zachary Kemp, currently known as Trolley Snatcha), Slum Dogz (with DJ Swan-E and Krafty MC) and DJ Picto (or simply Picto). Some of his songs, including 'Sweet Shop', 'Tetris', 'Big Boss', 'Watch Out' and the remixes of Example's 'Last Ones Standing' and Plan B's 'Love Goes Down' have all received more than 5 million views on YouTube. He is the co-founder of Circus Records, along with Flux Pavilion, DJ Swan-E and Earl Falconer.<br><br>***********************************************<br><br Cookie Monsta bio:<br><br>Cookie Monsta aka Tony Cook is a producer and DJ from Nottingham, UK who represents the loud and grimy side of dubstep. 'If you crave the downright nasty dubstep then Cookie Monsta’s your guy. Packing a recipe of face-slapping snares, ground shaking bass and eye gougingly dirty synths … his sound resembles that of a demonic bass-saw that easily lacerates the ear drums of all it encounters.'<br><br>VIP services available. Contact: VIP@necto.com<br><br>18 + welcome with proper ID",
+ "eventCover" : "Pre-sale tickets: General Admission $10 - $20 | DOS $25",
+ "eventLink" : "special-events/" + "doctor-p-cookie-monsta-at-necto-nightclub-ann-arbor-michigan-jan-21-2020.html",
+ "eventSocial" : "https://www.facebook.com/events/828032684322776/",
+ "eventTix" : "https://doctorp_cookiemonsta.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "doctor-p-cookie-monsta-at-necto-nightclub-ann-arbor-michigan-jan-21-2020.jpg",
  "eventWklOvrd" : 0,
  "eventDay" : 0,
  "pastEvent" : 0
