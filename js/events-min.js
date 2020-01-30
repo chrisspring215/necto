@@ -30,6 +30,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Mar 26, 2020 21:00:00"),
+ "eventName" : "Ignyte & Necto present... ROIT TEN",
+ "eventArtist" : "RIOT TEN",
+ "eventDesc" : "Born and raised in El Paso, TX, Riot Ten exploded into the world of EDM at the young age of 22. Joining the Dim Mak Records family in 2017, with additional music out on Never Say Die, Insomniac, Bassrush and Excision's 'Rottun Records', Riot Ten blasted off with four #1 top 100 dubstep singles and his music can be heard around the world from the likes of DJ Snake, Zeds Dead, The Chainsmokers, Excision and many more.",
+ "eventDescLong" : "with opening sets by<br><br>Computa<br>Attak<br>NickyBoom<br><br>Born and raised in El Paso, TX, Riot Ten exploded into the world of EDM at the young age of 22. Joining the Dim Mak Records family in 2017, with additional music out on Never Say Die, Insomniac, Bassrush and Excision's 'Rottun Records', Riot Ten blasted off with four #1 top 100 dubstep singles and his music can be heard around the world from the likes of DJ Snake, Zeds Dead, The Chainsmokers, Excision and many more. His 2017 single 'Fuck It' became a staple on The Chainsmokers 'Memories Do Not Open' tour. This success helped pave the way for 'Rail Breaker', his global smash in 2017, to become one of the most played out dubstep songs of the last decade. The single continues to see support at nearly every major festival from the biggest names in dance music. Following the release of 'Rail Breaker', Riot Ten dropped his debut EP with DIM MAK called 'Hype Or Die: The Dead' in 2018, which recorded a top 10 debut on the iTunes 'dance album' charts, a feat seldom seen by an artist in the genre. He recorded another top 10 debut on the iTunes charts in 2019 with his debut album 'Hype Or Die: Nightmares'. Outside of the music, Riot Ten has continued to record sell out shows domestically and internationally, touring his infamous 'Hype Or Die' brand for its 2nd straight year. He has also played EDC Las Vegas, Coachella, Nocturnal Wonderland, Electric Zoo, EDC Mexico, Lost Lands, EDC Orlando, Global Dance Festival, Electric Forest, Bass Canyon, Imagine Music Festival, and more. ",
+ "eventCover" : "Pre-sale tickets: General Admission $10 - $20 | DOS $25",
+ "eventLink" : "special-events/" + "riot-ten-at-necto-nightclub-ann-arbor-michigan-mar-26-2020.html",
+ "eventSocial" : "https://www.facebook.com/events/1073215553040884/ ",
+ "eventTix" : "https://riotten_necto.eventbrite.com",
+ "eventImgWide" : "img/event-images/" + "riot-ten-at-necto-nightclub-ann-arbor-michigan-mar-26-2020.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Feb 14, 2020 21:00:00"),
  "eventName" : "BLAIR ST CLAIR (Rupaul's Drag Race S10)",
  "eventArtist" : "BLAIR ST CLAIR",
