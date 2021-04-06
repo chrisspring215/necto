@@ -375,10 +375,10 @@ var footerSecondaryNav = document.getElementById('footerSecondaryNav');
 
 // Sets Navigation varibles to build the Main Nav on all pages
 var mainNavigation = [
-    {
+    /*{
         "linkUrl"    : 'calendar.html',
         "anchorName" : 'CALENDAR',
-    },
+    },*/
     {
         "linkUrl"    : 'bottle-service-vip-reservations.html?=linkFromMainNav',
         "anchorName" : 'BOTTLE SERVICE/VIP',
