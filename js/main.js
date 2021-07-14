@@ -396,7 +396,7 @@ var mainNavigation = [
         "anchorName" : 'CONTACT',
     },
     {
-        "linkUrl"    : 'https://www.eventbrite.com/d/mi--ann-arbor/necto/?mode=search',
+        "linkUrl"    : 'https://www.etix.com/ticket/v/21304/necto',
         "anchorName" : 'TICKETS',
     },
     {
