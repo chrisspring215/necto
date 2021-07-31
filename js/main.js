@@ -63,7 +63,7 @@ var events = eventsJSON;
 var weeklyEvents = [
     {
         "eventName"    : "Factory Monday",
-        "eventDesc"    : "Factory is one of the longest running Goth-Industrial nights in the US. Always featuring local talents spinning Goth-Industrial, EBM, Alternative, Cyberpunk and Synth-pop in the Main Room. Madisi plays bass driven dance music in the Red Room. Hosted by MC Yoda.",
+        "eventDesc"    : "Factory is one of the longest running Goth-Industrial nights in the US, featuring DJ Misanthropia Narcissus & DJ Remnant spinning Goth, Industrial, Synthpop, Aggrotech, Witch House, Harsh Noise, Alternative and EBM in the Main Room",
         "eventLink"    : 'factory-monday.html',
         "eventImgWide" : 'img/factory-monday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
@@ -71,7 +71,7 @@ var weeklyEvents = [
     },
     {
         "eventName"    : "Mix Thursday",
-        "eventDesc"    : "We’re mixing it up each and every Thursday, with a blend of concerts by renowned artists, special events, unique parties, and even functions that you can book. Heard about a DJ at Necto? It was probably on a Thursday - check our calendar to see what’s happening this week.",
+        "eventDesc"    : "We’re mixing it up each and every Thursday, with a blend of concerts by renowned artists, special events, unique parties, and even functions that you can book. Heard about a DJ at Necto? It was probably on a Thursday - check our calendar to see what’s happening and when.",
         "eventLink"    : 'mix-thursday.html',
         "eventImgWide" : 'img/mix-thursday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
@@ -79,7 +79,7 @@ var weeklyEvents = [
     },
     {
         "eventName"    : "Pride Friday",
-        "eventDesc"    : "The One-and-Only Gay Night. DJ Jace in the Main Room spins the hottest Pop, Top 40 and EDM. DJ Digi Mark plays Retro 80's to Top 40 Pop videos in the Red Room. Hosted by Chanel Hunter and Jadein Black at the Largest weekly LGBTQ Party in Michigan!",
+        "eventDesc"    : "The One-and-Only Gay Night. DJ Edward Alan in the Main Room spins the hottest Pop, Top 40 and EDM. DJ DigiMark plays Retro 80's to Top 40 Pop videos in the Red Room. Hosted by Chanel Hunter and Jadein Black at the Largest weekly LGBTQ+ Party in Michigan!",
         "eventLink"    : 'pride-friday.html',
         "eventImgWide" : 'img/pride-friday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
@@ -87,7 +87,7 @@ var weeklyEvents = [
     },
     {
         "eventName"    : "Frequency Saturday",
-        "eventDesc"    : "DJ Hardy and MC Yoda host the hottest club night around. The dance floor will be packed from the best Top 40, House and Hip Hop Tracks. Don't let your weekend down. Let's get Turnt!",
+        "eventDesc"    : "DJ Knowledge and DJ Skoob E host the hottest club night around. The dance floor will be packed, featuring the best Top 40, Dance, EDM and Hip-Hop tracks. Don't let your weekend down. Let's get Turnt!",
         "eventLink"    : 'frequency-saturday.html',
         "eventImgWide" : 'img/frequency-saturday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
@@ -375,10 +375,10 @@ var footerSecondaryNav = document.getElementById('footerSecondaryNav');
 
 // Sets Navigation varibles to build the Main Nav on all pages
 var mainNavigation = [
-    /*{
+    {
         "linkUrl"    : 'calendar.html',
         "anchorName" : 'CALENDAR',
-    },*/
+    },
     {
         "linkUrl"    : 'bottle-service-vip-reservations.html?=linkFromMainNav',
         "anchorName" : 'BOTTLE SERVICE/VIP',

@@ -1,0 +1,37 @@
+<h1>How This Site Works</h1>
+<h2>Requirments</h2>
+<p>Updating the sites events requires Python2.7.</p>
+
+<h2>Account Information</h2>
+<p>A list of accounts and their information is in Chris C's google drive</p>
+
+<h2>Updating Events</h2>
+<p>Updating events requires the updating of the /js/events.js file. To update events:</p>
+<ol>
+    <li>Open the /js/events.js file in an editor</li>
+    <li>Copy and paste an exsisting event where it occurs on the timeline of events</li>
+    <li>Update the event info</li>
+    <li>When done editing, save the file</li>
+    <li>Save the events image in to the /img/event-images folder and copy and paste the file name you updated in the events.js to rename it</li>
+    <li>In the command prompt, navigate to /python/ and run "py build.py". This does a number of things including:
+        <ul>
+            <li>Updating the /js/events.json/ file with the new events from the events.js file. The home page, calendar page, and past events page all use this to build their event timelines (I think, main.js should be looked at)</li>
+            <li>Creates a minimized version of the events.js file (events-min.js)</li>
+            <li>Takes the urls from the JSON file, including the ones that you added while editing and builds  new populated HTML files for <strong>all</strong> events and places them in the special events folder.</li>
+        </ul>
+    </li>
+    <li>In a FTP, login to the hosting</li>
+    <li>Copy event.js, events.json, and events-min.js into the /public_html/js/ folder, replacing the old files</li>
+    <li>Copy the event image file into the /img/event-images/ folder</li>
+    <li>Copy the speciffic event HTML pages that we created (NOTE: you dont need to upload all the html files)</li>
+    <li>Close the FTP</li>
+    <li>Upload the new files to GitHub. In the command prompt:
+        <ol>
+            <li>git add --a</li>
+            <li>git commit -m "What you did in this version"</li>
+            <li>git push</li>
+        </ol>
+    </li>
+    <li>Check the site.</li>
+</ol>
+
