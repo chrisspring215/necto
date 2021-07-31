@@ -1,5 +1,35 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Nov 18, 2021 21:00:00"),
+        "eventName"    : "CHAMPAGNE DRIP",
+        "eventArtist"  : "CHAMPAGNE DRIP",
+        "eventDesc"    : "Ignyte Events presents<br><br>CHAMPAGNE DRIP<br><br>w/ Veil",
+        "eventDescLong": "Ignyte Events presents<br><br>CHAMPAGNE DRIP<br><br>w/ Veil",
+        "eventCover"   : "Early Bird: $15 / General Admission: $20",
+        "eventLink"    : "special-events/" + "champagne-drip-at-necto-nightclub-ann-arbor-michigan-nov-18-2021.html",
+        "eventSocial"  : "https://www.facebook.com/events/necto/champagne-drip-presented-by-ignyte-events/254401669357531/",
+        "eventTix"     : "https://www.etix.com/ticket/p/4961621/ignyte-events-presentschampagne-drip-ann-arbor-necto?country=US&language=en",
+        "eventImgWide" : "img/event-images/" + "champagne-drip-necto-nightclub-ann-arbor-michigan-nov-18-2021.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Sep 30, 2021 21:00:00"),
+        "eventName"    : "WRECKNO w/ GARDELLA",
+        "eventArtist"  : "WRECKNO w/ GARDELLA",
+        "eventDesc"    : "Ignyte Events presents WRECKNO w/ GARDELLA<br><br>With support from:<br><br>ALLIUM & CHESKA<br><br>Early Bird: $15<br>GalA: $20<br>Day of show: $25",
+        "eventDescLong": "Ignyte Events presents WRECKNO w/ GARDELLA<br><br>With support from:<br><br>ALLIUM & CHESKA<br><br>Early Bird: $15<br>GalA: $20<br>Day of show: $25",
+        "eventCover"   : "Early Bird: $15 / GalA: $20 / Day of show: $25",
+        "eventLink"    : "special-events/" + "wreckno-at-necto-nightclub-ann-arbor-michigan-sep-30-2021.html",
+        "eventSocial"  : "https://www.facebook.com/events/256080619363823/",
+        "eventTix"     : "https://www.etix.com/ticket/p/7817709/ignyte-events-presentswreckno-gardella-ann-arbor-necto",
+        "eventImgWide" : "img/event-images/" + "wreckno-at-necto-nightclub-ann-arbor-michigan-sep-30-2021.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Mar 29, 2020 9:00:00"),
         "eventName"    : "A2 Film Fest Live Stream",
         "eventArtist"  : "A2 Film Fest Live Stream (Day 6)",
