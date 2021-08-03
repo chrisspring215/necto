@@ -30,6 +30,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Aug 26, 2021 21:00:00"),
+ "eventName" : "12th Planet",
+ "eventArtist" : "12th Planet",
+ "eventDesc" : "Ignyte Events presents</br></br><br><br>12th Planet<br><br>With Special Guest<br></br>ANTISERUM</br>Guppi</br>Skinz</br>Doors at 9P.M.</br> 18+ with proper issued government ID</br>VIP RESERVATIONS: VIP@necto.com",
+ "eventDescLong": "Ignyte Events presents</br></br><br><br>12th Planet<br><br>With Special Guest<br></br>ANTISERUM</br>Guppi</br>Skinz</br>Doors at 9P.M.</br> 18+ with proper issued government ID</br>VIP RESERVATIONS: VIP@necto.com",
+ "eventCover" : "$25",
+ "eventLink" : "special-events/" + "12th-planet-at-necto-nightclub-ann-arbor-michigan-aug-26-2021.html",
+ "eventSocial" : "https://www.facebook.com/events/320919166394705/",
+ "eventTix" : "https://www.eventbrite.com/e/160194146003",
+ "eventImgWide" : "img/event-images/" + "12th-planet-at-necto-nightclub-ann-arbor-michigan-aug-26-2021.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Mar 29, 2020 9:00:00"),
  "eventName" : "A2 Film Fest Live Stream",
  "eventArtist" : "A2 Film Fest Live Stream (Day 6)",
