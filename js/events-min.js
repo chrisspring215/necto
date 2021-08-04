@@ -15,6 +15,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Oct 29, 2021 21:00:00"),
+ "eventName" : "THOT-O-WEEN",
+ "eventArtist" : "THOT-O-WEEN",
+ "eventDesc" : "Your two favorite LGBTQ+ parties, Thots & Prayers and Necto Pride, are teaming up to produce a weekend of Halloween Festivities this year!</br></br>TWO NIGHTS OF PARTYING!</br></br>Join us on October 29th for THOT-O-WEEN at Necto Nightclub in Ann Arbor, Michigan. DJs Ben Bakson, Dan Slater, and Jace M will rock the main floor. DJ DigiMark in the red room. Costumes are encouraged and there will be a silent contume contest.",
+ "eventDescLong": "Your two favorite LGBTQ+ parties, Thots & Prayers and Necto Pride, are teaming up to produce a weekend of Halloween Festivities this year!</br></br>TWO NIGHTS OF PARTYING!</br></br>Join us on October 29th for THOT-O-WEEN at Necto Nightclub in Ann Arbor, Michigan. DJs Ben Bakson, Dan Slater, and Jace M will rock the main floor. DJ DigiMark in the red room. Costumes are encouraged and there will be a silent contume contest.</br></br>Necto is 18+. Necto is located at 516 East Liberty, Ann Arbor, MI 48104.</br></br>Then, on October 30th, Thots & Prayers presents A Superhero Halloween at TV Lounge in Detroit. DJs Isaac Escalante & Jace M in the main room and Brando & Tylr_ in the blue room. Get your superhero gear out and dress up like your favorite hero! TV Lounge is 21+. TV Lounge is located at 2548 Grand River Ave, Detroit, MI 48201.</br></br>And, if you want to go to both parties, grab up a combo ticket at a discounted price and join us for both events!</br></br>You must be 21+ for combo ticket purchase.</br></br>Please note: Necto is 18+ and TV Lounge is 21+. Do not buy a combo ticket or TV Lounge ticket if you are not 21+.</br></br>There will be no refunds given to people who buy the wrong ticket.",
+ "eventCover" : "$45 (Single Show) – $75 (Both Nights)",
+ "eventLink" : "special-events/" + "thot-o-ween-at-necto-nightclub-ann-arbor-michigan-oct-29-2021.html",
+ "eventSocial" : "",
+ "eventTix" : "www.eventbrite.com/e/thots-prayers-halloween-weekend-ann-arbor-detroit-oct-29-30-tickets-163736246521",
+ "eventImgWide" : "img/event-images/" + "thot-o-ween-at-necto-nightclub-ann-arbor-michigan-oct-29-2021.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Sep 30, 2021 21:00:00"),
  "eventName" : "WRECKNO w/ GARDELLA",
  "eventArtist" : "WRECKNO w/ GARDELLA",
@@ -25,6 +40,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/events/256080619363823/",
  "eventTix" : "https://www.etix.com/ticket/p/7817709/ignyte-events-presentswreckno-gardella-ann-arbor-necto",
  "eventImgWide" : "img/event-images/" + "wreckno-at-necto-nightclub-ann-arbor-michigan-sep-30-2021.jpg",
+ "eventWklOvrd" : 0,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Sep 16, 2021 21:00:00"),
+ "eventName" : "Marauda & Calcium ",
+ "eventArtist" : "Marauda & Calcium ",
+ "eventDesc" : "Marauda & Calcium presented by Ignyte Events</br></br>18+ with proper issued government ID</br></br>VIP Reservations: VIP@necto.com",
+ "eventDescLong": "Marauda & Calcium presented by Ignyte Events</br></br>18+ with proper issued government ID</br></br>VIP Reservations: VIP@necto.com",
+ "eventCover" : "GA: $20 / Day of show: $25",
+ "eventLink" : "special-events/" + "marauda-calcium-at-necto-nightclub-ann-arbor-michigan-sep-16-2021.html",
+ "eventSocial" : "https://fb.me/e/4pIWBWjdp",
+ "eventTix" : "https://www.etix.com/ticket/p/2282347/ignyte-events-presentsmarauda-calcium-ann-arbor-necto ",
+ "eventImgWide" : "img/event-images/" + "marauda-calcium-at-necto-nightclub-ann-arbor-michigan-sep-16-2021.jpg",
  "eventWklOvrd" : 0,
  "eventDay" : 0,
  "pastEvent" : 0
