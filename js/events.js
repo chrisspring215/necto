@@ -60,6 +60,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Sep 10, 2021 21:00:00"),
+        "eventName"    : "Necto Pride present: Monét X Change",
+        "eventArtist"  : "Monét X Change",
+        "eventDesc"    : "Necto Pride presents..  Monét X Change<br>Hosted by Chanel Hunter and Maxi Chanel  with Perry Dox and Hershae Chocolatae",
+        "eventDescLong": "Necto Pride presents..  Monét X Change<br>Hosted by Chanel Hunter and Maxi Chanel  with Perry Dox and Hershae Chocolatae",
+        "eventCover"   : "Cover: 18+ / 21+: $20",
+        "eventLink"    : "special-events/" + "monet-x-change-at-necto-nightclub-ann-arbor-michigan-sep-10-2021.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "monet-x-change-at-necto-nightclub-ann-arbor-michigan-sep-10-2021.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Sep 9, 2021 21:00:00"),
         "eventName"    : "Blunts & Blondes",
         "eventArtist"  : "Blunts & Blondes",
