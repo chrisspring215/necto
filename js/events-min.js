@@ -90,6 +90,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Sep 6, 2021 21:00:00"),
+ "eventName" : "Factory presents... BayWitch Slasher Beach Party",
+ "eventArtist" : "BayWitch Slasher Beach Party",
+ "eventDesc" : "First special event since the re-opening many more to come! Our goth beach party, uv black lights, dark beach attire encouraged, photo area on mezzanine, ticket giveaway for special Halloween event on October 25th for best dark beach attire group / pair!!",
+ "eventDescLong": "First special event since the re-opening many more to come! Our goth beach party, uv black lights, dark beach attire encouraged, photo area on mezzanine, ticket giveaway for special Halloween event on October 25th for best dark beach attire group / pair!!<br>MAIN ROOM: GOTH, INDUSTRIAL, FUTURPOP, SYNTHPOP, AGGROBEATS, EBM AND MORE.. WITH DJ MISANTHROPIA NARCISSUS, DJ REMNANT, GUEST DJ HAVOK<br>RED ROOM: DJ KNOWLEDGE aka Yoda playing Old School, forgotten classics, remixes, mash-ups, emo sing along",
+ "eventCover" : "$5",
+ "eventLink" : "special-events/" + "baywitch-slasher-beach-party-at-necto-nightclub-ann-arbor-michigan-sep-6-2021.html",
+ "eventSocial" : "",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "baywitch-slasher-beach-party-at-necto-nightclub-ann-arbor-michigan-sep-6-2021.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Mar 29, 2020 9:00:00"),
  "eventName" : "A2 Film Fest Live Stream",
  "eventArtist" : "A2 Film Fest Live Stream (Day 6)",
