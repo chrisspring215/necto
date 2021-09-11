@@ -45,6 +45,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Sep 24, 2021 21:00:00"),
+ "eventName" : "Necto Pride presents.. MOTORBALL DETROIT PRE-PARTY 2021 WITH DJ JACE M, EDWARD ALAN",
+ "eventArtist" : "MOTORBALL Preparty",
+ "eventDesc" : "Necto Pride presents.. MOTORBALL DETROIT PRE-PARTY 2021 WITH DJ JACE M, EDWARD ALAN<br>TICKET GIVEAWAY: TWO WEEKEND PASSES TO MOTORBALL<br>RED ROOM: DIGIMARK",
+ "eventDescLong": "Necto Pride presents.. MOTORBALL DETROIT PRE-PARTY 2021 WITH DJ JACE M, EDWARD ALAN<br>TICKET GIVEAWAY: TWO WEEKEND PASSES TO MOTORBALL<br>RED ROOM: DIGIMARK",
+ "eventCover" : "$10 21+, $20 18-20",
+ "eventLink" : "special-events/" + "motorball-de6troit-preparty-at-necto-nightclub-ann-arbor-michigan-sep-24-2021.html",
+ "eventSocial" : "",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "motorball-de6troit-preparty-at-necto-nightclub-ann-arbor-michigan-sep-24-2021.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Sep 16, 2021 21:00:00"),
  "eventName" : "Marauda & Calcium ",
  "eventArtist" : "Marauda & Calcium ",
