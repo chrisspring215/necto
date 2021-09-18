@@ -30,6 +30,21 @@ var eventsJSON = [
  "pastEvent" : 0
  },
  {
+ "eventDate" : new Date("Oct 1, 2021 21:00:00"),
+ "eventName" : "Necto Pride presents.. GOTTMIK",
+ "eventArtist" : "GOTTMIK",
+ "eventDesc" : "Hosted by Chanel Hunter OPENERS TBA ",
+ "eventDescLong": "Hosted by Chanel Hunter OPENERS TBA ",
+ "eventCover" : "18+ / 21+: $20",
+ "eventLink" : "special-events/" + "gottmik-necto-nightclub-ann-arbor-michigan-oct-1-2021.html",
+ "eventSocial" : "",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "gottmik-at-necto-nightclub-ann-arbor-michigan-oct-1-2021.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Sep 30, 2021 21:00:00"),
  "eventName" : "WRECKNO w/ GARDELLA",
  "eventArtist" : "WRECKNO w/ GARDELLA",
