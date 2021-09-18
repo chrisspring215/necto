@@ -60,6 +60,21 @@
         "pastEvent"    : false
     },
     {
+        "eventDate"    : "Sep 27, 2021 21:00:00",
+        "eventName"    : "Factory presents... Fall Formal",
+        "eventArtist"  : "Factory's Fall Formal",
+        "eventDesc"    : "Grab a date, dress fancy, dress to impress!  Get your photo taken with your factory family/date! Photo area on mezzanine.",
+        "eventDescLong": "Grab a date, dress fancy, dress to impress!  Get your photo taken with your factory family/date! Photo area on mezzanine. MAIN ROOM: GOTH, INDUSTRIAL, FUTUREPOP, SYNTHPOP, AGGROBEATS, EBM AND MORE.. WITH DJ MISANTHROPIA NARCISSUS, REMNANT, AND SPECIAL GUEST DJ TEXTBEAK. RED ROOM: DJ KNOWLEDGE aka Yoda playing Old School, forgotten classics, remixes, mash-ups, emo sing along",
+        "eventCover"   : "$5",
+        "eventLink"    : "special-events/factory-fall-formal-at-necto-nightclub-ann-arbor-michigan-sep-27-2021.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/factory-fall-formal-at-necto-nightclub-ann-arbor-michigan-sep-27-2021.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0,
+        "pastEvent"    : false
+    },
+    {
         "eventDate"    : "Sep 24, 2021 21:00:00",
         "eventName"    : "Necto Pride presents.. MOTORBALL DETROIT PRE-PARTY 2021 WITH DJ JACE M, EDWARD ALAN",
         "eventArtist"  : "MOTORBALL Preparty",
