@@ -15,6 +15,21 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
+        "eventDate"    : new Date("Nov 9, 2021 21:00:00"),
+        "eventName"    : "MMBC & ACS PRESENT VICETONE",
+        "eventArtist"  : "VICETONE",
+        "eventDesc"    : "PERCENT OF TICKET SALES ARE DONATED TO AMERICAN CANCER SOCIETY<br>Join Michigan Music Business Club and Relay for Life in their first ever “Rave n’ Raise” benefit concert featuring iconic DJ duo, VICETONE!<br>Experience true college nightlife with two of the most notable student organizations at Michigan and dance the night away while helping donate to cancer research at American Cancer Society!<br>A portion of each ticket sold is donated to ACS<br>NO REFUNDS WILL BE ISSUED UPON PURCHASE OF TICKETS",
+        "eventDescLong": "PERCENT OF TICKET SALES ARE DONATED TO AMERICAN CANCER SOCIETY<br>Join Michigan Music Business Club and Relay for Life in their first ever “Rave n’ Raise” benefit concert featuring iconic DJ duo, VICETONE!<br>Experience true college nightlife with two of the most notable student organizations at Michigan and dance the night away while helping donate to cancer research at American Cancer Society!<br>A portion of each ticket sold is donated to ACS<br>NO REFUNDS WILL BE ISSUED UPON PURCHASE OF TICKET",
+        "eventCover"   : "Early Bird: $25 / General Admission: $30",
+        "eventLink"    : "special-events/" + "viceton-at-necto-nightclub-ann-arbor-michigan-nov-9-2021.html",
+        "eventSocial"  : "",
+        "eventTix"     : "https://www.etix.com/ticket/p/4462137/mmbc-asc-present-vicetone-ann-arbor-necto",
+        "eventImgWide" : "img/event-images/" + "viceton-at-necto-nightclub-ann-arbor-michigan-nov-9-2021.jpg",
+        "eventWklOvrd" : false,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Nov 5, 2021 21:00:00"),
         "eventName"    : "Necto Pride Presents: Rosé",
         "eventArtist"  : "Rosé",
