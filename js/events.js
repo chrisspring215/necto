@@ -1,5 +1,20 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Dec 3, 2021 21:00:00"),
+        "eventName"    : "Necto Pride Presents.. Britney’s Birthday Bash! With Derrick Barry & Nebraska Thunderfuck",
+        "eventArtist"  : "Derrick Berry & Nebraska Thunderfuck",
+        "eventDesc"    : "Britney’s Birthday Bash! With Derrick Barry & Nebraska Thunderfuck<br>Hosted by Perry Dox<br>With Angelicia Marquez and Mia Cole",
+        "eventDescLong": "Britney’s Birthday Bash! With Derrick Barry & Nebraska Thunderfuck<br>Hosted by Perry Dox<br>With Angelicia Marquez and Mia Cole",
+        "eventCover"   : "$20",
+        "eventLink"    : "special-events/" + "derrick-berry-nebraska-thunderfuck-at-necto-nightclub-ann-arbor-michigan-dec-3-2021.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "derrick-berry-nebraska-thunderfuck-at-necto-nightclub-ann-arbor-michigan-dec-3-2021.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Nov 18, 2021 21:00:00"),
         "eventName"    : "CHAMPAGNE DRIP",
         "eventArtist"  : "CHAMPAGNE DRIP",
