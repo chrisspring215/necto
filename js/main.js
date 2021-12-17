@@ -87,7 +87,7 @@ var weeklyEvents = [
     },
     {
         "eventName"    : "Frequency Saturday",
-        "eventDesc"    : "DJ Knowledge and DJ Skoob E host the hottest club night around. The dance floor will be packed, featuring the best Top 40, Dance, EDM and Hip-Hop tracks. Don't let your weekend down. Let's get Turnt!",
+        "eventDesc"    : "DJ SKOOB E, DJ YODATHEBARD, VJ BOSSLADY, MC 3STEEZ, spins Top 40, Hip Hop, Dance, EDM in the Main Room",
         "eventLink"    : 'frequency-saturday.html',
         "eventImgWide" : 'img/frequency-saturday-necto-nightclub-calendar.jpg',
         "eventTime"    : '9:00 PM',
@@ -412,10 +412,14 @@ var weeklyNavigation = [
         "linkUrl"    : 'factory-monday.html',
         "anchorName" : 'FACTORY MONDAY',
     },
+
+    /* Paused displaying Thurs night
     {
         "linkUrl"    : 'mix-thursday.html',
         "anchorName" : 'MIX THURSDAY',
     },
+    */
+
     {
         "linkUrl"    : 'pride-friday.html',
         "anchorName" : 'PRIDE FRIDAY',
