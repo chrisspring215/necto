@@ -1,5 +1,20 @@
 var eventsJSON = [
  {
+ "eventDate" : new Date("Apr 8, 2022 21:00:00"),
+ "eventName" : "Necto Pride.. Presents Alyssa Edwards",
+ "eventArtist" : "Alyssa Edwards",
+ "eventDesc" : "Chanel Hunter & Perry Dox Opener tba ",
+ "eventDescLong": "Chanel Hunter & Perry Dox Opener tba ",
+ "eventCover" : "$20",
+ "eventLink" : "special-events/" + "alyssa-edwards-at-necto-nightclub-ann-arbor-michigan-april-8-2022.html",
+ "eventSocial" : "https://www.instagram.com/factoryatnecto/?hl=en",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "alyssa-edwards-at-necto-nightclub-ann-arbor-michigan-april-8-2022.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Mar 28, 2022 21:00:00"),
  "eventName" : "SOMETHINGCOLD FACTORY ABDUCTION ",
  "eventArtist" : "SOMETHINGCOLD",
