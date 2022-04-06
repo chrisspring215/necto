@@ -1,5 +1,20 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("May 16, 2022 21:00:00"),
+        "eventName"    : "FRONT LINE ASSEMBLY + REIN",
+        "eventArtist"  : "FRONT LINE ASSEMBLY + REIN",
+        "eventDesc"    : "Factory Necto Presents:  FRONT LINE ASSEMBLY + REIN<br>“The Mechanical Soul Tour”",
+        "eventDescLong": "Factory Necto Presents:  FRONT LINE ASSEMBLY + REIN<br>“The Mechanical Soul Tour”<br>FLA featuring Tim Sköld in their 2022 lineup!<br>https://www.facebook.com/frontlineassembly<br>https://www.facebook.com/reinofficialmusic<br>Doors: 9PM<br>END: 2AM<br>18+ with proper valid ID<br>*ARRIVE EARLY* Set times will be announced dos<br>DJ sets by: Main Room: REMNANT, JAY MISANTHROPIA<br>Red Room: YODATHEBARD",
+        "eventCover"   : "Presale: $20, General Admission: $25",
+        "eventLink"    : "special-events/" + "front-line-assembly-at-necto-nightclub-ann-arbor-michigan-may-16-2022.html",
+        "eventSocial"  : "https://www.facebook.com/frontlineassembly",
+        "eventTix"     : "https://www.etix.com/ticket/p/3471177/factory-necto-presentsfront-line-assembly-rein-ann-arbor-necto",
+        "eventImgWide" : "img/event-images/" + "front-line-assembly-at-necto-nightclub-ann-arbor-michigan-may-16-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Apr 8, 2022 21:00:00"),
         "eventName"    : "Necto Pride.. Presents Alyssa Edwards",
         "eventArtist"  : "Alyssa Edwards",
