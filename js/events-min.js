@@ -1,5 +1,35 @@
 var eventsJSON = [
  {
+ "eventDate" : new Date("Jun 13, 2022 20:00:00"),
+ "eventName" : "Factory Necto presents: Psyclon Nine ROAD TO HELL TOUR",
+ "eventArtist" : "Psyclon Nine",
+ "eventDesc" : "with special guests:<br>Seven Factor<br>Our Frankenstein",
+ "eventDescLong": "DOORS ARE AT 8:00pm<br>with special guests:<br>Seven Factor<br>Our Frankenstein",
+ "eventCover" : "Presale: $10, General Admission: $15",
+ "eventLink" : "special-events/" + "psyclon-nine-at-necto-nightclub-ann-arbor-michigan-june-13-2022.html",
+ "eventSocial" : "none",
+ "eventTix" : "https://www.etix.com/ticket/p/6707031/factory-necto-presentspsyclon-nine-road-to-hell-tour--ann-arbor-necto",
+ "eventImgWide" : "img/event-images/" + "psyclon-nine-at-necto-nightclub-ann-arbor-michigan-june-13-2022.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("Jun 10, 2022 21:00:00"),
+ "eventName" : "Necto PRIDE Presents.. Manila Luzon",
+ "eventArtist" : "Manila Luzon",
+ "eventDesc" : "Hosted by Chanel Hunter & Perry Dox</br>Opener: Lucy Misfit @lucymisfit",
+ "eventDescLong": "Hosted by Chanel Hunter & Perry Dox</br>Opener: Lucy Misfit @lucymisfit",
+ "eventCover" : "Presale: $20",
+ "eventLink" : "special-events/" + "manila-luzon-at-necto-nightclub-ann-arbor-michigan-june-10-2022.html",
+ "eventSocial" : "none",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "manila-luzon-at-necto-nightclub-ann-arbor-michigan-june-10-2022.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("May 16, 2022 21:00:00"),
  "eventName" : "FRONT LINE ASSEMBLY + REIN",
  "eventArtist" : "FRONT LINE ASSEMBLY + REIN",
@@ -10,6 +40,21 @@ var eventsJSON = [
  "eventSocial" : "https://www.facebook.com/frontlineassembly",
  "eventTix" : "https://www.etix.com/ticket/p/3471177/factory-necto-presentsfront-line-assembly-rein-ann-arbor-necto",
  "eventImgWide" : "img/event-images/" + "front-line-assembly-at-necto-nightclub-ann-arbor-michigan-may-16-2022.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
+ "eventDate" : new Date("May 6, 2022 21:00:00"),
+ "eventName" : "Necto PRIDE Presents: Alaska Thunderfuck",
+ "eventArtist" : "Alaska Thunderfuck",
+ "eventDesc" : "Hosted by Chanel Hunter & Perry Dox ",
+ "eventDescLong": "Hosted by Chanel Hunter & Perry Dox ",
+ "eventCover" : "",
+ "eventLink" : "special-events/" + "alaska-thunderfuck-at-necto-nightclub-ann-arbor-michigan-may-6-2022.html",
+ "eventSocial" : "",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "alaska-thunderfuck-at-necto-nightclub-ann-arbor-michigan-may-6-2022.jpg",
  "eventWklOvrd" : 1,
  "eventDay" : 0,
  "pastEvent" : 0
