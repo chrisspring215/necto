@@ -1,5 +1,80 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Aug 1, 2022 21:00:00"),
+        "eventName"    : "Factory 18 Year Anniversary",
+        "eventArtist"  : "Factory 18 Year Anniversary ",
+        "eventDesc"    : "Factory is turning 18!! We're honoring your support over the years by bringing back artists from our past and present residents!<br>Many updates to come!",
+        "eventDescLong": "Factory is turning 18!! We're honoring your support over the years by bringing back artists from our past and present residents!<br>Many updates to come!",
+        "eventCover"   : "$5",
+        "eventLink"    : "special-events/" + "factory-18-at-necto-nightclub-ann-arbor-michigan-aug-1-2022.html",
+        "eventSocial"  : "none",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-18-at-necto-nightclub-ann-arbor-michigan-aug-1-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 22, 2022 21:00:00"),
+        "eventName"    : "Necto PRIDE Presents..  Yvie Oddly",
+        "eventArtist"  : "Yvie Oddly",
+        "eventDesc"    : "Hosted by Chanel Hunter & Perry Dox ",
+        "eventDescLong": "Hosted by Chanel Hunter & Perry Dox ",
+        "eventCover"   : "$20",
+        "eventLink"    : "special-events/" + "yvie-oddly-at-necto-nightclub-ann-arbor-michigan-july-22-2022.html",
+        "eventSocial"  : "none",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "yvie-oddly-at-necto-nightclub-ann-arbor-michigan-july-22-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 16, 2022 21:00:00"),
+        "eventName"    : "Necto Frequency Tropical Party",
+        "eventArtist"  : "Frequency Tropical Party ",
+        "eventDesc"    : "Beach party attire encouraged! Ladies Free until 10:00PM!",
+        "eventDescLong": "Beach party attire encouraged!  Ladies Free until 10:00PM!<br>DJ SKOOB E, DJ YODATHEBARD in the MAIN ROOM<br>Hosted by: MC 3STEEZ<br>DJ Maestro in the RED ROOM",
+        "eventCover"   : "$10 21+, $30 (18-20)",
+        "eventLink"    : "special-events/" + "frequency-tropical-party-at-necto-nightclub-ann-arbor-michigan-july-16-2022.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "frequency-tropical-party-at-necto-nightclub-ann-arbor-michigan-july-16-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jul 15, 2022 21:00:00"),
+        "eventName"    : "Pride Tropical Party",
+        "eventArtist"  : "Pride Tropical Party ",
+        "eventDesc"    : "Beach party attire encouraged! Free cover from 9-11PM with beach attire!",
+        "eventDescLong": "DJ EDWARD ALAN, DJ YODATHEBARD, DJ SKOOB E in the MAIN ROOM<br>osted by: Perry Dox<br>DJ DIGIMARK in the RED ROOM<br>Cover: $10 21+, $20 (18-20)<br>18+ with proper government ID <br>VIP:  VIP@NECTO.COM",
+        "eventCover"   : "$10 21+, $20 (18-20)",
+        "eventLink"    : "special-events/" + "pride-tropical-party-at-necto-nightclub-ann-arbor-michigan-july-15-2022.html",
+        "eventSocial"  : "",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-tropical-party-at-necto-nightclub-ann-arbor-michigan-july-15-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Jun 27, 2022 21:00:00"),
+        "eventName"    : "Factory Necto & Doc Colony Presents: MACHINA",
+        "eventArtist"  : "MACHINA",
+        "eventDesc"    : "Anime Fetish attire encouraged!",
+        "eventDescLong": "Anime Fetish attire encouraged!<br>Cover: $10<br> 18+ with proper issued government ID <br>Main Floor:<br>Special Guest DJ Marc Church! Playing alongside Remnant & Jay Misanthroipia  <br>2 Burlesque Dancers performances: Lashes Lamoan, Sophia Von Startdust (King)<br> 2 Suspension / Shabari (Rope tie): Atreyu, Lady Spun<br>3 Strolling performers: Flora and Kiwi, Flash<br><br>Red Room:  <br>Special Guest: VJ STROKENFOLD with resident YODAthebard playing a unique blend of Anime and Video Game Music mixed with various EDM styles, including Bass Music and emo-singalong",
+        "eventCover"   : "$10",
+        "eventLink"    : "special-events/" + "MACHINA-at-necto-nightclub-ann-arbor-michigan-june-27-2022.html",
+        "eventSocial"  : "https://facebook.com/events/s/factory-necto-doc-colony-prese/404322544947445/",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "MACHINA-at-necto-nightclub-ann-arbor-michigan-june-27-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Jun 13, 2022 20:00:00"),
         "eventName"    : "Factory Necto presents: Psyclon Nine ROAD TO HELL TOUR",
         "eventArtist"  : "Psyclon Nine",
