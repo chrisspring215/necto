@@ -1,5 +1,95 @@
 var eventsJSON = [
     {
+        "eventDate"    : new Date("Oct 31, 2022 20:00:00"),
+        "eventName"    : "Factory Halloween",
+        "eventArtist"  : "Pride Halloween 2022",
+        "eventDesc"    : "It's Time!<br><br>Our most unsacred holiday falls on our hallowed Factory Monday<br><br>We reuse to waste a monument so we're opening the doors early<br><br> Costume Contest<br><br>(don't disappoint us) <br><br> Main Room - Remnant, Jay Misanthropia, and Havok<br><br>Red Room - Yoda the Bard, Joey P<br><br>Special Guests: End.User & Aaron Bianchi",
+        "eventDescLong": "It's Time!<br><br>Our most unsacred holiday falls on our hallowed Factory Monday<br><br>We reuse to waste a monument so we're opening the doors early<br><br> Costume Contest<br><br>(don't disappoint us) <br><br> Main Room - Remnant, Jay Misanthropia, and Havok<br><br>Red Room - Yoda the Bard, Joey P<br><br>Special Guests: End.User & Aaron Bianchi",
+        "eventCover"   : "$10",
+        "eventLink"    : "special-events/" + "factory-halloween-2022-at-necto-nightclub-ann-arbor-michigan-oct-31-2022.html",
+        "eventSocial"  : "none",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "factory-halloween-2022-at-necto-nightclub-ann-arbor-michigan-oct-31-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 29, 2022 21:00:00"),
+        "eventName"    : "Frequency Halloween",
+        "eventArtist"  : "Frequency Halloween 2022",
+        "eventDesc"    : "Frequency Saturday's Present - Halloween<br><br>Costume Contest Hosted by: Yoda the Bard<br><br>Read Carefully - Show up without a costume, we're charging you 50 at the door because it's Halloween.<br><br>Main Room - DJ Graffiti, DJ Skoob E, and Yoda the Bard<br><br>Red Room - The Maestro DJ and Ron Don 734<br><br>18+ with proper government ID<br><br>Costume Cover: 21+ $10, (18-20) $30<br><br>No Costume: $50 (All Ages)<br><br>Doors: 9:00 PM",
+        "eventDescLong": "Frequency Saturday's Present - Halloween<br><br>Costume Contest Hosted by: Yoda the Bard<br><br>Read Carefully - Show up without a costume, we're charging you 50 at the door because it's Halloween.<br><br>Main Room - DJ Graffiti, DJ Skoob E, and Yoda the Bard<br><br>Red Room - The Maestro DJ and Ron Don 734<br><br>18+ with proper government ID<br><br>Costume Cover: 21+ $10, (18-20) $30<br><br>No Costume: $50 (All Ages)<br><br>Doors: 9:00 PM<br><br>NO REAL WEAPONS",
+        "eventCover"   : "$30 with costume, $50 without costume",
+        "eventLink"    : "special-events/" + "frequency-halloween-2022-at-necto-nightclub-ann-arbor-michigan-oct-29-2022.html",
+        "eventSocial"  : "none",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "frequency-halloween-2022-at-necto-nightclub-ann-arbor-michigan-oct-29-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    }, 
+    {
+        "eventDate"    : new Date("Oct 28, 2022 21:00:00"),
+        "eventName"    : "Pride Halloween",
+        "eventArtist"  : "Pride Halloween 2022",
+        "eventDesc"    : "Necto Pride Presents - Pride Halloween<br>Costume Contest Hosted by: Perry Dox<br>Show us what you got! <br>Perry Dox will have a few surprise guest judges drop by",
+        "eventDescLong": "Necto Pride Presents - Pride Halloween<br>Costume Contest Hosted by: Perry Dox<br>Show us what you got! <br>Perry Dox will have a few surprise guest judges drop by<br>Main Room - DJ Edward Alan, DJ Skoob E, and Yoda the Bard<br>Red Room - DJ DigiMark<br>18+ with proper government ID<br><br>NO REAL WEAPONS",
+        "eventCover"   : "$20",
+        "eventLink"    : "special-events/" + "pride-halloween-2022-at-necto-nightclub-ann-arbor-michigan-oct-28-2022.html",
+        "eventSocial"  : "none",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "pride-halloween-2022-at-necto-nightclub-ann-arbor-michigan-oct-28-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },  
+    {
+        "eventDate"    : new Date("Oct 14, 2022 21:00:00"),
+        "eventName"    : "Necto Pride Presents - Voilet Chachki & Gottmik",
+        "eventArtist"  : "DJ Holographic",
+        "eventDesc"    : "Necto Pride Prsents - Voilet Chachki & Gottmik<br>Hosted by: Chanel Hunter & Perry Dox<br>Openers: Toledo Famous & Infestasia",
+        "eventDescLong": "Necto Pride Prsents - Voilet Chachki & Gottmik<br>Hosted by: Chanel Hunter & Perry Dox<br>Openers: Toledo Famous & Infestasia",
+        "eventCover"   : "$20",
+        "eventLink"    : "special-events/" + "voilet-chachki-at-necto-nightclub-ann-arbor-michigan-oct-14-2022.html",
+        "eventSocial"  : "none",
+        "eventTix"     : "none",
+        "eventImgWide" : "img/event-images/" + "voilet-chachki-at-necto-nightclub-ann-arbor-michigan-oct-14-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 13, 2022 21:00:00"),
+        "eventName"    : "Coat-check Girl, aka DJ Holographic, aka Ariel Corley aka AC",
+        "eventArtist"  : "DJ Holographic",
+        "eventDesc"    : "Coat-check Girl, aka DJ Holographic, aka Ariel Corley aka AC",
+        "eventDescLong": "TICKETS: <a href='https://www.etix.com/ticket/p/8125595/dj-holographic-ann-arbor-necto'>Get Tickets</a><br><br>✨Full Circle 💫<br><br>Coat-check Girl, aka DJ Holographic, aka Ariel Corley aka AC<br><br>I was the coat-check girl at Necto a year before I started DJing and was just about to turn 21. I remember when I started, my dad asked me when I got the job if “The Wizard 🔮was still spinning records at the Nectarine Ballroom”, he meant Jeff Mills. Necto has so much rich history in creating spaces for DJs to master their craft and to blow up globally. 🌍 <br><br>During my time there, my passion for DJing grew, and my desire to live a lifestyle as a club kid started to bloom by watching the club open with the bouncers getting to their posts, cashiers opening drawers, bartenders doing the prep work, and me in…my coat-check box! Watching it all from my coat-check box, now I just exchanged the box for a booth. Sharing an exchange of memories that only we can have 'in the moment.'<br><br>Working at Necto gave me a front view of seeing talented artists locally to international DJs on a global scale. That graced me by me listening, studying, and feeling the passion of how music drives souls. 🔥<br><br>Come celebrate with me as I come to Full Circle, where it all started; bring a coat so I can check you! <br><br>Where Legends get groomed.🙏🏾✨<br><br>Show details: <br><br>Thursday, October 13th<br><br>Support <br><br>Yoda the Bard✨<br><br>Garrison XR ❤️",
+        "eventCover"   : "",
+        "eventLink"    : "special-events/" + "DJ-Holographic-at-necto-nightclub-ann-arbor-michigan-oct-13-2022.html",
+        "eventSocial"  : "none",
+        "eventTix"     : "https://www.etix.com/ticket/p/8125595/dj-holographic-ann-arbor-necto",
+        "eventImgWide" : "img/event-images/" + "DJ-Holographic-at-necto-nightclub-ann-arbor-michigan-oct-13-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
+        "eventDate"    : new Date("Oct 10, 2022 20:00:00"),
+        "eventName"    : "FACTORY NECTO PRESENTS - HOCICO HYPERVIOLENT NA TOUR 2022 FINAL DATES ",
+        "eventArtist"  : "HOCICO",
+        "eventDesc"    : "HEADLINER: HOCICO<br>OPENERS : Luna13 & Absynthe of Faith<br>18+ WITH PROPER GOVERNMENT ISSUED ID",
+        "eventDescLong": "HEADLINER: HOCICO<br>OPENERS : Luna13 & Absynthe of Faith<br>18+ WITH PROPER GOVERNMENT ISSUED ID",
+        "eventCover"   : "Pre-Sale: $20, Day of: $25",
+        "eventLink"    : "special-events/" + "HOCICO-at-necto-nightclub-ann-arbor-michigan-oct-10-2022.html",
+        "eventSocial"  : "none",
+        "eventTix"     : "https://www.etix.com/ticket/p/2154177/factory-necto-presentshocico-hyperviolent-na-tour-2022-final-dates-ann-arbor-necto",
+        "eventImgWide" : "img/event-images/" + "HOCICO-at-necto-nightclub-ann-arbor-michigan-oct-10-2022.jpg",
+        "eventWklOvrd" : true,
+        "eventDay"     : 0, // Do not modify
+        "pastEvent"    : false // Do not modify
+    },
+    {
         "eventDate"    : new Date("Sep 30, 2022 21:00:00"),
         "eventName"    : "Necto Pride Presents - Brooke Lynn Hytes",
         "eventArtist"  : "Brooke Lynn Hytes",
