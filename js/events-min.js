@@ -1,5 +1,20 @@
 var eventsJSON = [
  {
+ "eventDate" : new Date("Nov 4, 2022 21:00:00"),
+ "eventName" : "Kandy Muse",
+ "eventArtist" : "Necto Pride Presents - Kandy Muse",
+ "eventDesc" : "Necto Pride Presents - Kandy Muse",
+ "eventDescLong": "Necto Pride Presents - Kandy Muse<br><br>Friday, November 4th<br><br>Hosted by:<br><br>Chanel Hunter & Perry Dox<br><br>Openers:<br><br>Indya Luv & Kourtney Charles<br><br>Doors: 9:00 PM<br><br>Cover - $20<br><br>18+ w/ proper government ID",
+ "eventCover" : "$20",
+ "eventLink" : "special-events/" + "kandy-muse-at-necto-nightclub-ann-arbor-michigan-nov-4-2022.html",
+ "eventSocial" : "",
+ "eventTix" : "none",
+ "eventImgWide" : "img/event-images/" + "kandy-muse-at-necto-nightclub-ann-arbor-michigan-nov-4-2022.jpg",
+ "eventWklOvrd" : 1,
+ "eventDay" : 0,
+ "pastEvent" : 0
+ },
+ {
  "eventDate" : new Date("Oct 31, 2022 20:00:00"),
  "eventName" : "Factory Halloween",
  "eventArtist" : "Pride Halloween 2022",
