@@ -1,5 +1,20 @@
 var eventsJSON = [
     {
+        "eventDate"    :  new Date("Feb 27, 2023 19:00:00"),
+        "eventName"    :  "Factory Monday Presents - Psyclon Nine   From Hell and Back 2023",
+        "eventArtist"  :  "Psyclon Nine ",
+        "eventDesc"    :  "From Hell and Back 2023 Tour. Psyclon Nine with special guests Clockwork Echo, Our Frankenstein, and Corvins Breed. ",
+        "eventDescLong":  "From Hell and Back 2023 Tour. <br><br>Psyclon Nine with special guests Clockwork Echo, Our Frankenstein, and Corvins Breed. <br><br><br><br>After Party Hosted by:<br><br>Main Room <br><br>Remnant & Misanthropia Narcissus<br><br><br><br>Red Room <br><br>Yoda the Bard",
+        "eventCover"   :  "See Tickets Link",
+        "eventLink"    :  "special-events/" + "Psyclon-Nine-at-necto-nightclub-ann-arbor-michigan-Feb-27-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "https://www.etix.com/ticket/p/3917467/factory-necto-presentspsyclon-nine-from-hell-and-back-2023tour--ann-arbor-necto",
+        "eventImgWide" :  "img/event-images/" + "Psyclon-Nine-at-necto-nightclub-ann-arbor-michigan-Feb-27-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
         "eventDate"    :  new Date("Feb 10, 2023 21:00:00"),
         "eventName"    :  "Necto Pride Presents - Jaida Essence Hall",
         "eventArtist"  :  "Jaida Essence Hall",
@@ -10,6 +25,51 @@ var eventsJSON = [
         "eventSocial"  :  "",
         "eventTix"     :  "none",
         "eventImgWide" :  "img/event-images/" + "Jaida-Essence-Hall-at-necto-nightclub-ann-arbor-michigan-Feb-10-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Feb 04, 2023 21:00:00"),
+        "eventName"    :  "Frequency Saturdays Presents - 2000s Party",
+        "eventArtist"  :  "Frequency - 2000s Party",
+        "eventDesc"    :  "Frequency Saturdays is curating an evening filled with the 2000s greatest hits and a few surprises ;) ",
+        "eventDescLong":  "Frequency Saturdays is curating an evening filled with the 2000s greatest hits and a few surprises ;) ",
+        "eventCover"   :  "21 + $10   (18-20) $30",
+        "eventLink"    :  "special-events/" + "Frequency-2000s-Party-at-necto-nightclub-ann-arbor-michigan-Feb-04-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency-2000s-Party-at-necto-nightclub-ann-arbor-michigan-Feb-04-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Feb 03, 2023 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - 2000s Party",
+        "eventArtist"  :  "Pride - 2000s Party",
+        "eventDesc"    :  "Necto Pride is curating an evening filled with the 2000s greatest hits and a few surprises ;) ",
+        "eventDescLong":  "Necto Pride is curating an evening filled with the 2000s greatest hits and a few surprises ;) ",
+        "eventCover"   :  "21 + $10   (18-20) $20",
+        "eventLink"    :  "special-events/" + "Pride-2000s-Party-at-necto-nightclub-ann-arbor-michigan-Feb-03-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Pride-2000s-Party-at-necto-nightclub-ann-arbor-michigan-Feb-03-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jan 23, 2023 21:00:00"),
+        "eventName"    :  "UPSIDE DOWN",
+        "eventArtist"  :  "UPSIDE DOWN",
+        "eventDesc"    :  "The first Factory event of the Year, and Things are getting Stranger with: Upside Down!  Jay Misanthropia marks their 4 year anniversary as resident DJ of Factory by summoning Red Room resident Yoda the Bard to the main floor for a night of Goth, Emo, nu-Metal, Alt and general debauchery. ",
+        "eventDescLong":  "The first Factory event of the Year, and Things are getting Stranger with: Upside Down!  Jay Misanthropia marks their 4 year anniversary as resident DJ of Factory by summoning Red Room resident Yoda the Bard to the main floor for a night of Goth, Emo, nu-Metal, Alt and general debauchery. <br><br><br>Red Room:<br>Descend into the lower corridors to find CHASM: a new spin of underground industrial music. Pulses of mechanical beats and synthetic frequencies await, with a selection of electro-industrial-aggro-synth by audio tacticians Remnant and guest DJ Engine.",
+        "eventCover"   :  "5",
+        "eventLink"    :  "special-events/" + "UPSIDE-DOWN-at-necto-nightclub-ann-arbor-michigan-Jan-23-2023.html",
+        "eventSocial"  :  "https://fb.me/e/2ShqtIi7R",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "UPSIDE-DOWN-at-necto-nightclub-ann-arbor-michigan-Jan-23-2023.png",
         "eventWklOvrd" :  true,
         "eventDay"     :  0, // Do not modify
         "pastEvent"    :  false // Do not modify
