@@ -1,5 +1,20 @@
 { "events" : [
     {
+        "eventDate"    :  "Mar 31, 2023 21:00:00",
+        "eventName"    :  "Necto Pride Presents - Laganja Estranja",
+        "eventArtist"  :  "Laganja Estranja",
+        "eventDesc"    :  "Jay Jackson, AKA Laganja Estranja, is a world-renowned choreographer, artist, cannabis advocate, and LGBTQ+ icon.",
+        "eventDescLong":  "Jay Jackson, AKA Laganja Estranja, is a world-renowned choreographer, artist, cannabis advocate, and LGBTQ+ icon.<br>Friday, March 31st<br>Hosted by: <br>Chanel Hunter and Perry Dox<br>Opener:<br>Tequila Sanchez<br>DJs<br>Main Room <br>DJ Edward Alan and Yoda the Bard<br><br>Red Room <br>DJ DigiMark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/Laganja-Estranja-at-necto-nightclub-ann-arbor-michigan-Mar-31-2023.html",
+        "eventSocial"  :  "https:fb.me/e/2vI1yweEW",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/Laganja-Estranja-at-necto-nightclub-ann-arbor-michigan-Mar-31-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0,
+        "pastEvent"    :  false
+    },
+    {
         "eventDate"    :  "Feb 27, 2023 19:00:00",
         "eventName"    :  "Factory Monday Presents - Psyclon Nine   From Hell and Back 2023",
         "eventArtist"  :  "Psyclon Nine ",
@@ -14,6 +29,22 @@
         "eventDay"     :  0,
         "pastEvent"    :  false
     },
+    {
+        "eventDate"    :  "Feb 14, 2023 21:00:00",
+        "eventName"    :  "Love & Lashes",
+        "eventArtist"  :  "Love & Lashes",
+        "eventDesc"    :  "Love & Lashes",
+        "eventDescLong":  "Bondage Booth  <br>Shibari <br>& More!",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/Love-&-Lashes-at-necto-nightclub-ann-arbor-michigan-Feb-14-2023.html",
+        "eventSocial"  :  "https:fb.me/e/2uRHINDK1",
+        "eventTix"     :  "Love and Lashes  DJs Main Room: Remnant, Jay Misanthropia & Havok  Red Room: Yoda the Bard, Bondage Booth, Shibari  & More!",
+        "eventImgWide" :  "img/event-images/Love-&-Lashes-at-necto-nightclub-ann-arbor-michigan-Feb-14-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0,
+        "pastEvent"    :  false
+    },
+
     {
         "eventDate"    :  "Feb 10, 2023 21:00:00",
         "eventName"    :  "Necto Pride Presents - Jaida Essence Hall",
