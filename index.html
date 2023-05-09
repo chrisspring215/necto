@@ -133,39 +133,51 @@
       <div class="hero-image mobile-hero">
         <div class="row centered-cols">
           <div class="col col-12-xs"> 
-            <h1><span>ENHANCE YOUR NIGHTLIFE</span></h1>
+            
+            <video playsinline autoplay muted loop id="mobile-hero-video">
+              <source src="img/necto-mobile-hero-video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <h1><span>Ann Arbor's Premier Nightlife Entertainment</span></h1>
+
             <nav>
-              <a href="index.html?=weekly-events#weekly-events"  class="button">WEEKLY EVENTS</a>
-              <a href="index.html?=special-events#special-events" class="button">SPECIAL EVENTS</a>
-              <a href="calendar.html"             class="button">CALENDAR</a>
               <a href="bottle-service-vip-reservations.html?=linkFromMobileHero"   class="button">BOOK VIP</a>
+              <a href="index.html?=special-events#special-events" class="button">SPECIAL EVENTS</a>
+              <a href="index.html?=weekly-events#weekly-events"  class="button">WEEKLY EVENTS</a>
             </nav>
+
             <nav class="mobile-social">
               <a href="https://www.facebook.com/NectoNightclub/" class="col col-1-xs">FACEBOOK</a>
-              <a href="https://twitter.com/Necto?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="col col-1-xs">TWITTER</a>
               <a href="https://www.youtube.com/channel/UCoseNQYosZBp3q5z9-lp0Dg" class="col col-1-xs">YOUTUBE</a>
               <a href="http://instagram.com/nectonightclub" class="col col-1-xs">INSTAGRAM</a>
               <a href="https://snapchat.com/add/nectonightclub" class="col col-1-xs">SNAPCHAT</a>
             </nav>
+
           </div>
         </div>
       </div>
 
+
         <!-- DESKTOP HERO -->
       <div class="hero-image full-hero">
-        <div class="row centered-cols">
+
+        <video playsinline autoplay muted loop id="desktop-hero-video">
+          <source src="img/necto-hero-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        
+        <div class="row centered-cols desktop-hero-content">
           <div class="col col-12-xs"> 
-            <h1><span>ENHANCE YOUR NIGHTLIFE</span></h1>
+            <h1><span>Ann Arbor's Premier Nightlife Entertainment</span></h1>
             <nav class="row centered-cols">
-              <a href="index.html?=weekly-events#weekly-events" class="col col-2-xs button">WEEKLY EVENTS</a>
-              <a href="index.html?=special-events#special-events" class="col col-2-xs button">SPECIAL EVENTS</a>
-              <a href="calendar.html" class="col col-2-xs button">CALENDAR</a>
               <a href="bottle-service-vip-reservations.html?=linkFromDtHero" class="col col-2-xs button">BOOK VIP</a>
+              <a href="index.html?=special-events#special-events" class="col col-2-xs button">SPECIAL EVENTS</a>
+              <a href="index.html?=weekly-events#upcoming-events" class="col col-2-xs button">UPCOMING EVENTS</a>              
             </nav>
             <nav class="row centered-cols full-social">
               <a href="https://www.facebook.com/NectoNightclub/" class="col col-xs-10">FACEBOOK</a>
-              <a href="https://twitter.com/Necto?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="col col-xs-1">TWITTER</a>
-              <a href="https://www.youtube.com/channel/UCoseNQYosZBp3q5z9-lp0Dg" class="col col-xs-1">YOUTUBE</a>
+              <a href="https://www.youtube.com/channel/UCGwQ8TNtPGKkI_WFh_ZIeHQ" class="col col-xs-1">YOUTUBE</a>
               <a href="http://instagram.com/nectonightclub" class="col col-xs-1">INSTAGRAM</a>
               <a href="https://snapchat.com/add/nectonightclub" class="col col-xs-1">SNAPCHAT</a>
             </nav>
@@ -175,65 +187,79 @@
 
       <!-- End Heros -->
 
-      <!-- WEEKLY EVENTS -->
-      <div class="row page-section"  id="weekly-events">  
-        <div class="col col-12-xs col-12-sm">
-          <h2 class="page-section-header">WEEKLY EVENTS</h2>
+      <!-- MINI CALENDAR -->
+      <div class="section-header page-section background-variant" id="upcoming-events">
+        <div class="row">
+          <div class="col col-12-xs col-12-md">
+            <h2 class="page-section-header">UPCOMING EVENTS</h2>
+          </div>
+          <div class="row centered-cols">
+            <div class="col col-12-xs col-12-md">
+              <div class="row" id="calendarEvents">
+              <!-- CALENDAR EVENTS INSERTED HERE -->
+              </div>
+            </div>
+          </div>
         </div>
-          <div class="col col-12-xs col-4-md">
-            <section class="home-page-event">
-              <div class="home-page-event-content">      
-                <h3><a href="factory-monday.html"><span class="weekly-name">Factory</span> <span class="weekly-day">Monday</span></a></h3>
-                <img src="img/factory-monday.jpg">
-                <p>Factory is one of the longest running Goth-Industrial nights in the US, featuring DJ Misanthropia Narcissus & DJ Remnant spinning <strong>Goth</strong>, <strong>Industrial</strong>, <strong>Synthpop</strong>, <strong>Aggrotech</strong>, <strong>Witch House</strong>, <strong>Harsh Noise</strong>, <strong>Alternative</strong> and <strong>EBM</strong> in the Main Room</p>
-                <a href="factory-monday.html" class="home-page-weekly-link">VIEW FACTORY</a> 
-              </div>
-            </section>
+        <div class="row centered-cols">
+          <div class="col col-12-xs page-section-nav">
+              <a href="calendar.html" class="standard-button">SEE ALL EVENTS</a>
           </div>
-
-
-
-          <!-- A WEEKLY EVENT 
-          <div class="col col-12-xs col-3-md">
-            <section class="home-page-event">
-              <div class="home-page-event-content">      
-                <h3><a href="mix-thursday.html"><span class="weekly-name">Mix</span> <span class="weekly-day">Thursday</span></a></h3>
-                <img src="img/mix-thursday.jpg">
-                <p>We’re <strong>mixing it up</strong> each and every Thursday, with a blend of <strong>concerts</strong> by renowned artists, <strong>special events</strong>, <strong>unique parties</strong>, and even <strong>functions that you can book</strong>. Heard about a DJ at Necto? It was probably on a Thursday - check our calendar to see what’s happening and when.</p>
-                <a href="mix-thursday.html" class="home-page-weekly-link">VIEW MIX</a>
-              </div>
-            </section>
-          </div>
-        -->
-
-          <!-- A WEEKLY EVENT -->
-          <div class="col col-12-xs col-4-md">
-            <section class="home-page-event">
-              <div class="home-page-event-content">      
-                <h3><a href="pride-friday.html"><span class="weekly-name">Pride</span> <span class="weekly-day">Friday</span></a></h3>
-                <img src="img/pride-friday.jpg">
-                <p>The One-and-Only <strong>Gay Night</strong>. DJ Edward Alan in the Main Room spins the hottest Pop, Top 40 and EDM. DJ DigiMark plays Retro 80's to Top 40 Pop videos in the Red Room. Hosted by Perry Dox, it's the <strong>Largest weekly LGBTQ+ Party</strong> in Michigan!</p>
-                <a href="pride-friday.html" class="home-page-weekly-link">VIEW PRIDE</a>
-              </div>
-            </section>
-          </div>
-
-
-          <!-- A WEEKLY EVENT -->
-          <div class="col col-12-xs col-4-md">
-            <section class="home-page-event">
-              <div class="home-page-event-content">      
-                <h3><a href="frequency-saturday.html"><span class="weekly-name">Frequency</span> <span class="weekly-day">Saturday</span></a></h3>
-                <img src="img/frequency-saturday.jpg">
-                <p>DJ SKOOB E, DJ YODATHEBARD, VJ BOSSLADY, MC 3STEEZ, spins <strong>Top 40, Hip Hop, Dance, EDM</strong> in the Main Room. Don't let your weekend down!</p>
-                <a href="frequency-saturday.html" class="home-page-weekly-link">VIEW FREQUENCY</a>
-              </div>
-            </section>
-          </div>
+        </div>
       </div>
 
-      <!-- END WEEKLY EVENTS -->
 
+      <!-- INTRO -->
+      <div class="section-header page-section">
+        <div class="row centered-cols">
+          <div class="col col-12-xs col-8-md">
+            <h2 class="page-section-header">WELCOME TO NECTO</h2>
+            <p>Necto is a legendary nightclub located in the <a href="directions.html">heart of Ann Arbor, Michigan</a>. With its state-of-the-art sound system, pulsating lights, and cutting-edge atmosphere, Necto is the ultimate destination for nightlife in Michigan. Our resident DJs spin the hottest tracks, ensuring that the dance floor is always packed. We offer an array of signature cocktails and premium drinks at our fully-stocked bar, served by our friendly and professional staff. Whether you're looking for a wild night out with friends or a more intimate experience in one of our <a href="heart of Ann Arbor, Michigan">VIP lounges</a>, Necto has something for everyone. As one of the most popular clubs in Michigan, Necto draws in visitors from all over the state and beyond. So if you're looking for an unforgettable night of dancing, music, and fun, come and experience the magic of Necto.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- PROMOTIONAL SECTION -->
+      <div class="row section-header page-section">
+        <div class="col col-12-xs col-12-md">
+          <h2 class="page-section-header">ENHANCE YOUR EXPERIENCE</h2>
+        </div>
+        <div class="col col-12-xs col-12-md">
+          <div class="row">
+            <div class="promotional-item col col-12-xs col-4-md">
+              <img src="img/necto-ticketed-events-image.jpg">
+              <h3>Get 'em before they're gone</h3>
+              <h4>Ticketed Events</h4>
+              <p>The best talent in the country at your favorite venue.</p>
+              <a href="https://www.etix.com/ticket/v/21304/necto" class="standard-button">See Events</a>
+            </div>
+            <div class="promotional-item col col-12-xs col-4-md">
+              <img src="img/necto-bottle-service.jpg">
+              <h3>Upgrade your evening</h3>
+              <h4>VIP & Bottle Service</h4>
+              <p>You know you're worth it.</p>
+              <a  href="bottle-service-vip-reservations.html" class="standard-button">See Packages</a>
+            </div>
+            <div class="promotional-item col col-12-xs col-4-md">
+              <img src="img/necto-gift-card.png">
+              <h3>Give the gift of fun</h3>
+              <h4>Gift Cards</h4>
+              <p>There is no better way to celebrate.</p>
+              <a  href="https://squareup.com/gift/MLAG821M6P375/order" class="standard-button">Shop Cards</a>
+            </div>
+            <!--
+            <div class="promotional-item col col-12-xs col-6-md">
+              <img src="https://via.placeholder.com/533x300">
+              <h3>Call To Action</h3>
+              <h4>Necto Merch</h4>
+              <p>More words about the promotion.</p>
+              <a class="standard-button">BUTTON TEXT</a>
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
 
       <!-- SPECIAL EVENTS -->
       <div class="row page-section" id="special-events">
@@ -263,7 +289,7 @@
       <div class="row centered-cols page-section">
         <div class="col col-12-xs col-12-sm col-8-md">
           <h2 class="page-section-header">PRIVATE EVENTS</h2>
-          <img src="img/private-event-rental-necto-nightclub-ann-arbor-michigan.jpeg">
+          <img src="img/necto-private-event-rental.jpg">
           <p>Looking to host a private event? Necto is available for medium and large capacity events and offers a full-service list of accommodations to make your event truly special.</p>
           <div class="page-section-nav">
             <a href="private-event-night-club-rental.html" class="standard-button">MORE INFO</a>
@@ -275,14 +301,13 @@
       <div class="row centered-cols page-section">
         <div class="col col-12-xs col-12-sm col-8-md">
           <h2 class="page-section-header">ABOUT THE CLUB</h2>
-          <img src="img/about-the-necto-night-club.jpeg">
-          <p>Established in 2001, the Necto is <strong>Ann Arbor's premier destination for nightlife entertainment</strong>. Located in the heart of Ann Arbor's entertainment district, Necto serves as the nightlife epicenter for University of Michigan's campus and the city at large.</p>
+          <img src="img/about-necto-nightclub-ann-arbor-michigan.jpg">
+          <p>Established in 2001, the Necto is Ann Arbor's premier destination for nightlife entertainment. Located in the heart of Ann Arbor's entertainment district, Necto is the nightlife epicenter for the University of Michigan, the city of Ann Arbor, and the community at large.</p>
 
-          <p>The Necto offers multiple weekly and special events to maximize your nightlife experience including the internationally known <strong>Goth-Industrial</strong> night <a href="factory-monday.html">Factory Monday</a>, the unique <strong>concert and event driven</strong> <a href="mix-thursday.html">Mix Thursday</a>, the <strong>largest and longest established gay night in Michigan</strong> <a href="pride-friday.html">Pride Friday</a>, and one of the <strong>hottest club nights</strong> in Southeast Michigan, <a href="frequency-saturday.html">Frequency Saturday</a>.</p>
+          <p>The Necto offers multiple weekly and special events to maximize your nightlife experience including the internationally known goth night Factory Monday, the unique concert and event-driven Mix Thursdays, the largest and longest established gay night in Michigan, Pride Fridays, and the hottest club night in Michigan, Frequency Saturdays.</p>
 
-          <p>As an award-winning, full-service venue, the club is proud to offer clientele a full range of entertainment options and amenities including <a href="bottle-service-vip-reservations.html?=fromHomeAbtText">VIP, bottle service and party packages</a> to ensure your night is memorable, and the ability to make your own night through our <a href="private-event-night-club-rental.html">private event rental.</a></p>
+          <p>As an award-winning, full-service venue, the club is proud to offer clientele a full range of entertainment options and amenities, including VIP, bottle service, and party packages to ensure your night is memorable and the ability to make your own night through our private event rental.</a></p>
 
-          <!--<p>The Necto Nightclub is honored to be voted '<strong>Best Nightclub</strong>' by the Metro Times, Current Magazine, Channel 4’s Vote 4 The Best, Detroit A-List and AnnArbor.com and '<strong>Best Venue with Diverse Music</strong>' by Real Detroit Weekly.</p>-->
         </div>
       </div>
 
@@ -299,7 +324,6 @@
                   <span itemprop="addressLocality">Ann Arbor</span><span>, </span><span itemprop="addressRegion">MI</span> 
                   <span itemprop="postalCode">48104</span></a>
               </div>
-              Info:  <span itemprop="telephone"><a href="tel:17349945436">734-994-5436</a></span><br>
               Phone: <span itemprop="telephone"><a href="tel:17349945835">734-994-5835</a></span><br>
               Email: <span itemprop="email"><a href="mailto:info@necto.com">info@necto.com</a></span>
           </div>
@@ -347,6 +371,31 @@
 
     <!-- Populates the Special Events on the Home Page -->
     <script>populateFrontPageEvents()</script>
+
+
+
+
+    <script>populateHomePageShortCalEvents()</script>
+    
+
+
+
+
+
+
+
+    <script>
+
+      for (var i=calendarEvents.childNodes.length; calendarEvents.childNodes.length  >= 14; --i) {
+        calendarEvents.removeChild(calendarEvents.lastElementChild);
+      }
+      var childNodes = document.getElementById('calendarEvents').childNodes;
+      for (var i = 0; i < childNodes.length; i++) {
+        childNodes[i].className = "home-page-event-content col col-12-xs col-3-md";
+      }
+     
+    </script>
+
 
     <!-- Google Analytics -->
     <script type="text/javascript">

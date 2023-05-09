@@ -127,6 +127,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  color: #fff;
 }
 
 /**
@@ -1084,12 +1085,12 @@ $color-brand-freecodecamp:        #006600;
 $color-brand-ifixit:              #0071CE;
 */
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .button {
   text-decoration: none;
-  background: #ED1968;
+  /*background: #ED1968;*/
   margin: 0 0 0 0;
   font-weight: bold;
   display: block;
@@ -1133,27 +1134,42 @@ body {
 }
 
 .sub-page a:hover {
-  color: #ffe928;
+  color: #fff;
   transition: color 200ms ease;
 }
 
 .sub-page h2 {
   font-weight: 500;
   line-height: 1.25em;
+  background: #FAB041;
+  background: linear-gradient(to top left, #FAB041 0%, #F8664F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .parking-location {
-  color: #ED1968;
+  color: #fff;
   font-size: 1.3em;
 }
 
 .mobile-hero {
-  /*background: $darkest;*/
   position: relative;
   min-height: 100%;
   height: 100vh;
-  background: url("../img/mobile-hero.jpg") no-repeat center center;
-  background-size: cover;
+}
+
+#mobile-hero-video {
+  object-fit: cover;
+  object-align: center center; /* default, anchor to center of video */
+  width: 100vw;
+  height: 100vh;
+  left: -17px;
+  z-index: -1;
+}
+
+.mobile-hero video {
+  position: absolute;
+  height: 100% vh;
 }
 
 .collapse {
@@ -1180,10 +1196,19 @@ ul {
   .sub-page {
     margin-top: 6em;
   }
-  .full-hero {
-    background: url("../img/full-hero.jpg") no-repeat center center;
-    background-size: cover;
+
+
+  #desktop-hero-video {
+    width: calc(100vw - 17px);
   }
+
+  .desktop-hero-content {
+    position: absolute;
+    top: 1vh;
+    z-index: 1;
+    text-align: center;
+  }
+
   p {
     font-size: 1.3em;
   }
@@ -1213,7 +1238,7 @@ header {
   height: 2.25rem;
   line-height: 2.25rem;
   font-weight: normal;
-  border-bottom: 4px solid #3BDDFF;
+  border-bottom: 4px solid #eee;
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
   position: fixed;
   z-index: 100;
@@ -1260,7 +1285,7 @@ header {
 
 .mobile-global-nav-modal-hidden {
   z-index: 50;
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: fixed;
   width: 100%;
   top: -600px;
@@ -1268,7 +1293,7 @@ header {
 
 .mobile-global-nav-modal {
   z-index: -50;
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: fixed;
   width: 100%;
   -moz-animation: slidein .25s ease-out;
@@ -1288,7 +1313,7 @@ header {
   display: block;
   width: 100%;
   font-size: 1em;
-  color: #ffe928;
+  color: #eee;
   text-transform: uppercase;
 }
 
@@ -1305,16 +1330,16 @@ header {
 }
 
 .mobile-global-nav-modal li:hover {
-  background: #ffe928;
-  color: #111111;
+  background: #46256a;
+  color: #fff;
 }
 
 .mobile-global-nav-modal li:hover a {
-  color: #111111;
+  color: #fff;
 }
 
 .mobile-global-nav-modal .weeklyMobileNavLink a {
-  color: #3BDDFF;
+  color: #fff;
 }
 
 .mobile-global-nav {
@@ -1322,13 +1347,13 @@ header {
 }
 
 .mobile-global-nav .global-nav {
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
   float: right;
   font-weight: 900;
 }
 
 .mobile-global-nav .global-nav a, .mobile-global-nav .global-nav span {
-  color: #ED1968;
+  color: #fff;
 }
 
 .full-global-nav {
@@ -1336,13 +1361,14 @@ header {
 }
 
 .global-nav a {
-  color: #3BDDFF;
-  transition: color 300ms ease;
+  color: #eee;
+  background-color: none;
+  transition: background-color 300ms ease;
 }
 
 .global-nav a:hover, .global-nav a:active, .global-nav a:focus {
-  color: #eee;
-  transition: color 200ms ease;
+  background-color: #46256a;
+  transition:background-color 200ms ease;
 }
 
 @media only screen and (min-width: 48em) {
@@ -1363,7 +1389,7 @@ header {
     position: relative;
     float: right;
     right: 18px;
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   .global-nav a, .weekly-nav a {
     margin-left: 1em;
@@ -1372,14 +1398,14 @@ header {
     margin-top: -.75em;
   }
   .weekly-nav a {
-    color: #ED1968;
+    color: #eee;
     -webkit-transition: color 300ms ease;
     transition: color 300ms ease;
   }
   .weekly-nav a:hover, .weekly-nav a:active, .weekly-nav a:focus {
-    color: #eee;
-    -webkit-transition: color 200ms ease;
+    background-color: #46256a;
     transition: color 200ms ease;
+    -webkit-transition: color 200ms ease;
   }
   .mobile-global-nav {
     display: none;
@@ -1419,9 +1445,9 @@ img {
 }
 
 a {
-  color: #3BDDFF;
-  text-decoration: none;
+  color: #fff;
   font-weight: 500;
+  text-decoration: none;
 }
 
 p {
@@ -1434,12 +1460,13 @@ p {
 }
 
 p strong {
-  color: #ED1968;
-  font-weight: 300;
+  /* color: #ED1968; */
+  font-weight: 600;
 }
 
 p a {
   font-weight: 300;
+  text-decoration: underline;
 }
 
 /*
@@ -1456,6 +1483,7 @@ main {
   display: block;
   text-align: center;
   margin-top: 2em;
+  z-index: 100;
 }
 
 .mobile-social a {
@@ -1463,6 +1491,7 @@ main {
   padding: 0 1em;
   text-shadow: 3px 3px 3px #333;
   line-height: 2em;
+  text-decoration: none;
 }
 
 .mobile-social a:hover {
@@ -1471,33 +1500,29 @@ main {
 
 .hero-image {
   padding-bottom: 0em;
-  padding-top: 5vh;
+  /* padding-top: 5vh; */
   box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .hero-image span {
   display: block;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 0;
-  margin-top: .5em;
-  padding: .25em 0;
+  margin-top: 2em;
+  padding: .5em 0;
   text-align: center;
-  font-size: 2.75rem;
-  font-weight: 900;
+  font-size: 3rem;
+  font-weight: 100;
   line-height: 3.5rem;
-  color: #13b5d7;
-  text-shadow: 2px 2px 0px #ffe928;
-  border-top: 8px dotted #ffe928;
-  border-bottom: 8px dotted #ffe928;
-  border-radius: .1em;
+  position: relative;
+
+font-weight: bold;
+
 }
 
 .hero-image .button {
-  border: none;
-  box-shadow: 4px 4px 0px #ffe928;
-  background-color: #ED1968;
+  border: 2px solid #eee;
+  /* box-shadow: 4px 4px 0px #ffe928; */
+  /* background-color: #ED1968; */
   color: #eee;
   opacity: .90;
   margin: 1em 0;
@@ -1507,8 +1532,8 @@ main {
 
 .hero-image .button:hover, .hero-image .button:focus, .hero-image .button:active {
   color: #eee;
-  background-color: #00a1c3;
-  box-shadow: 4px 4px 0px #3BDDFF;
+  background-color: #46256a;
+  /* box-shadow: 4px 4px 0px #3BDDFF; */
   -webkit-transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
   transition: color 300ms ease-out, background-color 300ms ease-out, box-shadow 300ms ease-out;
 }
@@ -1518,7 +1543,7 @@ main {
 }
 
 .page-section {
-  border-bottom: 2px solid #ED1968;
+  border-bottom: 2px solid #fff;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
@@ -1528,11 +1553,11 @@ main {
 }
 
 .page-section .standard-button {
-  display: inline-block;
-  width: 50%;
+  /*display: inline-block;
+   width: 50%; */
   margin-top: 1em;
-  border: 3px solid #3BDDFF;
-  color: #ffe928;
+  border: 3px solid #fff;
+  color: #fff;
   background-color: none;
   border-radius: .1em;
   padding: .5em .6em;
@@ -1541,30 +1566,37 @@ main {
 }
 
 .page-section .standard-button:hover, .page-section .standard-button:focus, .page-section .standard-button:active {
-  background-color: #ED1968;
+  background-color: #46256a;
   -webkit-transition: background-color, 300ms;
   transition: background-color, 300ms;
 }
 
 .page-section h3 {
-  color: #ED1968;
+  color: #fff;
   margin-bottom: 0;
+  background: #FAB041;
+  background: linear-gradient(to top left, #FAB041 0%, #F8664F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .page-section-header {
   display: block;
   width: 100%;
-  color: #ffe928;
-  text-shadow: 2px 2px 0px #ed1968;
+  color: #eee;
+
   font-size: 2em;
   line-height: 1em;
+  background: #FAB041;
+  background: linear-gradient(to top left, #FAB041 0%, #F8664F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .page-section-sub-header {
   display: block;
   width: 100%;
-  color: #ffe928;
-  text-shadow: 2px 2px 0px #ed1968;
+  color: #eee;
   font-size: 1.5em;
   line-height: 1em;
   margin-bottom: .25em;
@@ -1574,8 +1606,7 @@ main {
 .weekly-page-side-bar-scection .page-section-sub-header {
   display: block;
   width: 100%;
-  color: #ffe928;
-  text-shadow: 2px 2px 0px #ed1968;
+  color: #fff;
   font-size: 1.5em;
   line-height: 1em;
   margin-bottom: .25em;
@@ -1598,28 +1629,43 @@ main {
   margin: 0 0 0 0;
   padding-top: 0;
   padding-bottom: .25em;
+  background: #FAB041;
+  background: linear-gradient(to top left, #FAB041 0%, #F8664F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .home-page-event-content h3 .weekly-name, .home-page-event-content h3 .event-name {
   color: #eee;
   font-variant: small-caps;
   font-weight: 900;
-  font-size: 1.3em;
+  font-size: .90em;
+  background: #FAB041;
+  background: linear-gradient(to top left, #FAB041 0%, #F8664F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .home-page-event-content h3 .weekly-day, .home-page-event-content h3 .event-day {
-  color: #ED1968;
-  font-weight: 400;
+  color: #eee;
+  background: #FAB041;
+  background: linear-gradient(to top left, #FAB041 0%, #F8664F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .home-page-event-content h3 .event-day {
   font-size: .75em;
+  background: #FAB041;
+  background: linear-gradient(to top left, #FAB041 0%, #F8664F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .home-page-event-content .home-page-weekly-link {
   float: right;
-  border: 3px solid #3BDDFF;
-  color: #ffe928;
+  border: 3px solid #fff;
+  color: #fff;
   border-radius: .1em;
   padding: .3em .6em;
   -webkit-transition: color 200ms, border 300ms, background-color 300ms;
@@ -1628,9 +1674,9 @@ main {
 }
 
 .home-page-event-content .home-page-weekly-link:hover {
-  background-color: #ED1968;
+  background-color: #46256a;
   border: 3px solid #eee;
-  color: #ffe928;
+  color: #fff;
   -webkit-transition: color 200ms, border 300ms, background-color 300ms;
   transition: color 200ms, border 300ms, background-color 300ms;
 }
@@ -1657,8 +1703,8 @@ main {
 }
 
 .home-page-event-content .button:hover, .home-page-event-content .button:focus, .home-page-event-content .button:active, .home-page-event-content button:hover, .home-page-event-content button:focus, .home-page-event-content button:active {
-  color: #ED1968;
-  border-color: #ffe928;
+  color: #fff;
+  border-color: #46256a;
   -webkit-transition: color 200ms, border-color 300ms;
   transition: color 200ms, border-color 300ms;
 }
@@ -1668,36 +1714,36 @@ main {
 }
 
 .home-page-event-content .event-nav a {
-  color: #ffe928;
-  font-size: 1em;
+  color: #fff;
+  font-size: .75em;
   padding: .5em 0;
   background: none;
-  border: 3px solid #3BDDFF;
+  border: 3px solid #fff;
   -webkit-transition: background 200ms;
   transition: background 200ms;
 }
 
 .home-page-event-content .event-nav a:nth-child(1) {
-  border-right: 1.5px solid #3BDDFF;
+  border-right: 1.5px solid #fff;
   border-top-left-radius: .1em;
   border-bottom-left-radius: .1em;
 }
 
 .home-page-event-content .event-nav a:nth-child(2) {
-  border-right: 2px solid #3BDDFF;
-  border-left: 2px solid #3BDDFF;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
 }
 
 .home-page-event-content .event-nav a:nth-last-child(1) {
-  border-left: 1.5px solid #3BDDFF;
-  border-right: 3px solid #3BDDFF;
+  border-left: 1.5px solid #fff;
+  border-right: 3px solid #fff;
   border-top-right-radius: .2em;
   border-bottom-right-radius: .2em;
 }
 
 .home-page-event-content .event-nav a:hover {
   padding: .5em 0;
-  background: #ED1968;
+  background: #46256a;
   -webkit-transition: background 200ms;
   transition: background 200ms;
 }
@@ -1710,17 +1756,16 @@ main {
     display: block;
     padding-right: 0;
     margin-right: 0;
-    width: 100%;
+
   }
   .full-hero span {
     border: none;
-    margin-top: 10rem;
-    font-size: 8vw;
-    line-height: 8vw;
-    color: #13b5d7;
+    margin-top: 24vh;
+    font-size: 6vw;
+    line-height: 6vw;
   }
   .full-hero .button {
-    background: #ED1968;
+    /* background: #ED1968; */
     text-align: center;
     margin: 0.5em;
   }
@@ -1732,11 +1777,11 @@ main {
     color: #eee;
     padding: 0 1em;
     text-shadow: 3px 3px 3px #333;
-    transition: color 200ms ease-out;
+    transition: background-color 200ms ease-out;
   }
   .full-hero .full-social a:hover {
-    color: #3BDDFF;
-    transition: color 200ms ease-out;
+   background-color: #46256a;
+  transition: background-color 200ms ease-out;
   }
   .page-section {
     padding-top: 3em;
@@ -1758,7 +1803,7 @@ footer address {
 }
 
 footer address .name {
-  color: #ED1968;
+  color: #fff;
 }
 
 footer ul {
@@ -1768,12 +1813,12 @@ footer ul {
 }
 
 footer a {
-  color: #3BDDFF;
+  color: #fff;
   transition: color 100ms ease;
 }
 
 footer a:hover {
-  color: #ffe928;
+  color: #fff;
   transition: color 200ms ease;
 }
 
@@ -1885,13 +1930,17 @@ footer a:hover {
 }
 
 .weekly-page-side-bar-scection {
-  border-bottom: 2px solid #ED1968;
+  border-bottom: 2px solid #fff;
   margin-bottom: 1.5em;
   padding-bottom: .5em;
 }
 
 .weekly-page-side-bar-scection h2 {
   padding-bottom: .25em;
+  background: #FAB041;
+  background: linear-gradient(to top left, #FAB041 0%, #F8664F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .weekly-page-side-bar-scection a {
@@ -1947,7 +1996,7 @@ form .ss-q-title {
 
 form input[type="email"], form input[type="text"], form input[type="tel"], form textarea {
   background: none;
-  border: 3px solid #ED1968;
+  border: 3px solid #fff;
   color: white;
   padding: .2em .4em;
   display: block;
@@ -1959,8 +2008,8 @@ form input[type="submit"] {
   display: block;
   margin-top: 1em;
   width: 100%;
-  border: 3px solid #3BDDFF;
-  color: #ffe928;
+  border: 3px solid #fff;
+  color: #fff;
   border-radius: .1em;
   padding: .5em .6em;
   -webkit-transition: background-color, 300ms;
@@ -1968,7 +2017,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover, form input[type="submit"]:focus, form input[type="submit"]:active {
-  background-color: #ED1968;
+  background-color: #46256a;
   -webkit-transition: background-color, 300ms;
   transition: background-color, 300ms;
 }
@@ -2156,4 +2205,33 @@ form input[type="submit"]:hover, form input[type="submit"]:focus, form input[typ
   h3 {
     page-break-after: avoid;
   }
+}
+
+.promotional-item {
+  background-color: none;
+  margin-bottom: 3em;
+}
+
+.promotional-item h3{
+    color: #fff;
+    line-height: 0em;
+  }
+
+.promotional-item h4{
+  color: #fff;
+  font-size: 2em;
+  line-height: 0em;
+}
+
+.promotional-item P{
+
+}
+
+.promotional-item a{
+  text-align: center;
+}
+
+
+.background-variant {
+  background-color: #46256a;
 }
