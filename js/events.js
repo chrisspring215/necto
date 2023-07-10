@@ -1,5 +1,112 @@
 var eventsJSON = [
     {
+        "eventDate"    :  new Date("Sep 21, 2023 18:30:00"),
+        "eventName"    :  "Foundry Town Survivors ",
+        "eventArtist"  :  "Foundry Town Survivors ",
+        "eventDesc"    :  "Foundry Town Survivors Bring Their Music Home To Ann Arbor!! Hometown Rockers Return to the Scene of the Crime ",
+        "eventDescLong":  "They’ve traveled around the world, but they’ve never forgotten where they came from. Former Townies and members of the late 70s group Vantage Point!, Mark Tomorsky and Tommy Johnsmiller burst out of the Ann Arbor music scene with performances at the Montreux Jazz Festival and The Olympics. As Foundry Town Survivors, they return to their roots with a rare Michigan concert appearance this year at the Necto on September 21. <br><br>Formed in 2021, they’ve released over a dozen singles and an EP gaining a growing loyal following internationally and especially in their old stomping grounds. Foundry Town Survivors wear their Michigan rock influences proudly on their sleeves, mixing it with hints of blues and Americana to create their own signature sound. <br><br>For the Necto show, they’ll be joined by local heroes; Jim King - Keyboards (Masquerade) Chip Trombley - Drums (Vantage Point!) and Jeff Jones - Guitar (Lightnin’) The show will feature songs from their EP along with new unreleased material. The legendary Michael On Fire starts off the night at 7:00pm sharp.<br><br>Gabriel Mazza - Mesmerized Magazine - London, UK<br><br>“We have said it multiple times: Foundry Town Survivors are a dynamic entity. Boasting impressive productivity, the Ann Arbor pair has been recently featured on our pages thanks to their soul-flavoured banger ‘I Want To Be Loved’, a track we described as “a steady gem, constantly driving the rhythm forward while showcasing the duo’s nuanced vocals”. Now, the American rockers are back on the new music horse, diving into more bluesy and rocky territories, although always maintaining their lyrical wit and nuanced attitude.” <br><br>For more information on the Survivors, visit foundrytownsurvivors.com",
+        "eventCover"   :  "Tickets at Door (subject to availability): $15 cash or card ",
+        "eventLink"    :  "special-events/" + "Foundry-Town-Survivors--at-necto-nightclub-ann-arbor-michigan-Sep-21-2023.html",
+        "eventSocial"  :  "https://fb.me/e/356h5BbxU",
+        "eventTix"     :  "https://www.etix.com/ticket/p/2754923/foundry-town-survivors-ann-arbor-necto",
+        "eventImgWide" :  "img/event-images/" + "Foundry-Town-Survivors--at-necto-nightclub-ann-arbor-michigan-Sep-21-2023.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+
+    {
+        "eventDate"    :  new Date("Aug 25, 2023 21:00:00"),
+        "eventName"    :  "Luxx Noir London",
+        "eventArtist"  :  "Luxx Noir London",
+        "eventDesc"    :  "Luxx Noir London competed on the fifteenth season of RuPaul's Drag Race (2023) On the series' 200th episode, Luxx Noir London received praise from RuPaul for a runway look which paid tribute to the host.  Luxx Noir London was a finalist with Anetra, Mistress Isabelle Brooks, and Sasha Colby. All four were featured in a remix of RuPaul's song 'Blame It on the Edit'",
+        "eventDescLong":  "Necto Pride Presents-<br>Luxx Noir London<br><br>Friday, August 25th<br><br>Hosted by:<br>Chanel Hunter & Perry Dox<br><br>Opener:<br>Danyel Vasquez<br><br>DJs<br>Main Room<br>DJ Edward Alan & Luca Miel<br><br>Red Room<br>DJ DigiMark ",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Luxx-Noir-London-at-necto-nightclub-ann-arbor-michigan-Aug-25-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Luxx-Noir-London-at-necto-nightclub-ann-arbor-michigan-Aug-25-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 19, 2023 21:00:00"),
+        "eventName"    :  "FREQUENCY SATURDAYS PRESENTS - 2000'S PARTY",
+        "eventArtist"  :  "FREQUENCY SATURDAYS PRESENTS - 2000'S PARTY",
+        "eventDesc"    :  "BACK BY POPULAR DEMAND!!! FREQUENCY SATURDAYS PRESENTS - 2000'S PARTY",
+        "eventDescLong":  "SATURDAY, AUGUST 19TH<br><br>DJ’S <br>MAIN ROOM <br>DJ GRAFFITI <br>DJ SKOOBE <br>DJ YODATHEBARD<br><br>RED ROOM <br>DJ MAESTRO<br>DJ SLIM",
+        "eventCover"   :  "LADIES FREE UNTIL 10PM!  $10 for 21+, $30 for 18-20   ",
+        "eventLink"    :  "special-events/" + "FREQUENCY-SATURDAYS-PRESENTS---2000'S-PARTY-at-necto-nightclub-ann-arbor-michigan-Aug-19-2023.html",
+        "eventSocial"  :  "https://fb.me/e/VtRdQQCf",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "FREQUENCY-SATURDAYS-PRESENTS---2000'S-PARTY-at-necto-nightclub-ann-arbor-michigan-Aug-19-2023.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 18, 2023 21:00:00"),
+        "eventName"    :  "NECTO PRIDE PRESENTS - 2000'S PARTY",
+        "eventArtist"  :  "NECTO PRIDE PRESENTS - 2000'S PARTY",
+        "eventDesc"    :  "BACK BY POPULAR DEMAND! NECTO PRIDE PRESENTS - 2000’S PARTY",
+        "eventDescLong":  "NECTO PRIDE PRESENTS - <br>PRIDE 2000’S PARTY<br><br>FRIDAY, AUGUST 18TH<br><br>DJ’S <br>MAIN ROOM <br>DJ EDWARD ALAN <br>DJ YODATHEBARD <br><br>RED ROOM <br>DJ DIGIMARK <br><br>VIP<br><br>NECTO.COM<br>",
+        "eventCover"   :  "$10 FOR 21+, $20 FOR 18-20",
+        "eventLink"    :  "special-events/" + "NECTO-PRIDE-PRESENTS---2000'S-PARTY-at-necto-nightclub-ann-arbor-michigan-Aug-18-2023.html",
+        "eventSocial"  :  "https://www.facebook.com/events/977118389981138/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22user_timeline%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22events_admin_tool%22%2C%22surface%22%3A%22events_comet_admin_tool%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22create_dialog%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "NECTO-PRIDE-PRESENTS---2000'S-PARTY-at-necto-nightclub-ann-arbor-michigan-Aug-18-2023.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+
+    {
+        "eventDate"    :  new Date("Aug 07, 2023 21:00:00"),
+        "eventName"    :  "Factory 19 Year Anniversary - Latex Ball",
+        "eventArtist"  :  "Factory 19 Year Anniversary - Latex Ball",
+        "eventDesc"    :  "Factory is celebrating its 19 year Anniversary!! We have a lot in store for you don’t miss out on this event!!  ",
+        "eventDescLong":  "Factory is celebrating its 19 year Anniversary!! We have a lot in store for you don’t miss out on this event!!  <br><br>Performances & Hostess: Mila La Machina <br><br>Fashion / Fetish show live performances<br><br>Shibari booth, Bondage Booth with Dungeon, Roaming performers, Lollipop Lyra, Vendors & More! <br><br>Main Room: Remnant, Jay Misanthropia, Oblivion, Darks Choir <br><br>Red Room: Yodathebard<br>",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-19-Year-Anniversary---Latex-Ball-at-necto-nightclub-ann-arbor-michigan-Aug-07-2023.html",
+        "eventSocial"  :  "https://www.facebook.com/events/648062400706157",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-19-Year-Anniversary---Latex-Ball-at-necto-nightclub-ann-arbor-michigan-Aug-07-2023.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 05, 2023 21:00:00"),
+        "eventName"    :  "Necto & Thots & Prayers Presents - Disco Thots with Jace M",
+        "eventArtist"  :  "Jace M",
+        "eventDesc"    :  "Disco and House music all night long with Jace M in the Red Room ",
+        "eventDescLong":  "🪩Necto & Thots & Prayers Presents - Disco Thots with Jace M🪩<br><br>Disco and House music all night long with Jace M in the Red Room <br><br>Must have a ticket for this event! <br><br>Tickets: NECTO.COM<br><br>Enter the VIP / Line Skip line to the left of the front entrance if you have a ticket for this event <br><br>18+ with proper government ID<br>",
+        "eventCover"   :  "$20 ticketed only event at Necto.com",
+        "eventLink"    :  "special-events/" + "Jace-M-at-necto-nightclub-ann-arbor-michigan-Aug-05-2023.html",
+        "eventSocial"  :  "https://www.facebook.com/events/242446715193974?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "eventTix"     :  "https://www.etix.com/ticket/p/5825791/necto-thots-prayers-presents-disco-thots-with-jace-m-ann-arbor-necto",
+        "eventImgWide" :  "img/event-images/" + "Jace-M-at-necto-nightclub-ann-arbor-michigan-Aug-05-2023.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 04, 2023 21:00:00"),
+        "eventName"    :  "Pride Heroes vs Villains",
+        "eventArtist"  :  "Heroes vs Villains Jace M & Dan Slater",
+        "eventDesc"    :  "Coming back to make you dance Jace M & Dan Slater for our Heroes vs Villains circuit party!  Costumes encouraged :)!!",
+        "eventDescLong":  "Coming back to make you dance Jace M & Dan Slater for our Heroes vs Villains circuit party!  Costumes encouraged :)!!<br><br>Official Ann Arbor Pride Pre Party!!!<br><br>Opening DJ - Main Room: DJ Edward Alan<br><br>Red Room: DJ DigiMark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Heroes-vs-Villains-Jace-M-&-Dan-Slater-at-necto-nightclub-ann-arbor-michigan-Aug-04-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Heroes-vs-Villains-Jace-M-&-Dan-Slater-at-necto-nightclub-ann-arbor-michigan-Aug-04-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
         "eventDate"    :  new Date("Jul 21, 2023 21:00:00"),
         "eventName"    :  "Marcia Marcia Marcia",
         "eventArtist"  :  "Marcia Marcia Marcia",
@@ -15,11 +122,87 @@ var eventsJSON = [
         "pastEvent"    :  false // Do not modify
     },
     {
+        "eventDate"    :  new Date("Jul 15, 2023 21:00:00"),
+        "eventName"    :  "Frequency Saturdays Presents: Luau Party",
+        "eventArtist"  :  "Luau Part",
+        "eventDesc"    :  "Tropical 🏝️ Dress Encouraged! ",
+        "eventDescLong":  "Frequency Saturdays Presents:<br>Luau Party<br><br>Saturday, July 15th <br><br>Tropical 🏝️ Dress Encouraged! <br><br>DJs<br>Main Room<br>DJ Skoob E, Yoda the Bard, MC 3Steez and DJ K-Hawk<br><br>Red Room <br>The Maestro DJ and DJ Slim",
+        "eventCover"   :  "10 for 21+ and 30 (18-20)",
+        "eventLink"    :  "special-events/" + "Luau-Part-at-necto-nightclub-ann-arbor-michigan-Jul-15-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Luau-Part-at-necto-nightclub-ann-arbor-michigan-Jul-15-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jul 14, 2023 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Boys Of Summer ",
+        "eventArtist"  :  "Necto Pride Presents - Boys Of Summer ",
+        "eventDesc"    :  "The return of Necto Pride's event of the summer!!!",
+        "eventDescLong":  "The return of Necto Pride's event of the summer!!!<br><br>Starring: Axel Andrews & Judas Elliot<br><br>Hosted by: Chanel Hunter & Perry Dox<br><br>Show start time: 10:30PM<br><br>Contest at Midnight: Sign up with Chanel & Perry Dox<br><br>DJs Main Room: Yoda the Bard and Luca Miel<br><br>Red Room: DJ DigiMark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Necto-Pride-Presents---Boys-Of-Summer--at-necto-nightclub-ann-arbor-michigan-Jul-14-2023.html",
+        "eventSocial"  :  "https://fb.me/e/adtZgIPCj",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Necto-Pride-Presents---Boys-Of-Summer--at-necto-nightclub-ann-arbor-michigan-Jul-14-2023.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jul 10, 2023 21:00:00"),
+        "eventName"    :  "Fetish Night",
+        "eventArtist"  :  "Fetish Night",
+        "eventDesc"    :  "Performances by: Blue Crow Talent, Hot Candle Wax, Bondage Booth Shibari & More!",
+        "eventDescLong":  "Factory Monday Presents <br>Fetish Night<br><br>Monday, July 10th<br><br>Performances by: <br>Blue Crow Talent<br><br>Hot Candle Wax, Bondage Booth Shibari & More!<br><br>DJs <br>Main Room <br>Remnant, Jay Misathropia, and Whywolf <br><br>Red Room <br>Yoda the Bard",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Jul-10-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Jul-10-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jul 03, 2023 21:00:00"),
+        "eventName"    :  "Closed",
+        "eventArtist"  :  "Closed",
+        "eventDesc"    :  "We are closed tonight for the holiday. See you next week.",
+        "eventDescLong":  "We are closed tonight for the holiday. See you next week.",
+        "eventCover"   :  "N/a",
+        "eventLink"    :  "special-events/" + "Closed-at-necto-nightclub-ann-arbor-michigan-Jul-03-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Closed-at-necto-nightclub-ann-arbor-michigan-Jul-03-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jun 24, 2023 21:00:00"),
+        "eventName"    :  "Summer Soltice ",
+        "eventArtist"  :  "Summer Soltice",
+        "eventDesc"    :  "Join us for the first official weekend of summer! ",
+        "eventDescLong":  "<br>Frequency Saturdays Presents:<br>Summer Solstice <br><br>Saturday, June 24th<br><br>DJs<br>Main Room<br>DJ Skoob E <br>Yoda the Bard <br>DJ Sins <br><br>Red Room<br>3Steez<br>The Maestro DJ ",
+        "eventCover"   :  "10 for 21+ and 30 for (18-20)",
+        "eventLink"    :  "special-events/" + "Summer-Soltice-at-necto-nightclub-ann-arbor-michigan-Jun-24-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Summer-Soltice-at-necto-nightclub-ann-arbor-michigan-Jun-24-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+
+    {
         "eventDate"    :  new Date("Jun 16, 2023 21:00:00"),
-        "eventName"    :  "Necto Pride Presents - Anetra",
-        "eventArtist"  :  "Anetra",
-        "eventDesc"    :  "Necto Pride Presents - Anetra",
-        "eventDescLong":  "Necto Pride Presents - Anetra<br><br>Hosted by:<br>Chanel Hunter & Perry Dox <br><br>Opener<br>Alicia Boom Boom Chablis <br><br>DJs<br>Main Room <br>DJ Edward Alan & Yoda the Bard<br><br>Red Room<br>DJ DigiMark ",
+        "eventName"    :  "POSTPONED: Anetra",
+        "eventArtist"  :  "POSTPONED: Anetra",
+        "eventDesc"    :  "Necto Pride Presents: Chanel Hunter & Perry Dox ",
+        "eventDescLong":  "The Tea:<br>As many of you already know, it’s no secret that Anetra’s health is still recovering, and unfortunately, she cannot perform tonight. She did everything in her power to make it tonight, so that’s why this message feels last-minute. Please join us in wishing her a speedy and safe recovery.<br><br>We are working closely with her management team to reschedule a date when she’s ready, healthy, and can give her all on stage. Anetra loves what she does, and we love her. From our entire family, we appreciate everyone's understanding of this situation.<br><br> With that said, we're ecstatic to announce our first all local entertainer show in God knows how long <br><br> Necto Pride Presents:<br>Chanel Hunter & Perry Dox <br><br>Tonight!<br><br>Openers:<br>Alicia Boom Boom Chablis <br>Rayne<br>*Surprise Special Guest* <br><br>DJs<br>Main Room <br>Yoda the Bard and DJ Edward Alan<br><br>Red Room <br>DJ DigiMark<br><br>Specials:<br>1/2 Off Drinks Before 10PM <br>Cover:<br>21+ 10 (18-20) 20<br></br>Doors: 9:00 PM<br>18+ with proper government ID  <br>VIP<br>SOLD OUT ",
         "eventCover"   :  "20",
         "eventLink"    :  "special-events/" + "Anetra-at-necto-nightclub-ann-arbor-michigan-Jun-09-2023.html",
         "eventSocial"  :  "",
@@ -28,7 +211,7 @@ var eventsJSON = [
         "eventWklOvrd" :  true,
         "eventDay"     :  0, // Do not modify
         "pastEvent"    :  false // Do not modify
-    },
+            },
     {
         "eventDate"    :  new Date("Jun 09, 2023 21:00:00"),
         "eventName"    :  "Barbie vs Leather Ken ",
@@ -44,6 +227,37 @@ var eventsJSON = [
         "eventDay"     :  0, // Do not modify
         "pastEvent"    :  false // Do not modify
     },
+    {
+        "eventDate"    :  new Date("Jun 05, 2023 21:00:00"),
+        "eventName"    :  "Fetish Night ",
+        "eventArtist"  :  "Fetish Night ",
+        "eventDesc"    :  "Hot Candle Wax, Bondage Booth Shibari & More!",
+        "eventDescLong":  "Factory Monday Presents <br>Fetish Night <br><br>Performances by: <br>Blue Crow Talent <br><br>Hot Candle Wax, Bondage Booth Shibari & More!<br><br>DJs <br>Main Room <br>Remnant, Jay Misanthropia, and DJ XYLA TOXIC<br><br>Red Room <br>Yoda the Bard",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Fetish-Night--at-necto-nightclub-ann-arbor-michigan-Jun-05-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Fetish-Night--at-necto-nightclub-ann-arbor-michigan-Jun-05-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jun 02, 2023 21:00:00"),
+        "eventName"    :  "Malaysia Babydoll Fox & Aura Mayari",
+        "eventArtist"  :  "Malaysia Babydoll Fox & Aura Mayari",
+        "eventDesc"    :  "Necto Pride Presents - Malaysia Babydoll Fox & Aura Mayari",
+        "eventDescLong":  "Necto Pride Presents - <br>Malaysia Babydoll Fox & Aura Mayari<br><br>Hosted by:<br>Chanel Hunter & Perry Dox<br><br>Openers<br>Caj Monet and Alicia Boom Boom Moore Chablis <br><br>DJs <br>Main Room <br>DJ Edward Alan and Luca Miel <br><br>Red Room <br>DJ DigiMark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Malaysia-Babydoll-Fox-&-Aura-Mayari-at-necto-nightclub-ann-arbor-michigan-Jun-02-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Malaysia-Babydoll-Fox-&-Aura-Mayari-at-necto-nightclub-ann-arbor-michigan-Jun-02-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+
     {
         "eventDate"    :  new Date("May 27, 2023 21:00:00"),
         "eventName"    :  "Memorial Weekend Rager ",
