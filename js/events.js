@@ -30,6 +30,21 @@ var eventsJSON = [
         "pastEvent"    :  false // Do not modify
     },
     {
+        "eventDate"    :  new Date("Oct 20, 2023 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - The Roast of Perry Dox",
+        "eventArtist"  :  "Perry Dox",
+        "eventDesc"    :  "Necto Pride is excited to announce that we are chopping up, cooking, & roasting one of our hosts for her birthday! Be sure to grab a plate and take a seat for the Roast of Perry Dox.",
+        "eventDescLong":  "Necto Pride is excited to announce that we are chopping up, cooking, & roasting one of our hosts! Be sure to grab a plate and take a seat for the Roast of Perry Dox.<br><br>26 years ago on this date the glamorous clown herself, Perry Dox, was born. Instead of a basic drag show we wanted to bring you a unique & special celebration. Join us for a night of drag performances & a comedy set featuring some of Perry’s closest & favorite entertainers. Astara Love will be joining us as Roastmaster with Kourtney Charles, Pixie Mae Barnes, Rayne, & a surprise special guest! <br><br>This is going to be a no-holds barred, Comedy Central style roast so please leave the hurt feelings and cancel culture at home. All is in good fun & love for each other. We encourage everyone to come out and be ready to laugh, dance, & be entertained at the expense of the Dox Doll herself.",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Perry-Dox-at-necto-nightclub-ann-arbor-michigan-Oct-20-2023.html",
+        "eventSocial"  :  "https://www.instagram.com/p/CwViyn9OGK3/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Perry-Dox-at-necto-nightclub-ann-arbor-michigan-Oct-20-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
         "eventDate"    :  new Date("Oct 13, 2023 21:00:00"),
         "eventName"    :  "Necto Pride Presents - Anetra",
         "eventArtist"  :  "Anetra",
