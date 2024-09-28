@@ -1,5 +1,1131 @@
 var eventsJSON = [
     {
+        "eventDate"    :  new Date("Nov 12, 2024 02:00:00"),
+        "eventName"    :  "Factory Karaoke: Goth, Emo, & Alternative",
+        "eventArtist"  :  "Factory Karaoke",
+        "eventDesc"    :  "Join us this November for a karaoke night in the Red Room, singing your favorite goth, emo, and alternative hits.",
+        "eventDescLong":  "It’s your turn to take the mic!<br><br>Join us this November for a karaoke night in the Red Room, singing your favorite goth, emo, and alternative hits.<br><br>Karaoke will start at 10PM and run to 12:30PM! <br><br>Sign up with Maestro, Krusty, & Silver in the Red Room for your moment in the spotlight!<br><br>Main Room: Remnant & Marc Church playing Industrial, EBM, Aggrotech, Synth, Goth, Post-Punk<br><br>Red Room: DJ Xyla Toxic playing 80's, Nu-Metal, Emo, Alternative",
+        "eventCover"   :  "5",
+        "eventLink"    :  "special-events/" + "Factory-Karaoke-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-12-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Karaoke-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-12-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 31, 2024 21:00:00"),
+        "eventName"    :  "Necto Halloween Night",
+        "eventArtist"  :  "Necto Halloween Night",
+        "eventDesc"    :  "Join us on Halloween Night for a party at the best club in Ann Arbor on the scariest day of the year.",
+        "eventDescLong":  "We’re going all out for Necto Halloween Night!<br><br>Join us on Halloween Night for a party at the best club in Ann Arbor on the scariest day of the year.<br><br>What’s Halloween without a costume contest? Sign up and compete for cash prizes in our best costume contest hosted by MC 3Steez at Midnight!<br><br>MAIN ROOM: THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ SKOOB E, MC 3STEEZ<br>RED ROOM: DJ KHAWK, DJ RONDON",
+        "eventCover"   :  "COVER:  $30 18+ & 21+",
+        "eventLink"    :  "special-events/" + "Necto-Halloween-Night-at-necto-nightclub-ann-arbor-michigan-Oct-31-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-vaspZv9DX/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Necto-Halloween-Night-at-necto-nightclub-ann-arbor-michigan-Oct-31-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 28, 2024 20:00:00"),
+        "eventName"    :  "FACTORY HALLOWEEN",
+        "eventArtist"  :  "FACTORY HALLOWEEN",
+        "eventDesc"    :  "Factory Monday’s favorite holiday returns.",
+        "eventDescLong":  "It’s finally here!<br><br>Factory Monday’s favorite holiday returns.<br><br>We’re having our annual costume contest with cash prizes at midnight. Hosted by our resident DJ, Xylatoxic!<br><br>Main Room: Remnant, Marc Church, DJ DARKS CHOIR<br>Red Room: DJ Xylatoxic, Spacey K, and DJ Havok",
+        "eventCover"   :  "$15 18+ & 21+",
+        "eventLink"    :  "special-events/" + "FACTORY-HALLOWEEN-at-necto-nightclub-ann-arbor-michigan-Oct-28-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-vXRO2vSnq/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "FACTORY-HALLOWEEN-at-necto-nightclub-ann-arbor-michigan-Oct-28-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 26, 2024 20:00:00"),
+        "eventName"    :  "FREQUENCY HALLOWEEN",
+        "eventArtist"  :  "FREQUENCY HALLOWEEN",
+        "eventDesc"    :  "Join us for the spookiest Frequency Saturday of the year! ",
+        "eventDescLong":  "Join us for the spookiest Frequency Saturday of the year! <br><br>Wear something special and compete for cash prizes in our best costume contest hosted by MC 3Steez at Midnight.<br><br>Sign up for the contest with MC 3Steez!<br><br>MAIN ROOM: THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ JOEY P, DJ SKOOB E, MC 3STEEZ<br>RED ROOM: DJ KHAWK, DJ RONDON",
+        "eventCover"   :  "$25 18+ & 21+",
+        "eventLink"    :  "special-events/" + "FREQUENCY-HALLOWEEN-at-necto-nightclub-ann-arbor-michigan-Oct-26-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-vUJznPwzD/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "FREQUENCY-HALLOWEEN-at-necto-nightclub-ann-arbor-michigan-Oct-26-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 25, 2024 20:00:00"),
+        "eventName"    :  "NECTO PRIDE HALLOWEEN",
+        "eventArtist"  :  "NECTO PRIDE HALLOWEEN",
+        "eventDesc"    :  "You already know that Necto Pride is going to have the campiest Halloween party in Michigan!",
+        "eventDescLong":  "You already know that Necto Pride is going to have the campiest Halloween party in Michigan!<br><br>There’s no better place to celebrate the spooky Holiday than your favorite club.<br><br>Chanel Hunter & Perry Dox will be hosting a costume contest with cash prizes, so dress to impress!<br><br>MAIN ROOM: DJ EDWARD ALAN, DJ KASS<br>RED ROOM: DJ DIGIMARK",
+        "eventCover"   :  "$25 18+ & 21+",
+        "eventLink"    :  "special-events/" + "NECTO-PRIDE-HALLOWEEN-at-necto-nightclub-ann-arbor-michigan-Oct-25-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-vQkMTOm4_/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "NECTO-PRIDE-HALLOWEEN-at-necto-nightclub-ann-arbor-michigan-Oct-25-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 14, 2024 21:00:00"),
+        "eventName"    :  "Trick or Freak",
+        "eventArtist"  :  "Trick or Freak",
+        "eventDesc"    :  "Come get freaky with us this October! We’re bringing the fun and freak of sideshow acts to Factory Monday.",
+        "eventDescLong":  "Come get freaky with us this October!<br><br>We’re bringing the fun and freak of sideshow acts to Factory Monday.<br><br>Spanking booth, rotating sensation station and LED flow, sideshow acts, interactive stations & more!!!<br><br>Main Room: Remnant, Parallax, & Marc Church playing Industrial, EBM, Aggrotech, Synth, Goth, Post-Punk<br><br>Red Room: DJ Xyla Toxic playing 80's, Nu-Metal, Emo, Alternative",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Trick-or-Freak-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Oct-14-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Trick-or-Freak-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Oct-14-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 13, 2024 15:00:00"),
+        "eventName"    :  "TAKE CARE x RUNWAY RUMBLE | Little Mx. Live Laugh Love: A Compassionate Competition feat. Latrice Royale",
+        "eventArtist"  :  "Latrice Royale",
+        "eventDesc"    :  "Join Runway Rumble, a U-M Student Organization that uplifts and highlights queer spaces in Ann Arbor and neighboring communities, for the semi-finals of the Runway Rumble 7-part series spanning the Fall 2024 semester and presented in partnership with the U-M Arts Initiative.",
+        "eventDescLong":  "Join Runway Rumble, a U-M Student Organization that uplifts and highlights queer spaces in Ann Arbor and neighboring communities, for the semi-finals of the Runway Rumble 7-part series spanning the Fall 2024 semester and presented in partnership with the U-M Arts Initiative. <br><br>This event will be in the style of a drag pageant with competitors presenting to a panel of fabulous judges, including our legendary special guest, Latrice Royale. Categories will include creative wear, talent, and an interview in the spirit of the Arts Initiative’s Take Care AY 2024-25 focus.<br><br>Proudly an alcohol-free event!<br><br>Doors at 3PM - Event starts at 4PM",
+        "eventCover"   :  "Free with MCard, or $15 GA",
+        "eventLink"    :  "special-events/" + "Latrice-Royale-at-necto-nightclub-ann-arbor-michigan-Oct-13-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C_lVH3juu3s/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Latrice-Royale-at-necto-nightclub-ann-arbor-michigan-Oct-13-2024.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 12, 2024 21:00:00"),
+        "eventName"    :  "Frequency Rewind",
+        "eventArtist"  :  "Frequency Rewind",
+        "eventDesc"    :  "It’s been a while, let’s rewind!<br><br>We’re taking it back to the 90s and 2000s this October and hope you’ll join us.",
+        "eventDescLong":  "It’s been a while, let’s rewind! <br><br>We’re taking it back to the 90s and 2000s this October and hope you’ll join us.<br><br>Don’t forget to check out the Necto-cade, our own little piece of nostalgia, located upstairs near the main bar.<br><br>Ladies free & half off drinks until 10PM! <br><br>MAIN ROOM: THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ SKOOB E, DJ DAMON, MC 3STEEZ<br><br>RED ROOM: DJ RONDON, DJ K HAWK",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:00PM) ",
+        "eventLink"    :  "special-events/" + "Frequency-Rewind-at-necto-nightclub-ann-arbor-michigan-Oct-12-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency-Rewind-at-necto-nightclub-ann-arbor-michigan-Oct-12-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 11, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - I JUST WANNA GO BACK TO ‘99!",
+        "eventArtist"  :  "I JUST WANNA GO BACK TO ‘99!",
+        "eventDesc"    :  "Wish that you could go back in time?<br<br>>We’re taking Necto Pride back to 1999 this October and you’re invited!",
+        "eventDescLong":  "Wish that you could go back in time?<br><br>We’re taking Necto Pride back to 1999 this October and you’re invited!<br><br>Take the opportunity to wear your best Y2K-inspired fits and join us for a 90s/2000s dance party at your favorite club.<br><br>MAIN ROOM: DJ EDWARD ALAN, DJ KASS<br>RED ROOM: DJ DIGIMARK",
+        "eventCover"   :  "FREE ENTRY WITH COLLEGE ID / MCARD BEFORE 10:30PM // $10 for 21+ & $20 for 18-20",
+        "eventLink"    :  "special-events/" + "I-JUST-WANNA-GO-BACK-TO-‘99!-at-necto-nightclub-ann-arbor-michigan-Oct-11-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "I-JUST-WANNA-GO-BACK-TO-‘99!-at-necto-nightclub-ann-arbor-michigan-Oct-11-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 04, 2024 21:00:00"),
+        "eventName"    :  " Necto Pride & OMNI Presents - HOSO TERRA TOMA & NIOHURU X",
+        "eventArtist"  :  "HOSO TERRA TOMA & NIOHURU X",
+        "eventDesc"    :  "Starting Spooky Season off right we are very excited to bring you the OMNI club tour WSG Hoso Terra Toma & Niohuru X at Necto Pride!",
+        "eventDescLong":  "Starting Spooky Season off right we are very excited to bring you the OMNI club tour WSG Hoso Terra Toma & Niohuru X at Necto Pride!<br><br>Hoso Terra Toma is a Korean-American drag performer and Finalist of the fourth season of The Boulet Brothers' Dragula.  She later appeared on the first season of The Boulet Brothers' Dragula: Titans, again placing as a Top 3 Finalist.<br><br>Niohuru X was revealed as one of the contestants competing in the fifth season of The Boulet Brothers’ Dragula.  She was declared a winner in the first and seventh episodes, was placed at the bottom twice, eliminating Anna Phylactic and Fantasia Royale Gaga.  In the finale episode, she had to create three outfits representing filth, horror, and glamour. In the same episode, she participated in a lip-sync battle to Ladytron’s “Destroy Everything You Touch”.. Niohuru X was crowned as The World's Next Drag Supermonster.<br><br><br>Hoso Terra Toma & Niohuru X will be joined by our resident queens, Perry Dox & Chanel Hunter with special guest Asio Aviance.<br><br>Main Room: DJ Kass, DJ Edward Alan <br>Red Room: DJ Digimark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "HOSO-TERRA-TOMA-&-NIOHURU-X-at-necto-nightclub-ann-arbor-michigan-Oct-04-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-dO2pcutrF/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "HOSO-TERRA-TOMA-&-NIOHURU-X-at-necto-nightclub-ann-arbor-michigan-Oct-04-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 28, 2024 21:00:00"),
+        "eventName"    :  "Frequency Buckwild Country Night",
+        "eventArtist"  :  "Buckwild Country Night",
+        "eventDesc"    :  "We’re going buckwild this September!",
+        "eventDescLong":  "We’re going buckwild this September!<br><br>Put on your favorite denim and boots for a country night at Ann Arbor’s #1 club.<br><br>Best Daisy Duke’s Contest hosted by MC 3Steez at Midnight with cash prizes. You won’t want to miss it!<br><br>MAIN ROOM: THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ JOEY P, DJ SKOOB E, MC 3Steez<br>RED ROOM: DJ K HAWK, DJ RONDON",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:00PM) ",
+        "eventLink"    :  "special-events/" + "Buckwild-Country-Night-at-necto-nightclub-ann-arbor-michigan-Sep-28-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-VuREfP-b8/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Buckwild-Country-Night-at-necto-nightclub-ann-arbor-michigan-Sep-28-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 27, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents: Saddle Up Country Night",
+        "eventArtist"  :  "Saddle Up Country Night",
+        "eventDesc"    :  "Saddle up! We’re feeling a little country this September.",
+        "eventDescLong":  "Saddle up! We’re feeling a little country this September.<br><br>Join us for a country-themed Pride night, dancing to our favorite country hits and Pride anthems!<br><br>Best Daisy Duke’s or Western Attire Contest hosted by Chanel Hunter and Perry Dox at 12:30 with CASH prizes!<br><br>Main Room: DJ Edward Alan, DJ Kass<br>Red Room: DJ Digimark<br>",
+        "eventCover"   :  "FREE ENTRY WITH COLLEGE ID / MCARD BEFORE 10:30PM // $10 for 21+ & $20 for 18-20",
+        "eventLink"    :  "special-events/" + "Saddle-Up-Country-Night-at-necto-nightclub-ann-arbor-michigan-Sep-27-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-Vq433OnXl/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Saddle-Up-Country-Night-at-necto-nightclub-ann-arbor-michigan-Sep-27-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 26, 2024 20:00:00"),
+        "eventName"    :  "Red Bull Turn It Up Ann Arbor",
+        "eventArtist"  :  "Red Bull Turn It Up Ann Arbor",
+        "eventDesc"    :  "Red Bull Turn It Up: One theme. One mix. Who’s got the crowd? You decide!",
+        "eventDescLong":  "Red Bull Turn It Up: One theme. One mix. Who’s got the crowd? You decide!<br><br>Red Bull Turn It Up is an entertaining DJ competition where DJ teams must think on the fly and build mixes that match surprise themes revealed at the event. The audience votes for the best mix, battle after battle! Whoever gets the room partying the most wins!<br><br>Check back soon for your talent line-up!",
+        "eventCover"   :  "",
+        "eventLink"    :  "special-events/" + "Red-Bull-Turn-It-Up-Ann-Arbor-at-necto-nightclub-ann-arbor-michigan-Sep-26-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "https://www.eventbrite.com/e/red-bull-turn-it-up-ann-arbor-tickets-990083435207",
+        "eventImgWide" :  "img/event-images/" + "Red-Bull-Turn-It-Up-Ann-Arbor-at-necto-nightclub-ann-arbor-michigan-Sep-26-2024.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 23, 2024 21:00:00"),
+        "eventName"    :  "Factory Fall Formal",
+        "eventArtist"  :  "Factory Fall Formal",
+        "eventDesc"    :  "Wear your goth best this September and join us for Factory Fall Formal!",
+        "eventDescLong":  "Wear your goth best this September and join us for Factory Fall Formal!<br><br>Stop by the photobooth for a free Factory Fall Formal branded photo strip of you and your Factory Family. <br><br>Best Goth Formal Wear Contest @ Midnight hosted by Jay Misanthropia with cash prizes!<br><br>Main Room: Remnant, DJ Engine<br>Red Room: DJ Xylatoxic, Jay Misanthropia ",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fall-Formal-at-necto-nightclub-ann-arbor-michigan-Sep-23-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-TY5YTvi9Y/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fall-Formal-at-necto-nightclub-ann-arbor-michigan-Sep-23-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 20, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Dawn",
+        "eventArtist"  :  "Dawn",
+        "eventDesc"    :  "This September, we’re staying up all night with Dawn!",
+        "eventDescLong":  "This September, we’re staying up all night with Dawn!<br><br>Brooklyn’s “Drag Thing” from Season 16 of RuPaul’s Drag Race will make their eagerly anticipated Necto debut.<br><br>Dawn will be joined by our resident queens, Perry Dox & Chanel Hunter with special guest Gizelle DeVaux.<br><br>Main Room: DJ Kass, DJ Edward Alan <br>Red Room: The Maestro DJ",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Dawn-at-necto-nightclub-ann-arbor-michigan-Sep-20-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-JD_QDuFi9/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Dawn-at-necto-nightclub-ann-arbor-michigan-Sep-20-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 09, 2024 21:00:00"),
+        "eventName"    :  "Cosmic Graveyard: Space Party",
+        "eventArtist"  :  "Cosmic Graveyard: Space Party",
+        "eventDesc"    :  "Factory at Necto is headed for deep space. Dress in your favorite space-themed attire and join us for a memorable night on Spaceship Necto.",
+        "eventDescLong":  "Factory at Necto is headed for deep space.<br><br>Dress in your favorite space-themed attire and join us for a memorable night on Spaceship Necto<br><br>Space-Themed Costume Contest w/ Cash Prizes @ Midnight!<br><br>Come drift around the cosmic graveyard with us this September!<br><br>Main Room:  Remnant, Jay Misanthropia, DJ Wraith<br>Red Room: Xylatoxic",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Cosmic-Graveyard-Space-Party-at-necto-nightclub-ann-arbor-michigan-Sep-09-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-D6Xw8vG-J/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Cosmic-Graveyard-Space-Party-at-necto-nightclub-ann-arbor-michigan-Sep-09-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 07, 2024 21:00:00"),
+        "eventName"    :  "Frequency Hyperdrive",
+        "eventArtist"  :  "Frequency Hyperdrive",
+        "eventDesc"    :  "Join us at Necto as we kick the party into Hyperdrive this September!",
+        "eventDescLong":  "Join us at Necto as we kick the party into Hyperdrive this September!<br><br>We’re throwing a full on space party, so come mingle with aliens in your most futuristic outfits.<br><br>Space-Themed Costume Contest w/ Cash Prizes @ Midnight!<br><br>Ladies free and half off drinks until 10:00PM!<br><br>MAIN ROOM:  THE MAESTRO DJ, DJ SKOOBE, DJ SLIM, DJ SINS, DJ HARDY AND MC 3STEEZ <br>RED ROOM: DJ KHAWK, DJ RONDON",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:00PM) ",
+        "eventLink"    :  "special-events/" + "Frequency-Hyperdrive-at-necto-nightclub-ann-arbor-michigan-Sep-07-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-D3FNUP71d/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency-Hyperdrive-at-necto-nightclub-ann-arbor-michigan-Sep-07-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 06, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Invaders of Uranus",
+        "eventArtist"  :  "Invaders of Uranus",
+        "eventDesc"    :  "Have you been bored on Planet Earth lately? Tired of being around those weird humans? NECTO has just the thing to cure those intergalactic blues.",
+        "eventDescLong":  "Have you been bored on Planet Earth lately? Tired of being around those weird humans? NECTO has just the thing to cure those intergalactic blues.<br><br>NECTO Pride would like to present; The Invaders from Uranus! Chanel Hunter & Perry Dox have milked many galaxies to bring together a star studded battle featuring; Ann Grouix Hag, Bubbleina, LYRA, Mimi Southwest, Pinball McQueen, & Virgil Ciel. <br><br>Save the date for September 6th, 2024 & moonwalk your way over to see these interstellar babes battle it out in a lipsync smackdown! Only one star can burn the brightest & take home a crown/cash prize/& a booking with NECTO. <br><br>Featuring performances by our judges; Aphrodite & Lotipha Renee Hunter! There is more to our universe than just our beautiful cast, with fun mini games in between the set, we want you to get ready for lift off too! We are encouraging everyone to dress in their best space fits for a chance to win $$$ at our Costume Contest after the show @ 12:30am! We will select solo & group costumes that blow us away & let you, the audience, decide who wins!",
+        "eventCover"   :  "FREE ENTRY WITH COLLEGE ID / MCARD BEFORE 10:30PM // $10 for 21+ & $20 for 18-20",
+        "eventLink"    :  "special-events/" + "Invaders-of-Uranus-at-necto-nightclub-ann-arbor-michigan-Sep-06-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-Dzk-3STj9/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Invaders-of-Uranus-at-necto-nightclub-ann-arbor-michigan-Sep-06-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Sep 01, 2024 18:30:00"),
+        "eventName"    :  "Battle for the Beat",
+        "eventArtist"  :  "The Cast of Runway Rumble",
+        "eventDesc"    :  "Choreography? I hardly know her! 💃🕺 On Sunday September 1st, We will be hosting Battle for the Beat: Runway Rumble's action-packed first elimination episode of the season!",
+        "eventDescLong":  "Choreography? I hardly know her! 💃🕺 On Sunday September 1st, We will be hosting Battle for the Beat: Runway Rumble's action-packed first elimination episode of the season!! <br><br>Our fighters will be split into three groups and tasked with choreographing a live performance to a pop song of their choice. If their group isn't on top, they're in the bottom, with contestants from BOTH of the bottom groups facing a lip sync for their lives. 😨<br><br>That's right, you betta order yourself a stiff one cause this episode is a double 🥃<br><br>We'll also feature performances by our incredible judging panel @ponytailderrick, Mx Trans Michigan @xoxoblancaa, Miss Trans Michigan Lyndsey K Taylor, and by our very own Host/Referee @the.portia.lynn!<br><br>Don't have labor day plans? Spend it at Necto! We promise you do NOT want to miss all this drama. 🥊🥊🥊<br><br>Performances by the Runway Rumble Cast:<br><br>@belladonna_marz<br>@blonskibabes<br>@ladyjustice_cosplayanddrag<br>@theeolivertattoo<br>@rayneisnotwet<br>@openseasin<br>@thesirgin<br>@sirguydrag<br>@taliatheeghoul<br>@thetessamystic<br><br><br>Sponsors:<br>The University of Michigan’s Arts Initiative by @umicharts<br>@optimizemi<br>@scrap_a2<br>@tdecafe",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "The-Cast-of-Runway-Rumble-at-necto-nightclub-ann-arbor-michigan-Sep-01-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C-A6NMHuQJp/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "The-Cast-of-Runway-Rumble-at-necto-nightclub-ann-arbor-michigan-Sep-01-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },    
+    {
+        "eventDate"    :  new Date("Aug 26, 2024 21:00:00"),
+        "eventName"    :  "Zombie Beach Party",
+        "eventArtist"  :  "Zombie Beach Party",
+        "eventDesc"    :  "Who said goths can’t have fun at the beach?",
+        "eventDescLong":  "Who said goths can’t have fun at the beach?<br><br>Join your Factory Family for a tropical night this August at the Zombie Beach Party!<br><br>Main Room:  Remnant, Jay Misanthropia, DJ Havok<br>Red Room: Xylatoxic ",
+        "eventCover"   :  "5",
+        "eventLink"    :  "special-events/" + "Zombie-Beach-Party-at-necto-nightclub-ann-arbor-michigan-Aug-26-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Zombie-Beach-Party-at-necto-nightclub-ann-arbor-michigan-Aug-26-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 24, 2024 21:00:00"),
+        "eventName"    :  "Frequency Beach Party",
+        "eventArtist"  :  "Frequency Beach Party",
+        "eventDesc"    :  "We’re taking Necto to the beach this August",
+        "eventDescLong":  "We’re taking Necto to the beach this August!<br><br>Dress in your best beach attire and join us for a tropical night at your favorite club.<br><br>Ladies free until 10:30PM & Half off drinks until 10PM!<br><br>MAIN ROOM:  THE MAESTRO DJ, DJ SKOOBE, DJ SLIM, DJ SINS AND MC 3STEEZ <br>RED ROOM: DJ KHAWK, DJ RONDON",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:30PM)",
+        "eventLink"    :  "special-events/" + "Frequency-Beach-Party-at-necto-nightclub-ann-arbor-michigan-Aug-24-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency-Beach-Party-at-necto-nightclub-ann-arbor-michigan-Aug-24-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 23, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Boys Of Summer wsg Jasmine Masters",
+        "eventArtist"  :  "Jasmine Masters",
+        "eventDesc"    :  "This August, The Boys of Summer returns!",
+        "eventDescLong":  "This August, The Boys of Summer returns!<br><br>Joining us for the event will be our special guest, Jasmine Masters!<br><br>Our Boys of Summer Contest will take place at Midnight. Sign up with Perry Dox & Chanel Hunter.<br><br>Performances and Hosted by: Chanel Hunter, Perry Dox, Jasmine Masters, and Donnie Love Hunter! <br><br>Main Room: DJ Edward Alan, DJ Kass<br>Red Room: DJ Digimark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Jasmine-Masters-at-necto-nightclub-ann-arbor-michigan-Aug-23-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C8w-tz9u4lV/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Jasmine-Masters-at-necto-nightclub-ann-arbor-michigan-Aug-23-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 16, 2024 21:00:00"),
+        "eventName"    :  "Back into the Groove with DVJ MARK",
+        "eventArtist"  :  "DVJ Mark",
+        "eventDesc"    :  "DVJ Mark is returning to the Necto Pride Red Room this August!",
+        "eventDescLong":  "DVJ Mark is returning to the Necto Pride Red Room this August!<br><br>Celebrating Madonna’s birthday, Mark will be playing selections of her music and other Retro, UK Pop, and Top 40 Dance tracks/videos all night in the Red Room.<br><br>Mark’s no stranger to the Red Room, having spent time as our resident from 2003 to 2016.<br><br>We look forward to his return and hope you’ll join us for an unforgettable night!",
+        "eventCover"   :  "FREE ENTRY WITH COLLEGE ID / MCARD BEFORE 10:30PM // $10 for 21+ & $20 for 18-20",
+        "eventLink"    :  "special-events/" + "DVJ-Mark-at-necto-nightclub-ann-arbor-michigan-Aug-16-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "DVJ-Mark-at-necto-nightclub-ann-arbor-michigan-Aug-16-2024.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 12, 2024 21:00:00"),
+        "eventName"    :  "Factory 20 Year Anniversary",
+        "eventArtist"  :  "Factory 20 Year",
+        "eventDesc"    :  "We’re celebrating 20 years of Factory at Necto this August!",
+        "eventDescLong":  "We’re celebrating 20 years of Factory at Necto this August!<br><br>For this special event, we’ve got plenty of surprises in store.<br><br>As a show of appreciation for those who’ve spent their Monday nights with us over the last two decades, cover will be $5!<br><br>Main Room:  Remnant, Jay Misanthropia, Void6<br>Red Room: Xylatoxic, DJ Havok ",
+        "eventCover"   :  "5",
+        "eventLink"    :  "special-events/" + "Factory-20-Year-at-necto-nightclub-ann-arbor-michigan-Aug-12-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C8sXfMePFTi/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-20-Year-at-necto-nightclub-ann-arbor-michigan-Aug-12-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Aug 02, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Shannel",
+        "eventArtist"  :  "Shannel",
+        "eventDesc"    :  "We’re kicking off Ann Arbor Pride with a major show!<br>Br>All the way from season 1 of RuPaul’s Drag Race and the current season of RuPaul’s Drag Race Allstars, we’re bringing Shannel to Necto Pride!",
+        "eventDescLong":  "We’re kicking off Ann Arbor Pride with a major show!<br><br>All the way from season 1 of RuPaul’s Drag Race and the current season of RuPaul’s Drag Race Allstars, we’re bringing Shannel to Necto Pride!<br><br>This unforgettable performance will be opened by our resident queens, Perry Dox & Chanel Hunter with special guest Donatella.<br><br>Main Room: DJ Kass, DJ Edward Alan <br>Red Room: DJ Digimark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Shannel-at-necto-nightclub-ann-arbor-michigan-Aug-02-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Shannel-at-necto-nightclub-ann-arbor-michigan-Aug-02-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jul 26, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Karaoke",
+        "eventArtist"  :  "Necto Pride Karaoke",
+        "eventDesc"    :  "Start doing your vocal warmups now! We’re having another karaoke night this July!",
+        "eventDescLong":  "Start doing your vocal warmups now! We’re having another karaoke night this July!<br><br>DJ Edward Alan, Chanel Hunter, and Perry Dox will be hosting karaoke downstairs in the Red Room, starting at 10PM until 12:30AM!<br><br>Main Room: DJ Kass and DJ Edward Alan<br>Red Room: DJ Digimark<br><br>We’ll be serving up half off drinks until 10PM, so get here early!<br>",
+        "eventCover"   :  "FREE ENTRY WITH COLLEGE ID / MCARD BEFORE 10:30PM // $10 for 21+ & $20 for 18-20",
+        "eventLink"    :  "special-events/" + "Necto-Pride-Karaoke-at-necto-nightclub-ann-arbor-michigan-Jul-26-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C8c_sOiOntG/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Necto-Pride-Karaoke-at-necto-nightclub-ann-arbor-michigan-Jul-26-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jul 15, 2024 20:00:00"),
+        "eventName"    :  "Factory Necto Presents - REMNANT'S MIDLIFE CRISIS FEAT. MATT HART, MALICE MACHINE, CRUNE",
+        "eventArtist"  :  "Matt Hart",
+        "eventDesc"    :  "Come out to celebrate Remnant’s Midlife Crisis with Factory Family & live performances by some of Remnant's friends!",
+        "eventDescLong":  "Come out to celebrate Remnant’s Midlife Crisis with Factory Family & live performances by some of Remnant's friends!<br><br>MATT HART -<br>London, UK <br><br>Industrial musician & DJ. Influenced by early industrial & incorporating modern production alongside edgy electronica & industrial metal.<br><br>Instagram: @Matthart3808<br>Bandcamp: https://matthart.bandcamp.com<br><br>Malice Machine - <br>Bloomsburg, Pennsylvania<br><br>Formed in the catacombs of NYC's underground, Malice Machine is a collaboration of two dark souls, Syn and Julie-X. Their Aggro-Punk sound emanates in an assembly of sinister synths, throbbing bass, methodical drums, and angry razored vocals.<br><br>Malice Machine Linktree<br><br><br>Crune -<br>Detroit, Michigan<br><br>CRUNE utilizes evocative vocals, violin, theremin, synthesizer, hurdy gurdy, and drum machines to create a ritualized horror disco they call Witch Pop<br><br>Instagram: @_CRUNE_<br>Bandcamp: https://crune.bandcamp.com",
+        "eventCover"   :  "15",
+        "eventLink"    :  "special-events/" + "Matt-Hart-at-necto-nightclub-ann-arbor-michigan-Jul-15-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "https://www.etix.com/ticket/p/43230244/factory-necto-presents-remnants-midlife-crisis-featmatt-hartmalice-machinecrune-ann-arbor-necto",
+        "eventImgWide" :  "img/event-images/" + "Matt-Hart-at-necto-nightclub-ann-arbor-michigan-Jul-15-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jul 12, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - MEGAMI",
+        "eventArtist"  :  "MEGAMI",
+        "eventDesc"    :  "We’re bringing NYC’s Thique Geeky Goddess to Necto Pride this July!",
+        "eventDescLong":  "We’re bringing NYC’s Thique Geeky Goddess to Necto Pride this July.<br><br>You know her from Season 16 of RuPaul’s Drag Race and her cosplays!<br><br>Opening the show will be our resident queens, Perry Dox & Chanel Hunter with our Battle of the Rosebuds winner, Velma Violet!<br><br>Main Room: DJ Kass, DJ Edward Alan <br>Red Room: DJ Digimark<br>",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "MEGAMI-at-necto-nightclub-ann-arbor-michigan-Jul-12-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C7zt3suOYEu/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "MEGAMI-at-necto-nightclub-ann-arbor-michigan-Jul-12-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jul 06, 2024 21:00:00"),
+        "eventName"    :  "Frequency Rewind",
+        "eventArtist"  :  "Frequency Rewind",
+        "eventDesc"    :  "Take that and rewind it back!<br><br>We’ll be dancing to the hits and classics of the 90s and 2000s this July.",
+        "eventDescLong":  "Take that and rewind it back!<br><br>We’ll be dancing to the hits and classics of the 90s and 2000s this July.<br><br>Ladies free until 10:30PM & Half off drinks until 10PM! <br><br>MAIN ROOM:  THE MAESTRO DJ, DJ Joey P, DJ DON Q DJ Hardy DJ SKOOBE, AND MC 3STEEZ <br>RED ROOM: DJ KHAWK, DJ RONDON",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:30PM) ",
+        "eventLink"    :  "special-events/" + "Frequency-Rewind-at-necto-nightclub-ann-arbor-michigan-Jul-06-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency-Rewind-at-necto-nightclub-ann-arbor-michigan-Jul-06-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+
+    {
+        "eventDate"    :  new Date("Jun 22, 2024 21:00:00"),
+        "eventName"    :  "Frequency Blackout Glow Party",
+        "eventArtist"  :  "Blackout Glow Party",
+        "eventDesc"    :  "A blacklight party at Necto? No way!",
+        "eventDescLong":  "A blacklight party at Necto? No way!<br><br>You bring your friends, and we’ll bring the glowsticks!<br><br>MAIN ROOM:  THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ SKOOBE, AND MC 3STEEZ <br>RED ROOM: DJ KHAWK, DJ RONDON",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:30PM)",
+        "eventLink"    :  "special-events/" + "Blackout-Glow-Party-at-necto-nightclub-ann-arbor-michigan-Jun-22-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Blackout-Glow-Party-at-necto-nightclub-ann-arbor-michigan-Jun-22-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jun 21, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Glow Party",
+        "eventArtist"  :  "Pride Glow Party",
+        "eventDesc"    :  "Let your pride glow with us this June!",
+        "eventDescLong":  "Let your pride glow with us this June!<br><br>Glow Party at Necto Pride!  Rave under the black lights and wear your fashionable glow attire!  We’ll be handing out glow sticks for an unforgettable night of dancing. <br><br>Main Room: DJ Kass, DJ Edward Alan<br>Red Room: DJ DigiMark",
+        "eventCover"   :  "FREE ENTRY WITH COLLEGE ID / MCARD BEFORE 10:30PM // $10 for 21+ & $30 for 18-20",
+        "eventLink"    :  "special-events/" + "Pride-Glow-Party-at-necto-nightclub-ann-arbor-michigan-Jun-21-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Pride-Glow-Party-at-necto-nightclub-ann-arbor-michigan-Jun-21-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },    
+    {
+        "eventDate"    :  new Date("Jun 10, 2024 20:00:00"),
+        "eventName"    :  "Factory Necto Presents - STREET FEVER, COMFORT CURE, EXT.EST",
+        "eventArtist"  :  "STREET FEVER",
+        "eventDesc"    :  "Join Street Fever for a visceral journey through human experience and sonic exploration at Necto, where they'll unveil electrifying new material from 'Absolution' alongside their acclaimed tracks.",
+        "eventDescLong":  "Meet Street Fever, the boundary-pushing dark electronic musical artist hailing from Boise, Idaho. With an anonymous persona and an eclectic blend of influences including hardcore, heavy rap, industrial and dark techno, Street Fever crafts a gritty symphony unlike any other.<br>Their journey, marked by resilience and transformation, serves as a testament to the power of music for healing and connection. From confronting loss and institutionalization to a profound spiritual awakening, Street Fever's latest album, Absolution, is already generating buzz within the industry.<br>Join Street Fever for a visceral journey through human experience and sonic exploration at Necto, where they'll unveil electrifying new material from Absolution alongside their acclaimed tracks.<br>Spotify (over 26k monthly listeners)<br>Instagram (over 8k followers)<br>Bandcamp<br><br>Comfort Cure <br>@comfort_cure<br>https://thebrvtalist.com/comfortcureimthedrug/<br>https://comfortcure.bandcamp.com/album/design-international<br><br>Ext.Est <br>@ext.est <br>https://detroitindustrial.bandcamp.com/album/kirill-slavin-morning-on-rama<br><br>Afterparty with: Remnant, Jay Misanthropia, DJ Wraith, DJ XylaToxic<br>",
+        "eventCover"   :  "",
+        "eventLink"    :  "special-events/" + "STREET-FEVER-at-necto-nightclub-ann-arbor-michigan-Jun-10-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C6Mc7sxv90o/",
+        "eventTix"     :  "https://www.etix.com/ticket/p/79363036/factory-necto-presents-street-fevercomfort-cureextest-ann-arbor-necto",
+        "eventImgWide" :  "img/event-images/" + "STREET-FEVER-at-necto-nightclub-ann-arbor-michigan-Jun-10-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jun 07, 2024 00:00:00"),
+        "eventName"    :  "Necto Pride Presents - Willam",
+        "eventArtist"  :  "Willam",
+        "eventDesc"    :  "Join us in welcoming Willam back to the Necto Pride stage this June!",
+        "eventDescLong":  "We knew we had to do something special for Pride Month, that’s why we’re bringing out a queen who needs no introduction. <br><br>Join us in welcoming Willam back to the Necto Pride stage this June!<br><br>Willam is best known for being a drag queen, actor, singer-songwriter, reality television personality, writer, and podcaster.<br><br>Our resident queens Perry Dox and Chanel Hunter, along with special guest Monica Deveraux La Monico, will be opening this show!<br><br>Main Room: DJ Luca Miel, DJ Edward Alan <br>Red Room: DJ Digimark ",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Willam-at-necto-nightclub-ann-arbor-michigan-Jun-07-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Willam-at-necto-nightclub-ann-arbor-michigan-Jun-07-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jun 03, 2024 21:00:00"),
+        "eventName"    :  "Factory Fetish Night",
+        "eventArtist"  :  "Factory Fetish Night",
+        "eventDesc"    :  "We’re bringing back your favorite night this June!",
+        "eventDescLong":  "We’re bringing back your favorite night this June!<br><br>This Factory Fetish night will include a Sensation Station, Suspension Shibari, Roaming Performers and a Spanking Booth.<br><br>Main Room: Remnant and Jay Misanthropia<br>Red Room: DJ Xylatoxic",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Jun-03-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Jun-03-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("May 25, 2024 21:00:00"),
+        "eventName"    :  "Frequency Saturday Memorial Weekend Bash",
+        "eventArtist"  :  "Memorial Weekend Bash",
+        "eventDesc"    :  "Join us this Memorial Day weekend for a Saturday night bash!",
+        "eventDescLong":  "Join us this Memorial Day weekend for a Saturday night bash!<br><br>MAIN ROOM:  THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ SKOOBE, AND MC 3STEEZ <br>RED ROOM: DJ KHAWK, DJ RONDONJoin us this Memorial Day weekend for a Saturday night bash!",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:30PM) ",
+        "eventLink"    :  "special-events/" + "Memorial-Weekend-Bash-at-necto-nightclub-ann-arbor-michigan-May-25-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C6PWYwDvKC0/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Memorial-Weekend-Bash-at-necto-nightclub-ann-arbor-michigan-May-25-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("May 20, 2024 21:00:00"),
+        "eventName"    :  "Draglesque",
+        "eventArtist"  :  "Starr Divina and Alternia",
+        "eventDesc"    :  "Eager for a night of debauchery, drag, and sin? Indulge in delicious pleasure at DRAGLESQUE on May 20th.",
+        "eventDescLong":  "Eager for a night of debauchery, drag, and sin? Indulge in delicious pleasure at DRAGLESQUE on May 20th. The fetish event of the year at Factory Necto hosted by Starr Divina and Alternia. Featuring fierce tracks from DJ Sirgin and a stacked cast of local talented and mesmerizing drag-lesque performers.<br><br>DRAGLESQUE will also feature local vendors selling items for everyone including lashes (@artemiss.png), kinky art (@gingers.n.spice), jewelry (@blacksuncreations), and handmade leather-work (@designsbydoves). DRAGLESQUE will also host the stunning Dominatrix and Sex Doula Kelsi Parenteau (@saintsandsirenwellness) for some fun and safe impact play.<br><br>You don’t want to miss the fiercest fetish event yet. Tell all your kinky friends and come show off your leashes, collars, and fetish wear. <br><br>Don’t forget to bring cash to tip and engage with this sexy cast!<br><br>Main Room: DJ Sirgin, Remnant, and Jay Misanthropia<br>Red Room: DJ Xylatoxic<br>",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Starr-Divina-and-Alternia-at-necto-nightclub-ann-arbor-michigan-May-20-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C6O3eMCLC6y/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Starr-Divina-and-Alternia-at-necto-nightclub-ann-arbor-michigan-May-20-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("May 17, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Karaoke",
+        "eventArtist"  :  "Necto Pride Karaoke",
+        "eventDesc"    :  "Come out and sing a song for us at our Necto Pride Karaoke Night!",
+        "eventDescLong":  "Come out and sing a song for us at our Necto Pride Karaoke Night!<br><br>DJ Edward Alan, Chanel Hunter, and Perry Dox will be hosting karaoke downstairs in the Red Room, starting at 10PM until 12:30AM!<br><br>We’ll be serving up half off drinks until 10PM, so get here early!",
+        "eventCover"   :  "FREE ENTRY WITH COLLEGE ID / MCARD BEFORE 10:30PM // $10 for 21+ & $30 for 18-20",
+        "eventLink"    :  "special-events/" + "Necto-Pride-Karaoke-at-necto-nightclub-ann-arbor-michigan-May-17-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C53sKzDOlit/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Necto-Pride-Karaoke-at-necto-nightclub-ann-arbor-michigan-May-17-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("May 11, 2024 21:00:00"),
+        "eventName"    :  "Frequency Throwback 2000s Party",
+        "eventArtist"  :  "Frequency 2000s Party",
+        "eventDesc"    :  "It’s been a minute since we threw it back to the 2000s, huh?<br>Come with us on a trip back to the aughts this May 11th!",
+        "eventDescLong":  "It’s been a minute since we threw it back to the 2000s, huh?<br><br>Come with us on a trip back to the aughts this May 11th!<br><br>MAIN ROOM:  THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ SKOOBE, AND MC 3STEEZ <br>RED ROOM: DJ KHAWK, DJ RONDON",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:30PM)",
+        "eventLink"    :  "special-events/" + "Frequency-2000s-Party-at-necto-nightclub-ann-arbor-michigan-May-11-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C5ogvSRvuVT/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency-2000s-Party-at-necto-nightclub-ann-arbor-michigan-May-11-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("May 06, 2024 21:00:00"),
+        "eventName"    :  "Halfway to Halloween",
+        "eventArtist"  :  "Halfway to Halloween",
+        "eventDesc"    :  "Can’t wait for Halloween? Neither can we!",
+        "eventDescLong":  "Can’t wait for Halloween? Neither can we! <br><br>We’re throwing a Halloween party this May to celebrate being halfway back to our favorite holiday!<br><br>Show off your best costume for cash prizes in our best costume contest hosted by Jay Misanthropia.<br><br>Sign up with Jay Misanthropia in the Main Room for the contest at Midnight.<br><br>Our residents, Remnant, Jay Misanthropia, and DJ XylaToxic, will be joined by guests Audioflesh, Pink Heartbrake, and Havok!",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Halfway-to-Halloween-at-necto-nightclub-ann-arbor-michigan-May-06-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C5EnzkNvzBM/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Halfway-to-Halloween-at-necto-nightclub-ann-arbor-michigan-May-06-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("May 03, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Kylie Sonique Love & Trinity The Tuck All Stars Extravaganza",
+        "eventArtist"  :  "Trinity the Tuck & Kylie Sonique Love",
+        "eventDesc"    :  "Come spend a night with the All Stars this May. ",
+        "eventDescLong":  "We’re bringing the winners of RuPaul’s Drag Race All Stars seasons 4 and 6, Trinity the Tuck and Kylie Sonique Love, to Necto Pride. <br><br>These two drag All Stars will be performing with our resident queens, Perry Dox and Chanel Hunter, and our guest opener, Kristina Kelly!",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Trinity-the-Tuck-&-Kylie-Sonique-Love-at-necto-nightclub-ann-arbor-michigan-May-03-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C41ES03up39/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Trinity-the-Tuck-&-Kylie-Sonique-Love-at-necto-nightclub-ann-arbor-michigan-May-03-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Apr 27, 2024 21:00:00"),
+        "eventName"    :  "Frequency - SPRING BREAKOUT",
+        "eventArtist"  :  "Frequency - SPRING BREAKOUT",
+        "eventDesc"    :  "Come celebrate the changing of the season at the Frequency Spring Breakout!",
+        "eventDescLong":  "Come celebrate the changing of the season at the Frequency Spring Breakout!<br><br>We’ll be taking some time to stop and smell the roses and hope you’ll join us for a spring fling!<br><br>MAIN ROOM: The Maestro DJ, DJ Sins, DJ Slim, DJ SKOOBE, DJ Joey P & 3Steez<br>RED ROOM: DJ KHawk and DJ Rondon",
+        "eventCover"   :  "Ladies free until 10:30PM // $10 for 21+ & $30 for 18-20",
+        "eventLink"    :  "special-events/" + "Frequency---SPRING-BREAKOUT-at-necto-nightclub-ann-arbor-michigan-Apr-27-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C4gJJnJraFY/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency---SPRING-BREAKOUT-at-necto-nightclub-ann-arbor-michigan-Apr-27-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Apr 26, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride - BATTLE OF THE ROSEBUDS",
+        "eventArtist"  :  "BATTLE OF THE ROSEBUDS",
+        "eventDesc"    :  "The hedges are trimmed & the flowers are blooming. NECTO Pride is excited to open our gardens to you & bring on THE BATTLE OF THE ROSEBUDS.",
+        "eventDescLong":  "The hedges are trimmed & the flowers are blooming. NECTO Pride is excited to open our gardens to you & bring on THE BATTLE OF THE ROSEBUDS. <br><br>Join us for a one-night only lip sync smackdown between some exciting drag performers such as Buzi, EROS, Gretta Vendetta, Lily Ludenberg, Luscious Minj, Marz Universe, Starr Divina, and Velma Violet!<br><br>Hosted by Chanel Hunter w/ special guest judges Perry Dox, Maxi Chanel, & Aphrodite!<br> <br>Each contestant will be pulling you further into our fantasy garden that has bloomed in NECTO with themed performances. Come see who grabs the title of BEST ROSEBUD ON  THE BUSH ON APRIL 26TH! ",
+        "eventCover"   :  "Cover: Free with College ID & MCard  until 10:30pm / $10 for 21+ & $20 for 18-20",
+        "eventLink"    :  "special-events/" + "BATTLE-OF-THE-ROSEBUDS-at-necto-nightclub-ann-arbor-michigan-Apr-26-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C4MFMSrufaG/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "BATTLE-OF-THE-ROSEBUDS-at-necto-nightclub-ann-arbor-michigan-Apr-26-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Apr 22, 2024 21:00:00"),
+        "eventName"    :  "Goth Prom",
+        "eventArtist"  :  "Goth Prom",
+        "eventDesc"    :  "Unveil your Factory Monday best and join us for a night of enchantment this spring at Goth Prom!",
+        "eventDescLong":  "Unveil your Factory Monday best and join us for a night of enchantment this spring at Goth Prom!<br><br>Goth Prom King & Queen Contest at Midnight hosted by Perry Dox!<br><br>Main Room: Remnant, DJ Wraith, Jay Misanthropia<br>Red Room: DJ Xylatoxic",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Goth-Prom-at-necto-nightclub-ann-arbor-michigan-Apr-22-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C4gF2Axr8r6/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Goth-Prom-at-necto-nightclub-ann-arbor-michigan-Apr-22-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Apr 19, 2024 19:00:00"),
+        "eventName"    :  "Necto Pride - RuPaul’s Drag Race Season 16 Finale Viewing Party",
+        "eventArtist"  :  "Drag Race S16 Finale Viewing Party",
+        "eventDesc"    :  "Join our resident Queens, Perry Dox & Chanel Hunter for the RuPaul’s Drag Race Season 16 Finale Viewing Party!",
+        "eventDescLong":  "Join our resident Queens, Perry Dox & Chanel Hunter for the RuPaul’s Drag Race Season 16 Finale Viewing Party!<br><br>For the finale, Perry and Chanel will be joined by our special guests, Mia Cole and Emma Sapphire.<br><br>Come reflect on this great season of Drag Race and watch it all come to an end at your favorite place to see the queens.<br><br>Main Room: DJ Luca Miel, DJ Edward Alan<br>Red Room: DJ Digimark",
+        "eventCover"   :  "$10 for 21+, $20 for 18-20 (FREE FROM 7PM-9PM, COLLEGE ID & MCARD FREE UNTIL 10:30PM) ",
+        "eventLink"    :  "special-events/" + "Drag-Race-S16-Finale-Viewing-Party-at-necto-nightclub-ann-arbor-michigan-Apr-19-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C5okIx4uhr3/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Drag-Race-S16-Finale-Viewing-Party-at-necto-nightclub-ann-arbor-michigan-Apr-19-2024.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Apr 08, 2024 21:00:00"),
+        "eventName"    :  "Factory Fetish Night",
+        "eventArtist"  :  "Factory Fetish Night",
+        "eventDesc"    :  "Join us this April for our next Factory Fetish night!",
+        "eventDescLong":  "Join us this April for our next Factory Fetish night!<br><br>Factory Fetish night includes shibari, spanking booth, roaming performers & more.<br><br>Main Room: Remnant, DJ Textbeak, Jay Misanthropia<br>Red Room: DJ Xylatoxic<br>",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Apr-08-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/factoryatnecto/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Apr-08-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Apr 06, 2024 21:00:00"),
+        "eventName"    :  "JustMusicJeff Presents: Up In Smoke Vol. 2",
+        "eventArtist"  :  "Up In Smoke Vol 2",
+        "eventDesc"    :  "Our second post-Hash Bash party, coming on strong with smoking beats on a great custom sound system.",
+        "eventDescLong":  "Our second post-Hash Bash party, coming on strong with smoking beats on a great custom sound system.  Expect to hear kushy bass, deep house, dub techno and prime Saturday grooves.  Ladies free before 10:30, half-off drinks before 10.  Tell them at the door you're here for the Red Room party, be nice and have a good time.  Everyone is Welcome. No indoor smoking, of course!<br><br>Hosted by DJ Bud Sonic, featuring: Tony Nova, The Silent Ech0, Amateur Waifu",
+        "eventCover"   :  "Ladies free until 10:30PM // $10 for 21+ & $30 for 18-20",
+        "eventLink"    :  "special-events/" + "Up-In-Smoke-Vol-2-at-necto-nightclub-ann-arbor-michigan-Apr-06-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C4wBpaevcdB/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Up-In-Smoke-Vol-2-at-necto-nightclub-ann-arbor-michigan-Apr-06-2024.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Apr 05, 2024 19:00:00"),
+        "eventName"    :  "Necto Pride Presents - Nymphia Wind",
+        "eventArtist"  :  "Nymphia Wind",
+        "eventDesc"    :  "We’re bringing the Banana Buddha herself, Nymphia Wind! <br>The RuPaul’s Drag Race Season 16 contestant will be making her Necto Pride debut this April.",
+        "eventDescLong":  "We’re bringing the Banana Buddha herself, Nymphia Wind!<br><br>The RuPaul’s Drag Race Season 16 contestant will be making her Necto Pride debut this April.<br><br>Our weekly viewing party of RuPaul’s Drag Race will be happening early in the Red Room hosted by Chanel Hunter and Perry Dox. Come early, grab a drink, and join our resident queens for commentary, audience Q&A, and more while watching the week’s newest episode.<br><br>After the RuPaul episode, the queens will be moving upstairs for a Drag Show with performances by Chanel Hunter, Perry Dox, Ava’ria Glamour, and Nymphia Wind<br><br>We’ll have half-off drinks from 7-10PM!",
+        "eventCover"   :  "$20 - (7PM-9PM RuPaul’s season 16 viewing party FREE)",
+        "eventLink"    :  "special-events/" + "Nymphia-Wind-at-necto-nightclub-ann-arbor-michigan-Apr-05-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C3s93TAOQTI/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Nymphia-Wind-at-necto-nightclub-ann-arbor-michigan-Apr-05-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Mar 25, 2024 21:00:00"),
+        "eventName"    :  "Factory Fur Fest",
+        "eventArtist"  :  "Factory Fur Fest",
+        "eventDesc"    :  "Factory presents the Motor City Furry Convention kickoff party at Necto!",
+        "eventDescLong":  "Upstairs: DJ Conker [Remnant] and Jay Misanthropia with guest DJ Tealchannel<br><br>Guest DJ Tealchannel’s genres include breakbeat, industrial, EBM, synthpop, trance, etc. Getting involved with the furry community helped them explore their creative outlets of art and music.<br><br>Red Room: DJ Xyla Toxic with guest DJ Raven<br><br>From Ann Arbor, Guest DJ Raven brings those big festival beats and pop club hits to the dance floor. Be ready to party when this bird takes the stage.<br><br>Dedicated to our Factory furries that have become a big part of our family on the dance floors over the past year<br><br>Free admission with furry attire 9-10PM<br><br>Vendor space available on the mezzanine. Contact info@necto.com to apply",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fur-Fest-at-necto-nightclub-ann-arbor-michigan-Mar-25-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C4Lp-HoPz8i/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fur-Fest-at-necto-nightclub-ann-arbor-michigan-Mar-25-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Mar 16, 2024 21:00:00"),
+        "eventName"    :  "Frequency St Patty’s Day Bash",
+        "eventArtist"  :  "St Patty’s Day Bash",
+        "eventDesc"    :  "Wear your favorite festive green apparel and join us at Necto for an unforgettable St. Patrick’s Day Bash!",
+        "eventDescLong":  "Wear your favorite festive green apparel and join us at Necto for an unforgettable St. Patrick’s Day Bash!<br><br>We’ll be serving a special St. Patrick’s Day drink menu all night with half-off drinks before 10PM!",
+        "eventCover"   :  "Ladies free until 10:30PM // $10 for 21+ & $30 for 18-20",
+        "eventLink"    :  "special-events/" + "St-Pattys-Day-Bash-at-necto-nightclub-ann-arbor-michigan-Mar-16-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C22u-2ovded/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "St-Pattys-Day-Bash-at-necto-nightclub-ann-arbor-michigan-Mar-16-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Mar 15, 2024 19:00:00"),
+        "eventName"    :  "Necto Pride Presents - Sapphira Cristál",
+        "eventArtist"  :  "Sapphira Cristál",
+        "eventDesc"    :  "This March, come see Philadelphia’s Crown Jewel, Sapphira Cristál at Necto Pride!",
+        "eventDescLong":  "This March, come see Philadelphia’s Crown Jewel, Sapphira Cristál at Necto Pride!<br><br>RuPaul’s Drag Race Season 16 contestant, Sapphira Cristál will be performing for the first time at Necto! <br><br>Our weekly viewing party of RuPaul’s Drag Race will be happening in the Red Room hosted by Chanel Hunter and Perry Dox. Come early, grab a drink, and join our resident queens for commentary, audience Q&A, and more while watching the newest episode!<br><br>After the RuPaul episode, we will be moving upstairs for a Drag Show with performances by Chanel Hunter, Perry Dox, Angelicia Maria!<br>",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Sapphira-Cristal-at-necto-nightclub-ann-arbor-michigan-Mar-15-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C22rxm1OsGn/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Sapphira-Cristal-at-necto-nightclub-ann-arbor-michigan-Mar-15-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Mar 11, 2024 21:00:00"),
+        "eventName"    :  "Factory Fetish Night",
+        "eventArtist"  :  "Factory Fetish Night",
+        "eventDesc"    :  "Join us for our next Factory Fetish night on March 11th!",
+        "eventDescLong":  "<br>Join us for our next Factory Fetish night on March 11th!<br><br>Our Fetish night includes Shibari Entertainment, Roaming Performers, Spanking Booth, and a Sensation Station.<br><br>Main Room: Remnant, DJ Engine, and Jay Misanthropia<br><br>Red Room: DJ Xylatoxic",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Mar-11-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C3ayF4ivy4K/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Mar-11-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Mar 08, 2024 19:00:00"),
+        "eventName"    :  "Necto Pride Presents: Royal Court",
+        "eventArtist"  :  "Royal Court",
+        "eventDesc"    :  "We had to invite the whole royal family in to bring this castle DOWN!",
+        "eventDescLong":  "We had to invite the whole royal family in to bring this castle DOWN!<br>–<br>Necto has turned back time to the middle ages in this medieval masterpiece. Prepare to be transported to a realm where chivalry meets cunty. Our lineup features a cast of queens AND kings, each embodying the spirit of the era with their regal flair. It's a feast for the senses, with music and dancing fit for royalty. Do not miss out on this fabulous event because when Necto lets its gates down, the party STARTS! 🏰<br><br>Drag Race Viewing Party with Chanel Hunter and Perry Dox: 7PM-9PM in the Red Room<br><br>Show Hosted by Perry Dox and Portia Lynn<br><br>With Performances by: Belladonna Marz, Elvis De Vil, Eris, Jade Harmony, Lex Hunter, and Sir Guy!<br><br>Main Room: DJ Luca Miel, DJ Edward Alan<br>Red Room: DJ DigiMark<br>",
+        "eventCover"   :  " FREE (with MCard all night) - (7PM-9PM RuPaul’s season 16 viewing party in Red Room FREE) // 18-20 $20 & $10 for 21+",
+        "eventLink"    :  "special-events/" + "Royal-Court-at-necto-nightclub-ann-arbor-michigan-Mar-08-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C3ItHmVuR52/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Royal-Court-at-necto-nightclub-ann-arbor-michigan-Mar-08-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Mar 01, 2024 19:00:00"),
+        "eventName"    :  "Necto Pride Karaoke",
+        "eventArtist"  :  "Red Room Karaoke",
+        "eventDesc"    :  "Sing your heart out in the Red Room this March!",
+        "eventDescLong":  "Sing your heart out in the Red Room this March!<br><br>After our weekly RuPaul viewing party, Chanel Hunter, Perry Dox, and DJ Edward Alan will be hosting karaoke in the Red Room followed by DJ Digimark closing out the night <br><br>Chanel & Perry will also be performing with Natty Apple upstairs.<br><br>Main Room: DJ Luca Miel<br><br>Karaoke will start at 10PM and run until 12:30AM",
+        "eventCover"   :  "Free 7-9PM // $10 for 21+ & $30 for 18-20",
+        "eventLink"    :  "special-events/" + "Karaoke-at-necto-nightclub-ann-arbor-michigan-Mar-01-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Karaoke-at-necto-nightclub-ann-arbor-michigan-Mar-01-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Feb 26, 2024 21:00:00"),
+        "eventName"    :  "Factory Kigurumi Pajama Party",
+        "eventArtist"  :  "Kigurumi Pajama Party",
+        "eventDesc"    :  "Factory Kigurumi Pajama Party is back!",
+        "eventDescLong":  "Factory Kigurumi Pajama Party is back!<br><br>Join us in bringing back Necto’s Kigurumi Pajama party with drinks, music, and a contest hosted at midnight. Come dressed to impress as we give out prizes for 1st, 2nd, and 3rd place for the most creative Kigurumi, pajama attire! <br><br>MAIN ROOM: Remnant, Jay Misanthropia // Red Room: DJ XylaToxic <br>",
+        "eventCover"   :  "5",
+        "eventLink"    :  "special-events/" + "Kigurumi-Pajama-Party-at-necto-nightclub-ann-arbor-michigan-Feb-26-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C20N5SSPDha/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Kigurumi-Pajama-Party-at-necto-nightclub-ann-arbor-michigan-Feb-26-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Feb 12, 2024 21:00:00"),
+        "eventName"    :  "Factory Fetish Night",
+        "eventArtist"  :  "Factory Fetish Night",
+        "eventDesc"    :  "Valentine’s Day looks a little different at Factory Monday.",
+        "eventDescLong":  "Valentine’s Day looks a little different at Factory Monday. Come join us for February’s Fetish Night with Bondage booth, Shibari, LED Roaming Performers & More.",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Feb-12-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C2sfbiXvBI_/?hl=en",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Feb-12-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Feb 10, 2024 21:00:00"),
+        "eventName"    :  "Frequency Mardi Gras",
+        "eventArtist"  :  "Frequency Mardi Gras",
+        "eventDesc"    :  "We’re bringing Bourbon Street to East Liberty Street this February!",
+        "eventDescLong":  "We’re bringing Bourbon Street to East Liberty Street this February!<br><br>Join us for a night of beads, drinks, and dancing at the Frequency Mardi Gras party!<br><br>MAIN ROOM: The Maestro DJ, DJ Sins, DJ Slim, DJ SKOOBE, & 3Steez<br>RED ROOM: DJ KHawk and DJ Rondon<br>",
+        "eventCover"   :  "$10 for 21+ & $30 for 18-20 18+ with proper government ID",
+        "eventLink"    :  "special-events/" + "Frequency-Mardi-Gras-at-necto-nightclub-ann-arbor-michigan-Feb-10-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency-Mardi-Gras-at-necto-nightclub-ann-arbor-michigan-Feb-10-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Feb 09, 2024 19:00:00"),
+        "eventName"    :  "Necto Pride Presents - Plane Jane",
+        "eventArtist"  :  "Plane Jane",
+        "eventDesc"    :  "Fasten your seatbelts, Plane Jane will arrive for a performance at Necto Pride this February.",
+        "eventDescLong":  "Fasten your seatbelts, Plane Jane will arrive for a performance at Necto Pride this February. <br><br>Come see the RuPaul’s Drag Race Season 16 contestant, Plane Jane make her Necto Pride debut!<br><br>Chanel Hunter and Perry Dox will be hosting a viewing party of the newest episode of RuPaul’s Drag Race in the Red Room. Come early, grab a drink, and join our resident queens for commentary, audience Q&A, and more while watching the newest episode!<br><br>After the RuPaul episode, we will be moving upstairs for a Drag Show with performances by Chanel Hunter, Perry Dox, Maxi Chanel, and Plane Jane!",
+        "eventCover"   :  "$20 - (7PM-9PM RuPaul’s season 16 viewing party FREE)",
+        "eventLink"    :  "special-events/" + "Plane-Jane-at-necto-nightclub-ann-arbor-michigan-Feb-09-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C2Am3MFunQP/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Plane-Jane-at-necto-nightclub-ann-arbor-michigan-Feb-09-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jan 29, 2024 21:00:00"),
+        "eventName"    :  "Factory Fetish Night",
+        "eventArtist"  :  "Factory Fetish Night",
+        "eventDesc"    :  "Join us for the first Factory Fetish night of 2024!<br>Including: Bondage Booth, Shibari, Roaming Performers, and Vendors.",
+        "eventDescLong":  "Join us for the first Factory Fetish night of 2024!<br><br>Including: Bondage Booth, Shibari, Roaming Performers, and Vendors.<br><br>Can’t wait to see you there, Factory Family! <br><br>Main Room: Remnant, DJ Wraith, Jay Misanthropia<br><br>Red Room: DJ Xylatoxic",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Jan-29-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Jan-29-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jan 26, 2024 19:00:00"),
+        "eventName"    :  "Necto Pride Presents: Mosaic of Michigan",
+        "eventArtist"  :  "Howdy Rowan, Merri Khristmas, Portia Lynn, Pinball McQueen, Slug!, and Vivian Aphrodisia",
+        "eventDesc"    :  "'Mosaic of Michigan' is not just a drag show; it's a celebration of the blend of backgrounds that defines the spirit of UMich!",
+        "eventDescLong":  "Each piece has its own distinctive shape, but together they make a breathtaking masterpiece.<br>—<br>'Mosaic of Michigan' is not just a drag show; it's a celebration of the blend of backgrounds that defines the spirit of UMich! Student performers will take the stage to showcase their individual styles, captivating the audience with their charisma, glamour, and sheer talent. That’s right, every single one of the performances for the night will be a current or recent alumni of University of Michigan. Join us at Necto Nightclub for a vibrant spectrum of drag artistry and a night you will most certainly not forget! <br><br>Drag Race Viewing Party with Chanel Hunter and Perry Dox: 7PM-9PM in the Red Room<br><br>Show hosted by Perry Dox and Portia Lynn<br><br>With Performances By: Howdy Rowan, Merri Khristmas, Portia Lynn, Pinball McQueen, Slug!, and Vivian Aphrodisia<br><br>Main Room: DJ Luca Miel, DJ Edward Alan<br>Red Room: DJ DigiMark<br><br>Doors: 7:00 PM<br>Show Start: 10:15PM",
+        "eventCover"   :  "FREE (with MCard all night) - (7PM-9PM RuPaul’s season 16 viewing party in Red Room FREE) // 18-20 $20 & $10 for 21+",
+        "eventLink"    :  "special-events/" + "Howdy-Rowan-Merri-Khristmas-Portia-Lynn-Pinball-McQueen-Slug!-and-Vivian-Aphrodisia-at-necto-nightclub-ann-arbor-michigan-Jan-26-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C17dSWjOuJG/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Howdy-Rowan-Merri-Khristmas-Portia-Lynn-Pinball-McQueen-Slug!-and-Vivian-Aphrodisia-at-necto-nightclub-ann-arbor-michigan-Jan-26-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jan 15, 2024 20:30:00"),
+        "eventName"    :  "Factory Necto Presents - Leæther Strip, Damascus Knives, EXT EST",
+        "eventArtist"  :  "LEÆTHER STRIP, Damascus Knives, and EXT EST",
+        "eventDesc"    :  "Live performances by LEÆTHER STRIP, Damascus Knives, and EXT EST!",
+        "eventDescLong":  "Live performances by LEÆTHER STRIP, Damascus Knives, and EXT EST!<br><br><br>LEÆTHER STRIP - is the solo-project of the legendary Danish electronic musician Claus Larsen.  First signed by the German Electro Label Zoth Ommog in 1989, this industrial act quickly built a buzz as one of the most exciting emerging acts in Europe in the early 90's. While being a big inspiration to many of todays younger acts in the subculture, Leæther Strip is still one of the most prolific producers and active international live acts. Claus is known for very uptempo energetic sets including classic hits like Strap Me Down, Dont Tame Your Soul and unique covers of Depeche Mode, Judas Priest, Soft Cell, Front 242, Ministry, Talk Talk, Lords of Acid, Yazoo, and many classic 80s synthpop artists.  After the success of the Back To Industry in 2021, LEÆTHER STRIP is back March 1st with Last Station, an all new full release album of original material dedicated to John Rasmussen and released in Kurts (Claus late husband) memory.<br><br>Damascus Knives - Los Angeles dark techno producer David Christian (Cervello Elettronico),  Damascus Knives is a project inspired by the sounds of Acid Techno, Acid House, EBM and Industrial.<br><br>EXT EST - Detroit Industrial <br><br>Main Room DJ Sets - Remnant & Jay Misanthropia <br><br>Red Room - DJ Xylatoxic<br>",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "LEÆTHER-STRIP-Damascus-Knives-and-EXT-EST-at-necto-nightclub-ann-arbor-michigan-Jan-15-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C02QoYBPq20/",
+        "eventTix"     :  "https://www.etix.com/ticket/p/36861885/factory-necto-presents-le%C3%A6ther-stripdamascus-knivesext-est-ann-arbor-necto",
+        "eventImgWide" :  "img/event-images/" + "LEÆTHER-STRIP-Damascus-Knives-and-EXT-EST-at-necto-nightclub-ann-arbor-michigan-Jan-15-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Jan 05, 2024 19:00:00"),
+        "eventName"    :  "Necto Pride Presents - RuPaul’s Season 16 Premier WSG GENE",
+        "eventArtist"  :  "Geneva Karr",
+        "eventDesc"    :  "Come kick off the start of RuPaul’s Drag Race Season 16 with “La Diva Más Latina,” Geneva Karr!",
+        "eventDescLong":  "Chanel Hunter and Perry Dox will be hosting a viewing party of the season premiere in the Red Room. Join our resident queens for commentary, audience Q&A, and more while watching the show. Come early, grab a drink, and join our queens in kicking off the new season!<br><br>After the RuPaul premiere, we will be moving upstairs for the first Necto Pride Drag Show of 2024 with performances by Chanel Hunter, Perry Dox, Emma Sapphire, and Geneva Karr!",
+        "eventCover"   :  "Cover: $20 - (7PM-9PM RuPaul’s season 16 viewing party in Red Room FREE)",
+        "eventLink"    :  "special-events/" + "Geneva-Karr-at-necto-nightclub-ann-arbor-michigan-Jan-05-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C04glemONAu/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Geneva-Karr-at-necto-nightclub-ann-arbor-michigan-Jan-05-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Dec 31, 2023 21:00:00"),
+        "eventName"    :  "Necto New Year's Eve 2024",
+        "eventArtist"  :  "Necto New Year's Eve 2024",
+        "eventDesc"    :  "Bring in the New Year the right way at the best venue / club in Ann Arbor! ",
+        "eventDescLong":  "New Year’s Eve 2024<br><br>Bring in the New Year the right way at the best venue / club in Ann Arbor! <br><br>Doors open at 8PM, countdown celebration at midnight!  <br><br>Main Room: DJ Maestro, DJ Joey P, DJ Sins, DJ Skoobe, and MC 3Steez<br><br>Red Room: DJ Edward Alan, DJ Rondon, DJ KHawk, and DJ Slim<br><br>Catering will be provided by Cottage Inn.<br><br>With added production work from our team, including: cryo, sfx, confetti cannons, NYE countdown and more, Necto New Year’s Eve 2024 will be an unforgettable night.<br><br>TICKETS:<br>In the spirit of Black Friday, we’re offering heavily-discounted, limited early bird pre-sale tickets for Necto New Year’s Eve 2024!<br><br>VIP Bottle Service - 21+ Only - Purchase NYE tickets online in addition to pre-booking VIP Bottle Service reservation at Necto.com.  VIP includes priority expedited entry, personal VIP attendants and more! <br>Make your VIP Bottle Service Reservation at Necto.com<br><br>QUESTIONS: Visit our website Necto.com for our FAQ, email: info@necto.com, message us on social media<br>",
+        "eventCover"   :  "",
+        "eventLink"    :  "special-events/" + "New-Years-Eve-at-necto-nightclub-ann-arbor-michigan-Dec-31-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "https://www.etix.com/ticket/p/49821162/necto-new-years-eve-2024-ann-arbor-necto",
+        "eventImgWide" :  "img/event-images/" + "New-Years-Eve-at-necto-nightclub-ann-arbor-michigan-Dec-31-2023.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Dec 23, 2023 21:00:00"),
+        "eventName"    :  "Frequency 2000’s Holiday Party",
+        "eventArtist"  :  "Frequency 2000’s Holiday Party",
+        "eventDesc"    :  "We’re throwing it back to the 2000s this Holiday season!<br><br>Have you been naughty or nice this year?<br><br>Celebrate the Holidays with us at the Frequency 2000s Holiday Party.",
+        "eventDescLong":  "We’re throwing it back to the 2000s this Holiday season!<br>Have you been naughty or nice this year?<br><br>Celebrate the Holidays with us at the Frequency 2000s Holiday Party.<br><br>Ladies free until 10PM & Half off drinks until 10PM! <br><br>MAIN ROOM:  DJ MAESTRO, DJ SLIM, DJ SINS, DJ SKOOBE MC 3STEEZ <br>RED ROOM: DJ KHAWK, DJ RONDON",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10PM) ",
+        "eventLink"    :  "special-events/" + "frequency-2000s-holiday-party-at-necto-nightclub-ann-arbor-michigan-Dec-23-2023.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C0UdfEzPcbe/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "frequency-2000s-holiday-party-at-necto-nightclub-ann-arbor-michigan-Dec-23-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Dec 22, 2023 21:00:00"),
+        "eventName"    :  "Necto Pride Ho-Ho-Holiday Party",
+        "eventArtist"  :  "Necto Pride Ho-Ho-Holiday Party",
+        "eventDesc"    :  "Are you on the naughty Ho-Ho List or a nice Ho-Ho List this year? Bust out those ugly sweaters on 12/22 and come to the Ho-Ho-Holiday Party @ NECTO this year to find out which list you’re on! ",
+        "eventDescLong":  "Are you on the naughty Ho-Ho List or a nice Ho-Ho List this year? Bust out those ugly sweaters on 12/22 and come to the Ho-Ho-Holiday Party @ NECTO this year to find out which list you’re on! <br><br>If you come decked out in an ugly sweater before 10pm you get in for FREE! We’ll be starting the night off right with half off drinks before 10pm as well!<br><br>Feel like caroling this season? Join us for Karaoke in the Red Room from 9-11:30pm with all your favorite holiday hits & more hosted by Edward Alan! <br><br>Then join us upstairs for a jolly drag show featuring special guest performers. Hosted by Chanel Hunter & Perry Dox at Midnight.<br><br>After the show we will select a winner of who wore the UGLIEST sweater, so don’t be a Scrooge and come celebrate the Ho-lidays with NECTO Pride!<br><br>Main Room: DJ Luca Miel, DJ Edward Alan <br>Red Room: Karaoke hosted by Edward Alan 9PM-11:30PM, DJ Digimark <br>",
+        "eventCover"   :  "$10 for 21+, $20 for 18-20 (Free with Ugly holiday sweater / college ID before 10PM)",
+        "eventLink"    :  "special-events/" + "necto-pride-ho-ho-holiday-party-at-necto-nightclub-ann-arbor-michigan-Dec-22-2023.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C0UcUTYu58X/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "necto-pride-ho-ho-holiday-party-at-necto-nightclub-ann-arbor-michigan-Dec-22-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Dec 18, 2023 21:00:00"),
+        "eventName"    :  "Factory XXXMAS Fetish Night",
+        "eventArtist"  :  "Factory XXXMAS Fetish Night",
+        "eventDesc"    :  "Have you been naughty or nice this year?<br><br>Come celebrate the holidays with your Factory family.",
+        "eventDescLong":  "Have you been naughty or nice this year?<br><br>Come celebrate the holidays with your Factory family.<br><br>Shibari, bondage booth, and Naughty Holiday performers! <br><br>Main Room: Remnant, Jay Misanthropia, and DJ WHYWØLF",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-XXXMAS-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Dec-18-2023.html",
+        "eventSocial"  :  "https://www.instagram.com/p/C0KWppspS-i/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-XXXMAS-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Dec-18-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Dec 15, 2023 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Daya Betty",
+        "eventArtist"  :  "Daya Betty",
+        "eventDesc"    :  "Necto Pride presents Missouri’s Daya Betty! This punk-styled queen made her world debut on RuPaul’s Drag Race season 14.",
+        "eventDescLong":  "Necto Pride presents Missouri’s Daya Betty! This punk-styled queen made her world debut on RuPaul’s Drag Race season 14. We are so excited to bring her to the Necto Pride stage this December!<br><br>Hosted by:<br>Perry Dox & Chanel Hunter <br><br>Opener:<br>Aphrodite (@itisaphrodite)",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Daya-Betty-at-necto-nightclub-ann-arbor-michigan-Dec-15-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Daya-Betty-at-necto-nightclub-ann-arbor-michigan-Dec-15-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Dec 01, 2023 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - JaceM & Dan Slater wsg Joey Jay",
+        "eventArtist"  :  "JaceM & Dan Slater wsg Joey Jay",
+        "eventDesc"    :  "Necto welcomes back Jace M and Dan Slater with special guest Joey Jay for a Pride Friday like no other!",
+        "eventDescLong":  "Necto welcomes back Jace M and Dan Slater with special guest Joey Jay for a Pride Friday like no other!<br><br>We’re excited to welcome Joey Jay to the Necto Pride stage! This queen is best known for competing in season 13 of RuPaul’s Drag Race. <br><br>For those traveling for this event:  Use special discount code “Necto” at the Homewood Suites by Hilton Ann Arbor for a hotel near the venue. (Call phone number: 844-202-9763 to book reservation Discount code: Necto)",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "JaceM-&-Dan-Slater-wsg-Joey-Jay-at-necto-nightclub-ann-arbor-michigan-Dec-01-2023.html",
+        "eventSocial"  :  "https://www.instagram.com/p/CzMrzZqvb4m/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "JaceM-&-Dan-Slater-wsg-Joey-Jay-at-necto-nightclub-ann-arbor-michigan-Dec-01-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Nov 27, 2023 19:30:00"),
+        "eventName"    :  "Factory Necto Presents - PSYCLON NINE - VIGINTI ANNOS INFERNI Tour",
+        "eventArtist"  :  "Psyclon Nine",
+        "eventDesc"    :  "PSYCLON NINE - VIGINTI ANNOS INFERNI Tour <br>With Special Guests Clockwork Echo, Guillotine, Corvins Breed",
+        "eventDescLong":  "PSYCLON NINE - VIGINTI ANNOS INFERNI Tour<br> <br>With Special Guests Clockwork Echo, Guillotine, Corvins Breed<br> <br>Since forming in the year 2000 Psyclon Nine has cemented it’s name into the history books as one of the most infamous and successful bands of the Industrial and Metal crossover genres. Each of Psyclon Nine’s 6 full-length releases have charted internationally appearing in the Top 10 of the DAC and landing a position on the Top 200 Billboard Rock Charts in the USA. Their music video for Parasitic would go on to become the most viewed Industrial music video at over 5 million views and counting",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Psyclon-Nine-at-necto-nightclub-ann-arbor-michigan-Nov-27-2023.html",
+        "eventSocial"  :  "https://www.instagram.com/p/CyOWasSucHm/",
+        "eventTix"     :  "https://www.etix.com/ticket/p/71394294/factory-necto-presents-psyclon-nine-viginti-annos-inferni-tour-ann-arbor-necto",
+        "eventImgWide" :  "img/event-images/" + "Psyclon-Nine-at-necto-nightclub-ann-arbor-michigan-Nov-27-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Nov 20, 2023 21:00:00"),
+        "eventName"    :  " Factory Necto Presents - Jarvis Hammer & Landon Cider",
+        "eventArtist"  :  "Jarvis Hammer & Landon Cider",
+        "eventDesc"    :  "We are bringing The Drag King of Comedy-Horror, Jarvis Hammer, to the Necto stage with Landon Cider, who won season 3 of The Boulet Brothers' Dragula and was crowned the World's Next Drag Supermonster.",
+        "eventDescLong":  "We are bringing The Drag King of Comedy-Horror, Jarvis Hammer, to the Necto stage! This King stars in The Boulet Brothers Dragula Season 5, airing right now.<br><br>Landon Cider won season 3 of The Boulet Brothers' Dragula and was crowned the World's Next Drag Supermonster.<br><br>Come see these Drag Kings with us on Nov. 20th to honor Transgender Day of Remembrance.<br> <br>Hosted by: Perry Dox & Chanel Hunter <br>Opening Performances: Sirgin & Deja D. Dellataro",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Jarvis-Hammer-&-Landon-Cider-at-necto-nightclub-ann-arbor-michigan-Nov-20-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Jarvis-Hammer-&-Landon-Cider-at-necto-nightclub-ann-arbor-michigan-Nov-20-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Nov 10, 2023 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Alaska Thunderfuck",
+        "eventArtist"  :  "Alaska Thunderfuck",
+        "eventDesc"    :  "Necto Pride welcomes back RuPaul’s Drag Race Season Five Runner-up and RuPaul’s Drag Race Allstars Season Two Winner, Alaska Thunderfuck!",
+        "eventDescLong":  "Necto Pride welcomes back RuPaul’s Drag Race Season Five Runner-up and RuPaul’s Drag Race Allstars Season Two Winner, Alaska Thunderfuck!<br><br>Hosted by:<br>Perry Dox & Chanel Hunter <br><br>Opener:<br>Howdy Rowan",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Alaska-Thunderfuck-at-necto-nightclub-ann-arbor-michigan-Nov-10-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Alaska-Thunderfuck-at-necto-nightclub-ann-arbor-michigan-Nov-10-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Nov 06, 2023 21:00:00"),
+        "eventName"    :  "Factory Fetish Night",
+        "eventArtist"  :  "Factory Fetish Night",
+        "eventDesc"    :  "The weather is getting cold but Necto is heating up for November’s Factory Fetish Night!",
+        "eventDescLong":  "The weather is getting cold but Necto is heating up for November’s Factory Fetish Night<br>Bondage booths, Shibari, Roaming Performers, and Vendors!<br>Main Room: Remnant and Jay Misanthropia<br>Red Room: The Maestro DJ",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Nov-06-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Nov-06-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 31, 2023 22:00:00"),
+        "eventName"    :  "Necto Halloween",
+        "eventArtist"  :  "Necto Halloween",
+        "eventDesc"    :  "Get ready for a Halloween night like no other! Join us at Necto for the spookiest night of the year.",
+        "eventDescLong":  "It’s Halloween night, wear your costume and compete for cash prizes in our best costume contest hosted by 3Steez!<br><br>MAIN ROOM: SKOOB E, 3STEEZ,<br><br>RED ROOM: MAESTRO, K Hawk<br><br> COSTUME CONTEST AT 12:30 - Sign up with 3Steez!",
+        "eventCover"   :  "25",
+        "eventLink"    :  "special-events/" + "Necto-Halloween-at-necto-nightclub-ann-arbor-michigan-Oct-31-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Necto-Halloween-at-necto-nightclub-ann-arbor-michigan-Oct-31-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 30, 2023 21:00:00"),
+        "eventName"    :  "Factory Devil's Night",
+        "eventArtist"  :  "Factory Devil's Night",
+        "eventDesc"    :  "Join us at Factory Devil's Night for a Halloween celebration. ",
+        "eventDescLong":  "Unleash your inner demons and compete for cash prizes in our best costume contest hosted by Jay Misanthropia.<br><br> MAIN ROOM: Remnant, Jay Misanthropia, Audioflesh, Pink Heartbrake,<br><br>RED ROOM: Maestro, Parallax, and Spacey K<br><br> COSTUME CONTEST AT MIDNIGHT - SIGN UP WITH JAY MISANTHROPIA",
+        "eventCover"   :  "15",
+        "eventLink"    :  "special-events/" + "Factory-Devil's-Night-at-necto-nightclub-ann-arbor-michigan-Oct-30-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Devil's-Night-at-necto-nightclub-ann-arbor-michigan-Oct-30-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 28, 2023 21:00:00"),
+        "eventName"    :  "Frequency Halloween",
+        "eventArtist"  :  "Frequency Halloween",
+        "eventDesc"    :  "Prepare to be spooked and amazed at Frequency Halloween!",
+        "eventDescLong":  "Dress to impress and compete for cash prizes in our best costume contest hosted by MC 3Steez.<br><br>MAIN ROOM: JOEY P, DJ SKOOB E, MC 3STEEZ,<br><br>RED ROOM: DJ MAESTRO, DJ SLIM, DJ RON DON<br><br>COSTUME CONTEST AT MIDNIGHT - SIGN UP WITH MC 3STEEZ<br><br>",
+        "eventCover"   :  "25",
+        "eventLink"    :  "special-events/" + "Frequency-Halloween-at-necto-nightclub-ann-arbor-michigan-Oct-28-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Frequency-Halloween-at-necto-nightclub-ann-arbor-michigan-Oct-28-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 27, 2023 21:00:00"),
+        "eventName"    :  "Pride Halloween",
+        "eventArtist"  :  "Pride Halloween",
+        "eventDesc"    :  "Get ready to strut your stuff and slay the night at Necto’s Pride Halloween! ",
+        "eventDescLong":  "Get ready to strut your stuff and slay the night at Necto’s Pride Halloween! <br>Join us for a Halloween celebration at Necto Pride. Wear your costume and enter to win cash prizes in our best costume contest hosted by Chanel Hunter and Perry Dox!<br>Main Room: DJ EDWARD ALAN<br>Red Room: DJ DIGIMARK & LUCAMIEL ",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Pride-Halloween-at-necto-nightclub-ann-arbor-michigan-Oct-27-2023.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Pride-Halloween-at-necto-nightclub-ann-arbor-michigan-Oct-27-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
         "eventDate"    :  new Date("Oct 23, 2023 19:30:00"),
         "eventName"    :  "Factory Necto Presents - Not My God the farewell tour",
         "eventArtist"  :  "Not My God ",
@@ -34,7 +1160,7 @@ var eventsJSON = [
         "eventName"    :  "Necto Pride Presents - The Roast of Perry Dox",
         "eventArtist"  :  "Perry Dox",
         "eventDesc"    :  "Necto Pride is excited to announce that we are chopping up, cooking, & roasting one of our hosts for her birthday! Be sure to grab a plate and take a seat for the Roast of Perry Dox.",
-        "eventDescLong":  "Necto Pride is excited to announce that we are chopping up, cooking, & roasting one of our hosts! Be sure to grab a plate and take a seat for the Roast of Perry Dox.<br><br>26 years ago on this date the glamorous clown herself, Perry Dox, was born. Instead of a basic drag show we wanted to bring you a unique & special celebration. Join us for a night of drag performances & a comedy set featuring some of Perry’s closest & favorite entertainers. Astara Love will be joining us as Roastmaster with Kourtney Charles, Pixie Mae Barnes, Rayne, & a surprise special guest! <br><br>This is going to be a no-holds barred, Comedy Central style roast so please leave the hurt feelings and cancel culture at home. All is in good fun & love for each other. We encourage everyone to come out and be ready to laugh, dance, & be entertained at the expense of the Dox Doll herself.",
+        "eventDescLong":  "Necto Pride is excited to announce that we are chopping up, cooking, & roasting one of our hosts! Be sure to grab a plate and take a seat for the Roast of Perry Dox.<br><br>26 years ago on this date the glamorous clown herself, Perry Dox, was born. Instead of a basic drag show we wanted to bring you a unique & special celebration. Join us for a night of drag performances & a comedy set featuring some of Perry’s closest & favorite entertainers. Joining us will be Rayne, Saharsh Hajela, Pixie Mae Barnes, and Krista Darrows <br><br>This is going to be a no-holds barred, Comedy Central style roast so please leave the hurt feelings and cancel culture at home. All is in good fun & love for each other. We encourage everyone to come out and be ready to laugh, dance, & be entertained at the expense of the Dox Doll herself.",
         "eventCover"   :  "20",
         "eventLink"    :  "special-events/" + "Perry-Dox-at-necto-nightclub-ann-arbor-michigan-Oct-20-2023.html",
         "eventSocial"  :  "https://www.instagram.com/p/CwViyn9OGK3/",
@@ -60,6 +1186,21 @@ var eventsJSON = [
         "pastEvent"    :  false // Do not modify
     },
     {
+        "eventDate"    :  new Date("Oct 12, 2023 19:00:00"),
+        "eventName"    :  "Drag as Resistance: Conversation & Performance feat. Monét X Change",
+        "eventArtist"  :  "Monét X Change",
+        "eventDesc"    :  "Local panelists & performers Jadein Black, Pinball McQueen, & more <br> Moderated by Larry La Fountain-Stokes | Emceed by Perry Dox",
+        "eventDescLong":  "Necto and partners the University of Michigan Arts Initiative and Spectrum Center are thrilled to present Drag as Resistance: Conversation & Performance in celebration of LGBTQIA2S+ History Month! The event, open to the public and held at Necto Nightclub, an inarguably essential establishment, and home for the local Queer community, is presented in conjunction with UM’s Arts & Resistance Theme Semester and will bring communities together to delve into the history, cultural significance, and personal experiences with one of the most attacked, yet celebrated artforms of our time: the art of drag.<br><br>Local panelists & performers Jadein Black, Pinball McQueen, & more<br>Moderated by Larry La Fountain-Stokes | Emceed by Perry Dox",
+        "eventCover"   :  "$15 or Free with Mcard",
+        "eventLink"    :  "special-events/" + "Monet-X-Change-at-necto-nightclub-ann-arbor-michigan-Oct-12-2023.html",
+        "eventSocial"  :  "https://fb.me/e/352LnF7NL",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Monet-X-Change-at-necto-nightclub-ann-arbor-michigan-Oct-12-2023.png",
+        "eventWklOvrd" :  false,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
         "eventDate"    :  new Date("Oct 09, 2023 19:30:00"),
         "eventName"    :  "Factory Necto Presents - PRIEST wsg AEON RINGS",
         "eventArtist"  :  "Priest",
@@ -70,6 +1211,21 @@ var eventsJSON = [
         "eventSocial"  :  "",
         "eventTix"     :  "https://www.etix.com/ticket/p/67635467/factory-necto-presents-priest-ann-arbor-necto",
         "eventImgWide" :  "img/event-images/" + "Priest-at-necto-nightclub-ann-arbor-michigan-Oct-09-2023.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 02, 2023 21:00:00"),
+        "eventName"    :  "Factory Fetish Night",
+        "eventArtist"  :  "Factory Fetish Night",
+        "eventDesc"    :  "Join us this October for Factory Fetish Night. Bondage booths, Shibari, Roaming Performers, and Vendors!",
+        "eventDescLong":  "Join us this October for Factory Fetish Night.<br><br>Bondage booths, Shibari, Roaming Performers, and Vendors!<br><br>Main Room: DJ Blood Beak, Remnant, and Jay Misanthropia",
+        "eventCover"   :  "10",
+        "eventLink"    :  "special-events/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Oct-02-2023.html",
+        "eventSocial"  :  "https://www.instagram.com/p/Cwxwk5buzH3/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Factory-Fetish-Night-at-necto-nightclub-ann-arbor-michigan-Oct-02-2023.png",
         "eventWklOvrd" :  true,
         "eventDay"     :  0, // Do not modify
         "pastEvent"    :  false // Do not modify
@@ -102,22 +1258,6 @@ var eventsJSON = [
         "eventTix"     :  "none",
         "eventImgWide" :  "img/event-images/" + "Jace-M-&-Dan-Slater--at-necto-nightclub-ann-arbor-michigan-Sep-22-2023.png",
         "eventWklOvrd" :  true,
-        "eventDay"     :  0, // Do not modify
-        "pastEvent"    :  false // Do not modify
-    },
-
-    {
-        "eventDate"    :  new Date("Sep 21, 2023 18:30:00"),
-        "eventName"    :  "Foundry Town Survivors ",
-        "eventArtist"  :  "Foundry Town Survivors ",
-        "eventDesc"    :  "Foundry Town Survivors Bring Their Music Home To Ann Arbor!! Hometown Rockers Return to the Scene of the Crime ",
-        "eventDescLong":  "They’ve traveled around the world, but they’ve never forgotten where they came from. Former Townies and members of the late 70s group Vantage Point!, Mark Tomorsky and Tommy Johnsmiller burst out of the Ann Arbor music scene with performances at the Montreux Jazz Festival and The Olympics. As Foundry Town Survivors, they return to their roots with a rare Michigan concert appearance this year at the Necto on September 21. <br><br>Formed in 2021, they’ve released over a dozen singles and an EP gaining a growing loyal following internationally and especially in their old stomping grounds. Foundry Town Survivors wear their Michigan rock influences proudly on their sleeves, mixing it with hints of blues and Americana to create their own signature sound. <br><br>For the Necto show, they’ll be joined by local heroes; Jim King - Keyboards (Masquerade) Chip Trombley - Drums (Vantage Point!) and Jeff Jones - Guitar (Lightnin’) The show will feature songs from their EP along with new unreleased material. The legendary Michael On Fire starts off the night at 7:00pm sharp.<br><br>Gabriel Mazza - Mesmerized Magazine - London, UK<br><br>“We have said it multiple times: Foundry Town Survivors are a dynamic entity. Boasting impressive productivity, the Ann Arbor pair has been recently featured on our pages thanks to their soul-flavoured banger ‘I Want To Be Loved’, a track we described as “a steady gem, constantly driving the rhythm forward while showcasing the duo’s nuanced vocals”. Now, the American rockers are back on the new music horse, diving into more bluesy and rocky territories, although always maintaining their lyrical wit and nuanced attitude.” <br><br>For more information on the Survivors, visit foundrytownsurvivors.com",
-        "eventCover"   :  "Tickets at Door (subject to availability): $15 cash or card ",
-        "eventLink"    :  "special-events/" + "Foundry-Town-Survivors--at-necto-nightclub-ann-arbor-michigan-Sep-21-2023.html",
-        "eventSocial"  :  "https://fb.me/e/356h5BbxU",
-        "eventTix"     :  "https://www.etix.com/ticket/p/2754923/foundry-town-survivors-ann-arbor-necto",
-        "eventImgWide" :  "img/event-images/" + "Foundry-Town-Survivors--at-necto-nightclub-ann-arbor-michigan-Sep-21-2023.png",
-        "eventWklOvrd" :  false,
         "eventDay"     :  0, // Do not modify
         "pastEvent"    :  false // Do not modify
     },
@@ -171,7 +1311,7 @@ var eventsJSON = [
         "eventName"    :  "FREQUENCY SATURDAYS PRESENTS - 2000'S PARTY",
         "eventArtist"  :  "FREQUENCY SATURDAYS PRESENTS - 2000'S PARTY",
         "eventDesc"    :  "BACK BY POPULAR DEMAND!!! FREQUENCY SATURDAYS PRESENTS - 2000'S PARTY",
-        "eventDescLong":  "SATURDAY, AUGUST 19TH<br><br>DJ’S <br>MAIN ROOM <br>DJ GRAFFITI <br>DJ SKOOBE <br>DJ YODATHEBARD<br><br>RED ROOM <br>DJ MAESTRO<br>DJ SLIM",
+        "eventDescLong":  "SATURDAY, AUGUST 19TH<br><br>DJ’S <br>MAIN ROOM <br>DJ GRAFFITI <br>DJ SKOOBE<br><br>RED ROOM <br>DJ MAESTRO<br>DJ SLIM",
         "eventCover"   :  "LADIES FREE UNTIL 10PM!  $10 for 21+, $30 for 18-20   ",
         "eventLink"    :  "special-events/" + "FREQUENCY-SATURDAYS-PRESENTS---2000'S-PARTY-at-necto-nightclub-ann-arbor-michigan-Aug-19-2023.html",
         "eventSocial"  :  "https://fb.me/e/VtRdQQCf",
@@ -186,7 +1326,7 @@ var eventsJSON = [
         "eventName"    :  "NECTO PRIDE PRESENTS - 2000'S PARTY",
         "eventArtist"  :  "NECTO PRIDE PRESENTS - 2000'S PARTY",
         "eventDesc"    :  "BACK BY POPULAR DEMAND! NECTO PRIDE PRESENTS - 2000’S PARTY",
-        "eventDescLong":  "NECTO PRIDE PRESENTS - <br>PRIDE 2000’S PARTY<br><br>FRIDAY, AUGUST 18TH<br><br>DJ’S <br>MAIN ROOM <br>DJ EDWARD ALAN <br>DJ YODATHEBARD <br><br>RED ROOM <br>DJ DIGIMARK <br><br>VIP<br><br>NECTO.COM<br>",
+        "eventDescLong":  "NECTO PRIDE PRESENTS - <br>PRIDE 2000’S PARTY<br><br>FRIDAY, AUGUST 18TH<br><br>DJ’S <br>MAIN ROOM <br>DJ EDWARD ALAN <br>RED ROOM <br>DJ DIGIMARK <br><br>VIP<br><br>NECTO.COM<br>",
         "eventCover"   :  "$10 FOR 21+, $20 FOR 18-20",
         "eventLink"    :  "special-events/" + "NECTO-PRIDE-PRESENTS---2000'S-PARTY-at-necto-nightclub-ann-arbor-michigan-Aug-18-2023.html",
         "eventSocial"  :  "https://www.facebook.com/events/977118389981138/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22user_timeline%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22events_admin_tool%22%2C%22surface%22%3A%22events_comet_admin_tool%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22create_dialog%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
@@ -1359,21 +2499,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Oct 21, 2021 21:00:00"),
-        "eventName"    : "Ignyte Events and APG present:  SNBRN",
-        "eventArtist"  : "SNBRN",
-        "eventDesc"    : "Ignyte Events and APG present:  SNBRN",
-        "eventDescLong": "Ignyte Events and APG present:  SNBRN",
-        "eventCover"   : "Early Bird: $16, Gen Admin: $20",
-        "eventLink"    : "special-events/" + "snbrn-at-necto-nightclub-ann-arbor-michigan-oct-21-2021.html",
-        "eventSocial"  : "",
-        "eventTix"     : "https://www.etix.com/ticket/p/3671898/ignyte-events-and-apg-presentsnbrn-ann-arbor-necto",
-        "eventImgWide" : "img/event-images/" + "snbrn-at-necto-nightclub-ann-arbor-michigan-oct-21-2021.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
         "eventDate"    : new Date("Sep 27, 2021 21:00:00"),
         "eventName"    : "Factory presents... Fall Formal",
         "eventArtist"  : "Factory's Fall Formal",
@@ -1404,21 +2529,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Sep 16, 2021 21:00:00"),
-        "eventName"    : "Canceled: Marauda & Calcium ",
-        "eventArtist"  : "Canceled: Marauda & Calcium ",
-        "eventDesc"    : "Due to the current Covid-19 climate this show has been rescheduled into next year. Refunds will be given out to all who purchased tickets. ",
-        "eventDescLong": "Due to the current Covid-19 climate this show has been rescheduled into next year. Refunds will be given out to all who purchased tickets.  ",
-        "eventCover"   : "GA: $20 / Day of show: $25",
-        "eventLink"    : "special-events/" + "marauda-calcium-at-necto-nightclub-ann-arbor-michigan-sep-16-2021.html",
-        "eventSocial"  : "",
-        "eventTix"     : "https://www.etix.com/ticket/p/2282347/ignyte-events-presentsmarauda-calcium-ann-arbor-necto ",
-        "eventImgWide" : "img/event-images/" + "marauda-calcium-at-necto-nightclub-ann-arbor-michigan-sep-16-2021.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
         "eventDate"    : new Date("Sep 10, 2021 21:00:00"),
         "eventName"    : "Necto Pride present: Monét X Change",
         "eventArtist"  : "Monét X Change",
@@ -1434,21 +2544,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Sep 9, 2021 21:00:00"),
-        "eventName"    : "Blunts & Blondes",
-        "eventArtist"  : "Blunts & Blondes",
-        "eventDesc"    : "Blunts & Blondes presented by Ignyte Events</br>Doors at 9P.M.</br>18+ with proper issued government ID</br> VIP Reservations: VIP@necto.com",
-        "eventDescLong": "Blunts & Blondes presented by Ignyte Events</br>Doors at 9P.M.</br>18+ with proper issued government ID</br> VIP Reservations: VIP@necto.com",
-        "eventCover"   : "Presale: $20 / GA: $25 / Day of show: $30",
-        "eventLink"    : "special-events/" + "blunts-and-blondes-at-necto-nightclub-ann-arbor-michigan-sep-9-2021.html",
-        "eventSocial"  : "",
-        "eventTix"     : "https://www.etix.com/ticket/p/2201454/ignyte-events-presentsblunts-blondes-ann-arbor-necto",
-        "eventImgWide" : "img/event-images/" + "blunts-and-blondes-at-necto-nightclub-ann-arbor-michigan-sep-9-2021.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-        {
         "eventDate"    : new Date("Sep 6, 2021 21:00:00"),
         "eventName"    : "Factory presents... BayWitch Slasher Beach Party",
         "eventArtist"  : "BayWitch Slasher Beach Party",
@@ -1719,21 +2814,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Jan 9, 2020 21:00:00"),
-        "eventName"    : "Necto & Ignyte Events present... SoDown: The Trilogy Winter Tour",
-        "eventArtist"  : "SoDown",
-        "eventDesc"    : "To be SoDown is to seize every opportunity, explore new grounds, try new things and ultimately live the most epic life possible. This universe is far too beautiful and life is simply too short to not do what makes you happy. Unconditional love is the most powerful force in the world and Bass Music is my way of expressing it.",
-        "eventDescLong"    : "To be SoDown is to seize every opportunity, explore new grounds, try new things and ultimately live the most epic life possible. This universe is far too beautiful and life is simply too short to not do what makes you happy. Unconditional love is the most powerful force in the world and Bass Music is my way of expressing it.<br><br>VIP services available. Contact: VIP@necto.com",
-        "eventCover"   : "Pre-sale tickets: General Admission $10 - $18 | DOS $20",
-        "eventLink"    : "special-events/" + "sodown-at-necto-nightclub-ann-arbor-michigan-jan-9-2020.html",
-        "eventSocial"  : "https://www.facebook.com/events/722230451585236/",
-        "eventTix"     : "https://sodown_necto.eventbrite.com",
-        "eventImgWide" : "img/event-images/" + "sodown-at-necto-nightclub-ann-arbor-michigan-jan-9-2020.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
         "eventDate"    : new Date("Dec 31, 2019 21:00:00"),
         "eventName"    : "New Year's Eve 2020",
         "eventArtist"  : "New Year's Eve 2020",
@@ -1804,21 +2884,6 @@ var eventsJSON = [
         "eventSocial"  : "https://business.facebook.com/events/1290296487824274/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "dani-brasil-at-necto-nightclub-ann-arbor-michigan-dec-13-2019.jpg",
-        "eventWklOvrd" : true,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
-        "eventDate"    : new Date("Dec 12, 2019 21:00:00"),
-        "eventName"    : "Necto & Ignyte Events present... DIRT MONKEY : Primatology World Tour",
-        "eventArtist"  : "DIRT MONKEY",
-        "eventDesc"    : "Dirt Monkey aka Patrick Megeath, is smashing 2018. With roughly a dozen recent high profile releases, and a stacked tour schedule already under wraps, a packed festival season is about to begin, and more new tunes are on the way.",
-        "eventDescLong"    : "with opening sets by:<br>Conrank<br>ZÍA<br>Bowler Bear<br><br>Dirt Monkey aka Patrick Megeath, is smashing 2018. With roughly a dozen recent high profile releases, and a stacked tour schedule already under wraps, a packed festival season is about to begin, and more new tunes are on the way.<br><br>Over the past several years, Dirt Monkey has carved his uplifting, bouncy, and unique sounds into the Denver dubstep community, and onto the national touring scene. He finished last year with a strong release schedule: “Wubula” (SubCarbon), “Beef” w/ Boogie T (SubCarbon), and “Wobble Like This EP” (Disciple Round Table), He took this brisk pace into to a fall tour with Bear Grillz and direct support on a Ganja White Night tour at the beginning of this year that sold out nearly every date.<br><br>VIP services available. Contact: VIP@necto.com",
-        "eventCover"   : "Pre-sale tickets: Early Bird $10 | General Admission $20| 4Packs $60 | DOS $25",
-        "eventLink"    : "special-events/" + "dirt-monkey-at-necto-nightclub-ann-arbor-michigan-dec-12-2019.html",
-        "eventSocial"  : "https://www.facebook.com/events/376107809990427/",
-        "eventTix"     : "https://dirtmonkey_necto.eventbrite.com",
-        "eventImgWide" : "img/event-images/" + "dirt-monkey-at-necto-nightclub-ann-arbor-michigan-dec-12-2019.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify
@@ -2034,21 +3099,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("Oct 3, 2019 21:00:00"),
-        "eventName"    : "Necto, Ignyte & Music Matters present... ICONA POP",
-        "eventArtist"  : "ICONA POP",
-        "eventDesc"    : "The duo’s big breakthrough can be described with one phrase: ‘I Love It’. The 2012 monster hit (which dominated many top lists in the Western World, andappeared on several TV-and talk shows), became a milestone for Swedish pop music. The song had big success worldwide, especially in the US, where the single sold over 2 million copies and reached US Platinum sales.",
-        "eventDescLong"    : "With opening sets by:<br>DigiMark<br>Selina Style<br>Disc Jockey George<br><br>When Caroline and Aino first met at a party in 2009, it was ‘love at first sight’. Determined to create “the best band ever”, their musical collaboration started on the very next day, and they had their first gig three weeks later. They quickly released their first single ‘Manners’ and the future wonder of Icona Pop was officially formed.<br><br>The duo’s big breakthrough can be described with one phrase: ‘I Love It’. The 2012 monster hit (which dominated many top lists in the Western World, andappeared on several TV-and talk shows), became a milestone for Swedish pop music. The song had big success worldwide, especially in the US, where the single sold over 2 million copies and reached US Platinum sales.<br><br>After touring the world during the summer of 2018 –now, Icona Pop has released a collection together with Swedish clothing brand Gina Tricot along with new pop-dance single –Rhythm In My Blood. A party anthem which will leave no one standing still. The entire collection has a vibrant party pulse, which is exactly what you need to boost energy on dark fall days, according to Icona themselves. Disco, glitter, pop, power and rock’n’roll –inspiration for the collection comes directly from Icona Pop’s sizzling music career, where the stage is their own catwalk. Now the girls are focusing on writing new music –planning on coming back with full-fledged power during 2019.<br><br>VIP services available. Contact: VIP@necto.com",
-        "eventCover"   : "$10 - $12 | DOS $15 | At Doors $20",
-        "eventLink"    : "special-events/" + "icona-pop-at-necto-nightclub-ann-arbor-michigan-oct-3-2019.html",
-        "eventSocial"  : "https://www.facebook.com/events/2410809399007988/",
-        "eventTix"     : "https://iconapop_necto.eventbrite.com",
-        "eventImgWide" : "img/event-images/" + "icona-pop-at-necto-nightclub-ann-arbor-michigan-oct-3-2019.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
         "eventDate"    : new Date("Sep 13, 2019 21:00:00"),
         "eventName"    : "MANILA LUZON (RuPaul's Drag Race S3 Runner Up | All Stars S1 & S4)",
         "eventArtist"  : "MANILA LUZON",
@@ -2214,21 +3264,6 @@ var eventsJSON = [
         "pastEvent"    : false // Do not modify
     },
     {
-        "eventDate"    : new Date("June 20, 2019 21:00:00"),
-        "eventName"    : "Ignyte Events, Panky Ring Productions & Necto present... SUBDOCTA",
-        "eventArtist"  : "SUBDOCTA",
-        "eventDesc"    : "with opening sets by<br>Attak<br>Gypsy<br>Dash Riot",  
-        "eventDescLong": "with opening sets by<br>Attak<br>Gypsy<br>Dash Riot<br><br>Charles is originally from Carson City, Nevada. One of his fondest musical memories was seeing AFI and Yellowcard when he was 13. Seeing Chase & Status was another memorable moment for him as well.<br><br>Growing up, Charles played drums, but switched to DJing/producing once he entered college. He was inspired by old dubstep to create tracks of that sort. Production for Charles was a hobby as he was working a sound engineer at a local concert venue. After touring with Blue October as their Ableton tech/monitor engineer, Charles decided to dive in and create original productions.<br><br>A breakthrough moment in Subdocta's career was when Bassnectar dropped his track '2009 was tight' during his Freestyle sessions in Denver in 2017.<br><br>In April 2018, Subdocta released 'Skeleton Key' via Buyore's Fresh Blood imprint. In May of 2018, he released a remix to Dirt Monkey's 'Lift Off' which was featured on The Dub Rebellion.",
-        "eventCover"   : "Pre-sale tickets: Early Bird - $10 | 4 Pack - $50 |General Admission $15 | DOS - $20",
-        "eventLink"    : "special-events/" + "subdocta-at-necto-nightclub-ann-arbor-michigan-june-20-2019.html",
-        "eventSocial"  : "https://www.facebook.com/events/1616097101867511/",
-        "eventTix"     : "https://subdocta_necto.eventbrite.com",
-        "eventImgWide" : "img/event-images/" + "subdocta-at-necto-nightclub-ann-arbor-michigan-june-20-2019.jpg",
-        "eventWklOvrd" : false,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
         "eventDate"    : new Date("June 17, 2019 21:00:00"),
         "eventName"    : "Heroes vs. Villains",
         "eventArtist"  : "Heroes vs. Villains",
@@ -2389,21 +3424,6 @@ var eventsJSON = [
         "eventSocial"  : "https://www.facebook.com/events/378986612951458/",
         "eventTix"     : "none",
         "eventImgWide" : "img/event-images/" + "dj-cindel-sabin-at-necto-nightclub-ann-arbor-michigan-apr-12-2019.jpg",
-        "eventWklOvrd" : true,
-        "eventDay"     : 0, // Do not modify
-        "pastEvent"    : false // Do not modify
-    },
-    {
-        "eventDate"    : new Date("Apr 11, 2019 21:00:00"),
-        "eventName"    : "Ignyte Events & Necto present... BLUNTS & BLONDES",
-        "eventArtist"  : "BLUNTS & BLONDES",
-        "eventDesc"    : "Mike Guard, better known as Blunts & Blondes, is an electronic music producer based in Tampa, Florida. He makes music of the dubstep and heavy bass variety.",  
-        "eventDescLong": "Mike Guard, better known as Blunts & Blondes, is an electronic music producer based in Tampa, Florida. He makes music of the dubstep and heavy bass variety.<br><br>Guard was born in Orlando, Florida to a father who was in the military. Because of this, he moved around in his childhood to Jacksonville, Texas, then back to Jacksonville. In high school, he was kicked out for smoking marijuana and finished high school living with his grandma in Orlando.<br><br>It was while attending Saint Leo University in Tampa that Guard decided that he wanted to be a DJ. He chose the name Blunts & Blondes due to his passion for blunt smoking and having a blonde hair girlfriend at the time. Guard has gone from playing local shows in Tampa to festivals across the United States including Okeechobee, Lost Lands and more.<br><br>VIP services available. Contact: VIP@necto.com",
-        "eventCover"   : "Early Bird - $10 | 4 Pack - $48 |General Admission $16 | DOS - $20",
-        "eventLink"    : "special-events/" + "blunts-and-blondes-at-necto-nightclub-ann-arbor-michigan-apr-11-2019.html",
-        "eventSocial"  : "https://www.facebook.com/events/1021919108011549/",
-        "eventTix"     : "https://bluntsnblondes_necto.eventbrite.com",
-        "eventImgWide" : "img/event-images/" + "blunts-and-blondes-at-necto-nightclub-ann-arbor-michigan-apr-11-2019.jpg",
         "eventWklOvrd" : true,
         "eventDay"     : 0, // Do not modify
         "pastEvent"    : false // Do not modify

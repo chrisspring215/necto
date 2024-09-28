@@ -65,7 +65,7 @@ function populateWeeklyPhotosAll(day) {
     /* sat */ if (day === 6) { numOfPhotos = photosFrequency.length; photoPool = photosFrequency; photoDayPath = '/photos-frequency/';  dayAltText = 'Frequency Saturday'};
 
     for (var i = 0; i <= numOfPhotos - 1; i++) {
-        weeklyPhotoGrid.innerHTML = weeklyPhotoGrid.innerHTML + ('<div class="col col-6-xs col-2-md"><a href="' + 'img/weekly-photos' + photoDayPath + photoPool[i] + '"><img style="display: block;" src="img/weekly-photos' + photoDayPath + 'thumbs/' + photoPool[i].split('.').join('_tn.') + '" alt="A photo from ' + dayAltText + ' , a weekly event at the Necto Nightclub in Ann Arbor, Michigan." title="A photo from ' + dayAltText + ', a weekly event at the Necto Nightclub in Ann Arbor, Michigan."></div>');
+        weeklyPhotoGrid.innerHTML = weeklyPhotoGrid.innerHTML + ('<div class="col col-6-xs col-2-md"><a href="' + 'img/weekly-photos' + photoDayPath + photoPool[i] + '"><img style="display: block;" src="img/weekly-photos' + photoDayPath + 'thumbs/' + photoPool[i].split('.').join('_tn.') + '" alt="A photo from ' + dayAltText + ' , a weekly event at the Necto Necto Dance Club & Event Venue in Ann Arbor, Michigan." title="A photo from ' + dayAltText + ', a weekly event at the Necto Dance Club & Event Venue in Ann Arbor, Michigan."></div>');
     }
 
 }
