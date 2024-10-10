@@ -1,5 +1,35 @@
 var eventsJSON = [
     {
+        "eventDate"    :  new Date("Nov 16, 2024 21:00:00"),
+        "eventName"    :  "Frequency Rewind: DJ Skoob E Birthday Bash",
+        "eventArtist"  :  "DJ Skoob E Birthday Bas",
+        "eventDesc"    :  "Come throw it back to the 90s and 2000s and celebrate DJ Skoob E’s birthday with us!",
+        "eventDescLong":  "Come throw it back to the 90s and 2000s and celebrate DJ Skoob E’s birthday with us!<br><br>We’ll be playing all the throwback hits that make you want to rewind.<br><br>See you on the dance floor!<br><br>Ladies free & half off drinks until 10PM! <br><br>MAIN ROOM: THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ SKOOB E, DJ JOEY P, MC 3STEEZ<br><br>RED ROOM: DJ RONDON, DJ K HAWK<br>",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:00PM) ",
+        "eventLink"    :  "special-events/" + "DJ-Skoob-E-Birthday-Bas-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-16-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "DJ-Skoob-E-Birthday-Bas-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-16-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Nov 15, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents - Willow Pill",
+        "eventArtist"  :  "Willow Pill",
+        "eventDesc"    :  "We’re welcoming RuPaul’s Drag Race S14 Winner, Willow Pill, this November!",
+        "eventDescLong":  "We’re welcoming RuPaul’s Drag Race S14 Winner, Willow Pill, this November!<br><br>This darkly eccentric queen makes her Necto Pride debut alongside our residents, Chanel Hunter & Perry Dox, and special guest Sirinity Sapphire.<br><br>Main Room: DJ Kass, DJ Edward Alan <br>Red Room: DJ Digimark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Willow-Pill-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-15-2024.html",
+        "eventSocial"  :  "https://www.instagram.com/p/DAtbYRKOd6x/",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Willow-Pill-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-15-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
         "eventDate"    :  new Date("Nov 12, 2024 02:00:00"),
         "eventName"    :  "Factory Karaoke: Goth, Emo, & Alternative",
         "eventArtist"  :  "Factory Karaoke",
@@ -10,6 +40,21 @@ var eventsJSON = [
         "eventSocial"  :  "",
         "eventTix"     :  "none",
         "eventImgWide" :  "img/event-images/" + "Factory-Karaoke-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-12-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Nov 08, 2024 21:00:00"),
+        "eventName"    :  "Necto Pride Presents: The Runway Rumble Grand Finale",
+        "eventArtist"  :  "Runway Rumble Grand Finale",
+        "eventDesc"    :  "Buckle in for a fight for the ages!  Without further ado, let’s get ready to RUMBLEEEEEEE!",
+        "eventDescLong":  "Buckle in for a fight for the ages!  Without further ado, let’s get ready to RUMBLEEEEEEE!<br><br>This thrilling throwdown will be sure to amaze and delight as each of our fabulous judges and finalists take the stage! Get ready for a special performance by our entire Runway Rumble cast as well as production numbers that are sure to leave you KO’ed! Cheer on our three final fighters and enjoy a brawl-filled evening as we see who will be the first Runway Rumble drag champion! You don’t want to miss out on the nail-biting conclusion to our series! Runway Rumble is a locally produced series that highlights Michigan drag artists and is run by UMich students and Ann Arbor community members. Stay tuned for the full series being released on YouTube early next year!<br><br>Show Hosted by Portia Lynn <br><br>With Special Guest Judges: Chanel Hunter, Golden O’Hara Polo, Infestasia, and Pineapple Honeydew!<br><br>Runway Rumble Cast:<br>@belladonna_marz<br>@blonskibabes<br>@ladyjustice_cosplayanddrag<br>@theeolivertattoo<br>@rayneisnotwet<br>@openseasin<br>@thesirgin<br>@sirguydrag<br>@taliatheeghoul<br>@thetessamystic<br><br>Main Room: DJ Edward Alan, DJ Kass<br>Red Room: DJ DigiMark<br><br><br>",
+        "eventCover"   :  " FREE (with College ID/MCard until 10:30) // 18-20 $20 & $10 for 21+",
+        "eventLink"    :  "special-events/" + "Runway-Rumble-Grand-Finale-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-08-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Runway-Rumble-Grand-Finale-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Nov-08-2024.png",
         "eventWklOvrd" :  true,
         "eventDay"     :  0, // Do not modify
         "pastEvent"    :  false // Do not modify
@@ -70,6 +115,21 @@ var eventsJSON = [
         "eventSocial"  :  "https://www.instagram.com/p/C-vQkMTOm4_/",
         "eventTix"     :  "none",
         "eventImgWide" :  "img/event-images/" + "NECTO-PRIDE-HALLOWEEN-at-necto-nightclub-ann-arbor-michigan-Oct-25-2024.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0, // Do not modify
+        "pastEvent"    :  false // Do not modify
+    },
+    {
+        "eventDate"    :  new Date("Oct 18, 2024 20:00:00"),
+        "eventName"    :  "Drag to the Polls ft. Trinity the Tuck",
+        "eventArtist"  :  "Trinity the Tuck",
+        "eventDesc"    :  "Register to vote, get some election merch, and dance the night away with performances by Chanel Hunter, Perry Dox, and the one and only Trinity the Tuck!",
+        "eventDescLong":  "Do you want to protect LGBTQ+ rights and queer spaces?<br>Do you care about reproductive freedom?<br>Do you want your rent to be lower?<br>Do you like drag???<br><br>If your answer is yes, then come join @collegedemsatum and @micollegedems at Necto on Oct. 18th for an event combining drag and nightlife with the importance of this upcoming election. At this unique event, you can register to vote, get some election merch, and dance the night away with performances by Chanel Hunter, Perry Dox, and the one and only Trinity the Tuck!<br><br>This election will determine the future of this country and queer spaces like Necto but we can only win if we work together, vote together, and PARTY together. So join Necto and bring your friends as we drag our way to the polls this year. GO blue and VOTE blue!<br><br>Main Room: DJ Kass, DJ Edward Alan <br>Red Room: DJ Digimark",
+        "eventCover"   :  "20",
+        "eventLink"    :  "special-events/" + "Trinity-the-Tuck-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Oct-18-2024.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/" + "Trinity-the-Tuck-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Oct-18-2024.png",
         "eventWklOvrd" :  true,
         "eventDay"     :  0, // Do not modify
         "pastEvent"    :  false // Do not modify
