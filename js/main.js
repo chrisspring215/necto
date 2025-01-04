@@ -66,14 +66,7 @@ var events = eventsJSON;
 
 // Factory Monday Photos
 var mondayDJphotos = [
-    "factory-dj-image-02",
-    "factory-dj-image-03",
-    "factory-dj-image-04",
-    "factory-dj-image-05",
-    "factory-dj-image-06",
-    "factory-dj-image-07",
-    "factory-dj-image-08",
-    "factory-dj-image-09",
+    "factory-dj-image-01",
 ]
 // Gets the length of the photo array
 var mondayPhotosLength = mondayDJphotos.length;
@@ -82,27 +75,7 @@ var mondayPhoto = mondayDJphotos[Math.floor(Math.random() * mondayPhotosLength)]
 
 // Pride Friday Photos
 var fridayDJphotos = [
-    "pride-dj-image-04",
-    "pride-dj-image-06",
-    "pride-dj-image-07",
-    "pride-dj-image-08",
-    "pride-dj-image-09",
-    "pride-dj-image-10",
-    "pride-dj-image-11",
-    "pride-dj-image-12",
-    "pride-dj-image-13",
-    "pride-dj-image-14",
-    "pride-dj-image-15",
-    "pride-dj-image-16",
-    "pride-dj-image-17",
-    "pride-dj-image-18",
-    "pride-dj-image-19",
-    "pride-dj-image-20",
-    "pride-dj-image-21",
-    "pride-dj-image-22",
-    "pride-dj-image-23",
-    "pride-dj-image-24",
-    "pride-dj-image-25",
+    "pride-dj-image-01",
 ]
 // Gets the length of the photo array
 var fridayPhotosLength = fridayDJphotos.length;
@@ -112,27 +85,6 @@ var fridayPhoto = fridayDJphotos[Math.floor(Math.random() * fridayPhotosLength)]
 // Frequency Saturday Photos
 var saturdayDJphotos = [
     "frequency-dj-image-01",
-    "frequency-dj-image-02",
-    "frequency-dj-image-03",
-    "frequency-dj-image-04",
-    "frequency-dj-image-05",
-    "frequency-dj-image-06",
-    "frequency-dj-image-07",
-    "frequency-dj-image-08",
-    "frequency-dj-image-09",
-    "frequency-dj-image-10",
-    "frequency-dj-image-11",
-    "frequency-dj-image-12",
-    "frequency-dj-image-13",
-    "frequency-dj-image-14",
-    "frequency-dj-image-15",
-    "frequency-dj-image-16",
-    "frequency-dj-image-17",
-    "frequency-dj-image-18",
-    "frequency-dj-image-19",
-    "frequency-dj-image-20",
-    "frequency-dj-image-21",
-    "frequency-dj-image-22",
 ]
 // Gets the length of the photo array
 var saturdayPhotosLength = saturdayDJphotos.length;
