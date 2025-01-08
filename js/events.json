@@ -15,6 +15,21 @@
         "pastEvent"    :  false
     },
     {
+        "eventDate"    :  "Feb 01, 2025 21:00:00",
+        "eventName"    :  "GASOLINA",
+        "eventArtist"  :  "GASOLINA",
+        "eventDesc"    :  "Is it getting hot in here? 🔥<br>Br>We’ll be dancing to Latin & Reggaeton hits this February. 💃",
+        "eventDescLong":  "Is it getting hot in here? 🔥<br><br>We’ll be dancing to Latin & Reggaeton hits this February. 💃<br><br>Ladies free and half-off drinks before 10PM, so get here early! We’ll be serving up Happy Hour specials from 10PM to Midnight too! 🍹<br><br>MAIN ROOM: THE MAESTRO DJ, DJ SLIM, DJ SINS, DJ SKOOB E, DJ WHIZ, MC 3STEEZ<br><br>RED ROOM: DJ RON DON, DJ K-HAWK<br>",
+        "eventCover"   :  "$10 FOR 21+, $30 FOR 18-20 (LADIES FREE UNTIL 10:00PM)",
+        "eventLink"    :  "special-events/GASOLINA-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Feb-01-2025.html",
+        "eventSocial"  :  "",
+        "eventTix"     :  "none",
+        "eventImgWide" :  "img/event-images/GASOLINA-at-necto-dance-club-and-event-venue-ann-arbor-michigan-Feb-01-2025.png",
+        "eventWklOvrd" :  true,
+        "eventDay"     :  0,
+        "pastEvent"    :  false
+    },
+    {
         "eventDate"    :  "Jan 27, 2025 21:00:00",
         "eventName"    :  "Goth Alt Emo Karaoke",
         "eventArtist"  :  "Goth Alt Emo Karaoke",
