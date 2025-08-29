@@ -20,6 +20,9 @@ var videosMon = [
     "https://www.youtube.com/embed/O3GB5x7nkpA?ecver=1",
     "https://www.youtube.com/embed/n2zz1Hs_Vp0",
 ];
+var videosTue = [
+    
+];
 var videosThurs = [
     "https://www.youtube.com/embed/4VOIXPOnfSM?ecver=1",
     "https://www.youtube.com/embed/X8rlzGmn39I?ecver=1",
@@ -52,6 +55,7 @@ function populateWeeklyVideo(day) {
     var numOfVideos;
     var videoPool;
     /* mon */ if (day === 1) { numOfVideos = videosMon.length; videoPool = videosMon; }
+    /* tue */ if (day === 2) { numOfVideos = videosTue.length; videoPool = videosTue; }
     /* thr */ if (day === 4) { numOfVideos = videosThurs.length; videoPool = videosThurs; }
     /* fri */ if (day === 5) { numOfVideos = videosFri.length; videoPool = videosFri; }
     /* sat */ if (day === 6) { numOfVideos = videosSat.length; videoPool = videosSat; }
@@ -72,6 +76,16 @@ var mondayDJphotos = [
 var mondayPhotosLength = mondayDJphotos.length;
 // Chooses a random photo
 var mondayPhoto = mondayDJphotos[Math.floor(Math.random() * mondayPhotosLength)];
+
+// College Country Photos
+var tuesdayDJphotos = [
+    "country-dj-image-01",
+]
+
+// Gets the length of the photo array
+var tuesdayPhotosLength = tuesdayDJphotos.length;
+// Chooses a random photo
+var tuesdayPhoto = tuesdayDJphotos[Math.floor(Math.random() * tuesdayPhotosLength)];
 
 // Pride Friday Photos
 var fridayDJphotos = [
@@ -98,12 +112,21 @@ var saturdayPhoto = saturdayDJphotos[Math.floor(Math.random() * saturdayPhotosLe
 var weeklyEvents = [
     {
         "eventName"    : "Factory Monday",
-        "eventDesc"    : "Factory is one of the longest running Goth-Industrial nights in the US, featuring DJ Misanthropia Narcissus & DJ Remnant spinning Goth, Industrial, Synthpop, Aggrotech, Witch House, Harsh Noise, and DJ XYLATOXIC Playing 80's, Nu Metal, Emo, Alternative, EDM in the Red Room",
+        "eventDesc"    : "Factory is one of the longest-running Goth-Industrial nights in the US, featuring DJ Remnant spinning Industrial, EBM, Synth, Aggrotech, Goth, and Post Punk in the main room and DJ XYLATOXIC playing 80's, Nu Metal, Emo, and Alternative in the Red Room.",
         "eventLink"    : 'factory-monday.html',
         "eventImgWide" : 'img/weekly-dj-images/factory/' + mondayPhoto + '.jpg',
         "eventTime"    : '9:00 PM',
         "eventDay"     : 1, // Do not modify
     },
+    {
+        "eventName"    : "College Country Tuesday",
+        "eventDesc"    : "Get ready to dance the night away with DJ Joey P & DJ Slim to a mix of country hits, club classics, and the hottest new country tracks! Depending on the night, head downstairs to the Red Room for line dancing with Debbie Does Dancing or to sing your favorite songs with Kuntry Karaoke",
+        "eventLink"    : 'college-country-tuesday.html',
+        "eventImgWide" : 'img/weekly-dj-images/college-country/' + tuesdayPhoto + '.jpg',
+        "eventTime"    : '9:00 PM',
+        "eventDay"     : 2,  // Do not modify
+    },
+    /*
     {
         "eventName"    : "Mix Thursday",
         "eventDesc"    : "We’re mixing it up each and every Thursday, with a blend of concerts by renowned artists, special events, unique parties, and even functions that you can book. Heard about a DJ at Necto? It was probably on a Thursday - check our calendar to see what’s happening and when.",
@@ -112,9 +135,10 @@ var weeklyEvents = [
         "eventTime"    : '9:00 PM',
         "eventDay"     : 4, // Do not modify
     },
+    */
     {
         "eventName"    : "Pride Friday",
-        "eventDesc"    : "The One-and-Only Gay Night. DJ Edward Alan in the Main Room spins the hottest Pop, Top 40 and EDM. DJ DigiMark plays Retro 80's to Top 40 Pop videos in the Red Room. Hosted by Chanel Hunter and Jadein Black at the Largest weekly LGBTQ+ Party in Michigan!",
+        "eventDesc"    : "Necto Pride has been running every Friday nonstop since 1984! Featuring The Maestro DJ spinning top 40, club hits, queer pop, and dance anthems on the main floor, while DJ DigiMark keeps the energy alive in the Red Room with the same crowd-favorite genres. Special events hosted by Chanel Hunter & Perry Dox.",
         "eventLink"    : 'pride-friday.html',
         "eventImgWide" : 'img/weekly-dj-images/pride/' + fridayPhoto + '.jpg',
         "eventTime"    : '9:00 PM',
@@ -226,11 +250,11 @@ function populateCalPageEvents() {
         if (weeklyCalEntryString.getDay() === 1) {
             calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[0].eventName, 'eventDesc' : weeklyEvents[0].eventDesc, 'eventImgWide' : weeklyEvents[0].eventImgWide, 'eventTime' : weeklyEvents[0].eventTime, 'eventLink' : weeklyEvents[0].eventLink});
         }
-        /*
-        else if (weeklyCalEntryString.getDay() === 4) {
+    
+        else if (weeklyCalEntryString.getDay() === 2) {
             calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[1].eventName, 'eventDesc' : weeklyEvents[1].eventDesc, 'eventImgWide' : weeklyEvents[1].eventImgWide, 'eventTime' : weeklyEvents[1].eventTime, 'eventLink' : weeklyEvents[1].eventLink});
         }
-        */
+        
         else if (weeklyCalEntryString.getDay() === 5) {
             calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[2].eventName, 'eventDesc' : weeklyEvents[2].eventDesc, 'eventImgWide' : weeklyEvents[2].eventImgWide, 'eventTime' : weeklyEvents[2].eventTime, 'eventLink' : weeklyEvents[2].eventLink});
         }
@@ -393,11 +417,9 @@ function populateHomePageShortCalEvents() {
         if (weeklyCalEntryString.getDay() === 1) {
             calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[0].eventName, 'eventDesc' : '', 'eventImgWide' : weeklyEvents[0].eventImgWide, 'eventTime' : weeklyEvents[0].eventTime, 'eventLink' : weeklyEvents[0].eventLink});
         }
-        /*
-        else if (weeklyCalEntryString.getDay() === 4) {
+        else if (weeklyCalEntryString.getDay() === 2) {
             calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[1].eventName, 'eventDesc' : weeklyEvents[1].eventDesc, 'eventImgWide' : weeklyEvents[1].eventImgWide, 'eventTime' : weeklyEvents[1].eventTime, 'eventLink' : weeklyEvents[1].eventLink});
         }
-        */
         else if (weeklyCalEntryString.getDay() === 5) {
             calWeeklyEventsList.push({'eventDate' : weeklyCalEntryString.toDateString(), 'eventName' : weeklyEvents[2].eventName, 'eventDesc' : '', 'eventImgWide' : weeklyEvents[2].eventImgWide, 'eventTime' : weeklyEvents[2].eventTime, 'eventLink' : weeklyEvents[2].eventLink});
         }
@@ -686,7 +708,7 @@ var mainNavigation = [
         "anchorName" : 'CONTACT',
     },
     {
-        "linkUrl"    : 'https://www.ticketweb.com/venue/necto-ann-arbor-mi/526615',
+        "linkUrl"    : 'https://www.universe.com/users/necto-PWJ2G8',
         "anchorName" : 'TICKETS',
     },
     {
@@ -706,14 +728,10 @@ var weeklyNavigation = [
         "linkUrl"    : 'factory-monday.html',
         "anchorName" : 'FACTORY MONDAY',
     },
-
-    /* Paused displaying Thurs night
     {
-        "linkUrl"    : 'mix-thursday.html',
-        "anchorName" : 'MIX THURSDAY',
+        "linkUrl"    : 'college-country-tuesday.html',
+        "anchorName" : 'COLLEGE COUNTRY TUESDAY',
     },
-    */
-
     {
         "linkUrl"    : 'pride-friday.html',
         "anchorName" : 'PRIDE FRIDAY',
